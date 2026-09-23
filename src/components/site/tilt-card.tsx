@@ -54,11 +54,6 @@ type TiltCardProps = {
   /** Render the green atmospheric halo that fades in on hover
       (skills-family cards + the six content card types). */
   glow?: boolean;
-  /** Render the cursor-reactive 1px border light — a hairline brand-green
-      ring whose brightest arc follows the cursor (reads --mx/--my, so it
-      costs zero extra JS). Hover-capable pointers only, hidden under
-      reduced motion. */
-  borderLight?: boolean;
   /** Radius class for the light layer — should match the card radius. */
   lightClassName?: string;
   /** Perspective of the 3D scene in px (default 1000). */
@@ -77,7 +72,6 @@ export function TiltCard({
   contentLift = 8,
   light = true,
   glow = false,
-  borderLight = false,
   lightClassName = "rounded-lg",
   perspective = 1000,
 }: TiltCardProps) {
@@ -122,11 +116,6 @@ export function TiltCard({
       el.style.setProperty("--mx", `${(50 + c.x * 50).toFixed(2)}%`);
       el.style.setProperty("--my", `${(50 + c.y * 50).toFixed(2)}%`);
       el.style.setProperty("--tilt-content-z", `${c.c.toFixed(2)}px`);
-      /* Normalised pointer for the INNER depth layers ([data-il] reads
-         these and multiplies by its own --il-depth). Same lerped value
-         the tilt uses → perfectly synchronised parallax, 0 extra cost. */
-      el.style.setProperty("--par-x", c.x.toFixed(3));
-      el.style.setProperty("--par-y", c.y.toFixed(3));
       if (el.style.willChange !== "transform" && (t.z !== 0 || k > 0.001)) {
         el.style.willChange = "transform";
       }
@@ -143,12 +132,6 @@ export function TiltCard({
         el.style.transform = "";
         el.style.willChange = "";
         el.style.setProperty("--tilt-content-z", "0px");
-        /* Park the parallax + light coordinates exactly at rest so no
-           stale offset survives after the cursor leaves. */
-        el.style.setProperty("--par-x", "0");
-        el.style.setProperty("--par-y", "0");
-        el.style.setProperty("--mx", "50%");
-        el.style.setProperty("--my", "50%");
       }
       rafRef.current = 0;
       return;
@@ -228,15 +211,6 @@ export function TiltCard({
         >
           {children}
         </div>
-        {/* Cursor-reactive hairline border light (masked to a 1px ring,
-            brightest arc tracks --mx/--my). Sits above the surface but
-            below the broad tilt-light, pointer-transparent. */}
-        {borderLight ? (
-          <span
-            aria-hidden="true"
-            className={cn("il-border pointer-events-none absolute inset-0 z-10", lightClassName)}
-          />
-        ) : null}
         {light ? (
           <span
             aria-hidden="true"

@@ -412,7 +412,6 @@ function TechFlipCard({ category }: { category: SkillCategory }) {
       contentLift={0}
       maxTilt={4.5}
       lightClassName="rounded-xl"
-      borderLight
     >
     <div className="flip-scene h-full w-full">
       <div
@@ -436,18 +435,10 @@ function TechFlipCard({ category }: { category: SkillCategory }) {
       >
         {/* FRONT — the existing category card design, preserved */}
         <div className="flip-face flex h-full w-full flex-col rounded-xl border border-border/50 bg-card p-6 shadow-sm transition-shadow">
-          <h3
-            data-il=""
-            style={{ "--il-depth": 6 } as React.CSSProperties}
-            className="font-semibold tracking-tight text-base"
-          >
+          <h3 className="font-semibold tracking-tight text-base">
             {title}
           </h3>
-          <ul
-            data-il=""
-            style={{ "--il-depth": 8 } as React.CSSProperties}
-            className="mt-4 flex flex-wrap content-start gap-x-3 gap-y-2 overflow-hidden"
-          >
+          <ul className="mt-4 flex flex-wrap content-start gap-x-3 gap-y-2 overflow-hidden">
             {category.skills.map((skill) => (
               <li key={skill.name} className="text-sm text-muted-foreground">
                 <span className="font-medium text-foreground">
