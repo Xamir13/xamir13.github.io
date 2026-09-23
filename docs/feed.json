@@ -1,0 +1,502 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "بلاگ امیرعلی طاهری",
+  "home_page_url": "https://azazamir139-glitch.github.io/xamircode.github.io",
+  "feed_url": "https://azazamir139-glitch.github.io/xamircode.github.io/feed.json",
+  "description": "نوشته‌هایی درباره‌ی توسعه‌ی وب فارسی؛ Next.js، کارایی، فونت و معماری.",
+  "language": "fa",
+  "authors": [
+    {
+      "name": "امیرعلی طاهری",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/will-ai-replace-programmers",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/will-ai-replace-programmers",
+      "title": "آیا AI واقعاً برنامه‌نویس‌ها را جایگزین می‌کند؟",
+      "summary": "از ابزارهایی که کد می‌نویسند تا مسئولیت خروجی؛ مروری بر اینکه نقش برنامه‌نویس در عصر AI چگونه در حال تغییر است و چه مهارت‌هایی اهمیت می‌یابد.",
+      "content_text": "\nچند سال پیش اگر می‌گفتیم یک ابزار هوش مصنوعی می‌تواند برایمان یک API بنویسد، یک صفحه وب بسازد یا حتی خطای پروژه را پیدا کند، شاید بیشتر شبیه یک ایده علمی‌تخیلی به نظر می‌رسید.\n\nامروز اما این اتفاق کاملاً عادی شده است.\n\nابزارهایی مثل Copilot و سایر coding agentها می‌توانند بخشی از فرایند توسعه را از نوشتن کد گرفته تا اجرای تست و بررسی خطا انجام دهند. طبق نظرسنجی Stack Overflow در سال ۲۰۲۵، ۸۴٪ پاسخ‌دهندگان از ابزارهای AI استفاده می‌کنند یا قصد استفاده از آن‌ها را دارند. بااین‌حال، اعتماد به خروجی این ابزارها بسیار کمتر از میزان استفاده از آن‌هاست.\n\nپس سؤال اصلی دیگر این نیست:\n\n«آیا AI می‌تواند کد بنویسد؟»\n\nبلکه سؤال مهم‌تر این است:\n\n«آیا یک برنامه‌نویس می‌تواند کدی را که AI نوشته، بفهمد و مسئولیت آن را بپذیرد؟»\n\n## AI چه چیزی را تغییر داده است؟\n\nهوش مصنوعی بسیاری از کارهای تکراری را سریع‌تر کرده است:\n\n- ساخت کامپوننت‌های اولیه\n- نوشتن API\n- تولید تست\n- توضیح کد\n- پیدا کردن بعضی خطاها\n- تبدیل کد از یک زبان به زبان دیگر\n- تولید SQL\n- نوشتن مستندات\n- Refactoring اولیه\n\nاما این‌ها الزاماً به معنی حذف برنامه‌نویس نیست.\n\nدر واقع نقش برنامه‌نویس در حال تغییر است.\n\nقبلاً بخش بزرگی از زمان توسعه‌دهنده صرف نوشتن کد می‌شد. امروز بخش مهم‌تری از کار به طراحی معماری، تعریف مسئله، بررسی خروجی، تست، امنیت و تصمیم‌گیری فنی منتقل شده است.\n\n## مشکل کجاست؟\n\nAI ممکن است کدی تولید کند که:\n\n- ظاهراً درست است ولی رفتار اشتباه دارد.\n- در شرایط خاص خراب می‌شود.\n- آسیب‌پذیری امنیتی دارد.\n- با معماری پروژه هماهنگ نیست.\n- وابستگی غیرضروری اضافه می‌کند.\n- مشکل اصلی را پنهان می‌کند.\n\nبه همین دلیل «کد تولیدشده» با «کد قابل اعتماد» یکی نیست.\n\n## برنامه‌نویس آینده چه مهارتی دارد؟\n\nبرنامه‌نویس آینده الزاماً کسی نیست که سریع‌تر تایپ می‌کند.\n\nاو کسی است که می‌تواند:\n\n- مسئله را درست تعریف کند.\n- معماری مناسبی انتخاب کند.\n- از AI برای سرعت استفاده کند.\n- خروجی AI را بررسی کند.\n- تست بنویسد.\n- امنیت را بررسی کند.\n- تصمیم نهایی را خودش بگیرد.\n\n## نتیجه\n\nAI احتمالاً برنامه‌نویسی را حذف نمی‌کند؛ اما برنامه‌نویسی بدون AI را برای بسیاری از پروژه‌ها به روشی کم‌سرعت‌تر تبدیل خواهد کرد.\n\nمهارت مهم آینده فقط «کدنویسی» نیست.\n\nتوانایی ساختن، بررسی کردن و مسئولیت‌پذیری نسبت به نرم‌افزار است.\n",
+      "date_published": "2026-09-03T12:00:00+03:30",
+      "tags": [
+        "هوش مصنوعی و برنامه‌نویسی",
+        "AI",
+        "برنامه‌نویسی",
+        "AI Coding",
+        "Developer",
+        "آینده برنامه‌نویسی"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/why-typescript-became-essential",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/why-typescript-became-essential",
+      "title": "TypeScript چرا به یکی از مهم‌ترین زبان‌های دنیای وب تبدیل شد؟",
+      "summary": "GitHub در گزارش Octoverse 2025 اعلام کرد TypeScript به پرکاربردترین زبان روی GitHub تبدیل شده است؛ بررسی می‌کنیم این رشد از کجا آمده و چه ربطی به AI دارد.",
+      "content_text": "\nJavaScript سال‌ها یکی از پایه‌های اصلی وب بوده است؛ اما با بزرگ‌تر شدن پروژه‌ها، مشکل JavaScript خام بیشتر خودش را نشان داد.\n\nپروژه‌های بزرگ‌تر یعنی:\n\n- فایل‌های بیشتر\n- تیم‌های بزرگ‌تر\n- APIهای پیچیده‌تر\n- داده‌های بیشتر\n- Refactoring دشوارتر\n\nاینجاست که TypeScript وارد می‌شود.\n\nGitHub در گزارش Octoverse 2025 اعلام کرد TypeScript در آگوست ۲۰۲۵ برای اولین بار از Python و JavaScript عبور کرده و به پرکاربردترین زبان روی GitHub تبدیل شده است. همچنین تعداد مشارکت‌کنندگان TypeScript بیش از یک میلیون نفر افزایش داشته است.\n\n## TypeScript دقیقاً چه چیزی اضافه می‌کند؟\n\nTypeScript در اصل JavaScript به‌علاوه سیستم Type است.\n\nمثلاً:\n\n```ts\nfunction add(a: number, b: number) {\n    return a + b;\n}\n```\n\nحالا اگر کسی اشتباهاً مقدار متنی وارد کند، ابزارهای توسعه می‌توانند قبل از اجرای برنامه به مشکل اشاره کنند.\n\nاین موضوع در پروژه‌های بزرگ اهمیت زیادی دارد.\n\n## چرا AI هم باعث رشد TypeScript شده؟\n\nاین قسمت جالب است.\n\nوقتی AI کد تولید می‌کند، داشتن ساختار مشخص و Typeهای دقیق می‌تواند به توسعه‌دهنده و ابزار AI کمک کند که روابط بین بخش‌های مختلف پروژه را بهتر درک کند.\n\nGitHub نیز در تحلیل Octoverse به ارتباط رشد زبان‌های typed با توسعه نرم‌افزار به کمک AI اشاره کرده است.\n\n## آیا JavaScript تمام شده؟\n\nخیر.\n\nJavaScript همچنان بخش عظیمی از اکوسیستم وب را تشکیل می‌دهد.\n\nTypeScript در نهایت به JavaScript تبدیل می‌شود و در مرورگر، چیزی که اجرا می‌شود همچنان JavaScript است.\n\nبنابراین مسئله:\n\nJavaScript در برابر TypeScript\n\nنیست.\n\nبلکه بیشتر:\n\nJavaScript با Type Safety بیشتر\n\nاست.\n\n## چه زمانی TypeScript ارزش بیشتری دارد؟\n\nبرای پروژه‌های کوچک شاید JavaScript ساده کافی باشد.\n\nاما وقتی پروژه:\n\n- چندین صفحه دارد\n- APIهای متعدد دارد\n- تیمی توسعه داده می‌شود\n- مدل‌های داده زیادی دارد\n- قرار است مدت طولانی نگهداری شود\n\nTypeScript می‌تواند ارزش بسیار زیادی داشته باشد.\n\n## نتیجه\n\nرشد TypeScript فقط یک ترند نیست.\n\nبخشی از آن نتیجه طبیعی بزرگ‌تر شدن پروژه‌های وب و نیاز به ساختار بهتر است؛ و بخشی هم با تغییر روش توسعه نرم‌افزار و ورود AI به چرخه توسعه ارتباط دارد.\n",
+      "date_published": "2026-08-20T12:00:00+03:30",
+      "tags": [
+        "Web Development",
+        "TypeScript",
+        "JavaScript",
+        "Frontend",
+        "Web",
+        "توسعه وب"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/who-is-responsible-for-ai-bugs",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/who-is-responsible-for-ai-bugs",
+      "title": "وقتی AI کد می‌نویسد، چه کسی مسئول باگ است؟",
+      "summary": "وقتی یک AI Agent سیستم احراز هویت می‌سازد و دو هفته بعد حفره‌ای امنیتی پیدا می‌شود، چه کسی مقصر است؟ پاسخ کوتاه: مسئولیت همچنان با انسان و تیم توسعه است.",
+      "content_text": "\n## مسئله\n\nفرض کنید از یک AI Agent می‌خواهید سیستم احراز هویت بسازد.\n\nAgent کد را می‌نویسد.\n\nبرنامه اجرا می‌شود.\n\nهمه‌چیز ظاهراً درست است.\n\nاما دو هفته بعد یک کاربر می‌تواند از یک مسیر خاص بدون دسترسی مناسب وارد بخشی از سیستم شود.\n\nچه کسی مقصر است؟\n\nAI؟\n\nتوسعه‌دهنده؟\n\nشرکت؟\n\nپاسخ ساده است:\n\nمسئولیت نرم‌افزار همچنان با انسان و تیم توسعه است.\n\n## چرا تست مهم‌تر شده؟\n\nهرچه تولید کد سریع‌تر شود، امکان تولید کد اشتباه هم بیشتر می‌شود.\n\nاگر AI بتواند در چند دقیقه صدها خط کد تولید کند، بررسی نکردن آن کد می‌تواند خطرناک باشد.\n\nبه همین دلیل تست باید بخشی از فرایند تولید باشد، نه مرحله‌ای که در پایان پروژه به آن فکر کنیم.\n\nپژوهش‌های منتشرشده در سپتامبر ۲۰۲۶ نیز روی نقش تست در چرخه‌های توسعه مبتنی بر LLM و Agentها تمرکز کرده‌اند و تأکید می‌کنند صرفاً «سبز شدن تست‌ها» به معنی درست بودن کامل رفتار نرم‌افزار نیست.\n\n## یک Workflow بهتر\n\nبرای استفاده حرفه‌ای از AI می‌توان این چرخه را داشت:\n\n```text\nProblem\n↓\nSpecification\n↓\nAI Implementation\n↓\nTests\n↓\nRun\n↓\nReview\n↓\nSecurity Check\n↓\nDeploy\n```\n\nنه اینکه:\n\n```text\nPrompt → Copy → Deploy\n```\n\n## تست فقط برای پیدا کردن Bug نیست\n\nتست خوب یک قرارداد برای رفتار سیستم است.\n\nمثلاً اگر Login قرار است:\n\n- username معتبر قبول کند\n- password اشتباه را رد کند\n- کاربر بدون دسترسی را وارد پنل نکند\n\nهمه این رفتارها باید قابل آزمایش باشند.\n\n## AI را به جای Programmer قرار ندهید\n\nبهتر است AI را مانند یک توسعه‌دهنده بسیار سریع اما نیازمند Review در نظر بگیریم.\n\nAI می‌تواند:\n\n- پیشنهاد بدهد\n- کد بنویسد\n- خطا را بررسی کند\n- تست تولید کند\n- توضیح بدهد\n\nاما انسان باید:\n\n- تصمیم بگیرد\n- Review کند\n- تست را اعتبارسنجی کند\n- ریسک را بسنجد\n- مسئولیت نتیجه را بپذیرد\n\n## نتیجه\n\nهرچه ابزارهای AI قدرتمندتر می‌شوند، مهارت‌هایی مثل Testing، Debugging و Code Review کم‌اهمیت‌تر نمی‌شوند.\n\nاتفاقاً مهم‌تر می‌شوند.\n",
+      "date_published": "2026-08-06T12:00:00+03:30",
+      "tags": [
+        "مهندسی نرم‌افزار",
+        "AI Coding",
+        "Bug",
+        "Testing",
+        "Software Engineering",
+        "Code Review"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/from-idea-to-real-website",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/from-idea-to-real-website",
+      "title": "از یک ایده تا یک وب‌سایت واقعی؛ چرا ساخت پروژه از یادگیری کد مهم‌تر است؟",
+      "summary": "چرا ماه‌ها فقط آموزش دیدن کافی نیست و ساختن پروژه‌ی واقعی، مهم‌ترین معلم برنامه‌نویسی است؛ از Authentication و Database تا Deployment.",
+      "content_text": "\n## یادگیری بدون ساختن\n\nیکی از بزرگ‌ترین اشتباهات برنامه‌نویسان تازه‌کار این است که ماه‌ها فقط آموزش می‌بینند.\n\nHTML یاد می‌گیرند.\n\nCSS یاد می‌گیرند.\n\nJavaScript یاد می‌گیرند.\n\nبعد Python.\n\nبعد یک Framework دیگر.\n\nاما وقتی از آن‌ها می‌خواهی یک پروژه واقعی بسازند، نمی‌دانند از کجا شروع کنند.\n\nمشکل کمبود اطلاعات نیست.\n\nمشکل نبود تجربه حل مسئله است.\n\n## پروژه واقعی چه چیزی یاد می‌دهد؟\n\nوقتی یک وب‌سایت واقعی می‌سازی، ناگهان با مسائلی مواجه می‌شوی که در آموزش‌های ساده کمتر دیده می‌شوند:\n\n- Authentication\n- Database\n- File Upload\n- API\n- Permissions\n- Error Handling\n- Responsive Design\n- Security\n- Deployment\n- Git\n- Performance\n\nاین‌ها همان چیزهایی هستند که یک پروژه را از یک Demo ساده جدا می‌کنند.\n\n## پروژه خوب چه ویژگی دارد؟\n\nلازم نیست پروژه عظیم باشد.\n\nیک پروژه خوب باید:\n\nیک مشکل مشخص را حل کند.\n\nمثلاً:\n\n- سیستم مدیریت مدرسه\n- فروشگاه\n- سیستم مدیریت پروژه\n- وبلاگ\n- داشبورد\n- سیستم رزرو\n- ابزار آموزشی\n\n## پروژه را چگونه شروع کنیم؟\n\nاول Feature List بنویسید.\n\nمثلاً:\n\n```text\nAuthentication\nUsers\nDashboard\nPosts\nComments\nAdmin\nSearch\nDatabase\n```\n\nبعد آن را به بخش‌های کوچک‌تر تقسیم کنید.\n\n## چرا Portfolio اهمیت دارد؟\n\nگفتن:\n\n«من Python بلدم»\n\nخیلی ضعیف‌تر از این است:\n\n«با Python یک سیستم واقعی ساخته‌ام که Authentication، Database، API و پنل مدیریتی دارد.»\n\nپروژه نشان می‌دهد که فقط Syntax زبان را نمی‌دانید؛ بلکه می‌توانید مسئله حل کنید.\n\n## نتیجه\n\nبهترین راه یادگیری برنامه‌نویسی این نیست که منتظر باشید همه‌چیز را بلد شوید.\n\nپروژه را شروع کنید، و هنگام ساختن چیزهایی را که نمی‌دانید یاد بگیرید.\n",
+      "date_published": "2026-07-23T12:00:00+03:30",
+      "tags": [
+        "مسیر برنامه‌نویسی",
+        "پروژه",
+        "یادگیری برنامه‌نویسی",
+        "Portfolio",
+        "Full Stack"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/git-version-control-for-serious-projects",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/git-version-control-for-serious-projects",
+      "title": "Git فقط برای ذخیره کد نیست؛ چرا هر پروژه جدی به Version Control نیاز دارد؟",
+      "summary": "Commit، Branch و GitHub؛ چرا Version Control بخش اساسی Workflow حرفه‌ای توسعه نرم‌افزار است، نه فقط ابزاری برای برگرداندن فایل قبلی.",
+      "content_text": "\n## تصور کنید Git ندارید\n\nپروژه را تغییر می‌دهید.\n\nیک قابلیت جدید اضافه می‌کنید.\n\nبعد همه‌چیز خراب می‌شود.\n\nحالا باید بفهمید چه چیزی تغییر کرده است.\n\nاگر Git نداشته باشید، کار سخت می‌شود.\n\nبا Git می‌توانید تاریخچه پروژه را داشته باشید.\n\n## Commit چیست؟\n\nCommit را می‌توان یک Snapshot از وضعیت پروژه در یک لحظه خاص دانست.\n\nمثلاً:\n\n```text\nInitial project\n↓\nAdd authentication\n↓\nFix dashboard\n↓\nAdd notifications\n↓\nSecurity improvements\n```\n\nاگر تغییر جدید خراب شد، می‌توان بررسی کرد چه چیزی تغییر کرده است.\n\n## GitHub چه تفاوتی دارد؟\n\nGit ابزار Version Control است.\n\nGitHub یک پلتفرم برای میزبانی و همکاری روی Repositoryهای Git است.\n\nGitHub علاوه بر ذخیره کد، امکاناتی مانند:\n\n- Pull Request\n- Issues\n- Code Review\n- Actions\n- Collaboration\n\nرا فراهم می‌کند.\n\nگزارش Octoverse 2025 نشان می‌دهد GitHub همچنان با رشد بسیار زیاد جامعه توسعه‌دهندگان روبه‌رو بوده و بیش از ۱۸۰ میلیون توسعه‌دهنده روی این پلتفرم فعالیت داشته‌اند.\n\n## Commit خوب چگونه است؟\n\nبد:\n\n```text\nupdate\nfix\nchanges\nfinal\nfinal2\n```\n\nبهتر:\n\n```text\nAdd authentication middleware\nFix dashboard authorization\nAdd teacher material permissions\n```\n\nپیام Commit باید توضیح دهد چه تغییری انجام شده است.\n\n## نتیجه\n\nGit فقط یک ابزار برای «برگرداندن فایل قبلی» نیست.\n\nیک بخش اساسی از Workflow حرفه‌ای توسعه نرم‌افزار است.\n",
+      "date_published": "2026-07-09T12:00:00+03:30",
+      "tags": [
+        "ابزارهای توسعه",
+        "Git",
+        "GitHub",
+        "Version Control",
+        "Software Development"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/web-security-from-day-one",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/web-security-from-day-one",
+      "title": "امنیت وب را نباید بعد از ساخت سایت شروع کرد",
+      "summary": "امنیت یک Feature نیست؛ یک Property برای کل سیستم است. چرا باید از طراحی سیستم وارد پروژه شود، نه بعد از ساخت سایت.",
+      "content_text": "\n## یک اشتباه رایج\n\nبعضی توسعه‌دهندگان ابتدا کل سایت را می‌سازند و در آخر می‌گویند:\n\n«حالا امنیتش را درست کنیم.»\n\nاین رویکرد خطرناک است.\n\nامنیت باید از طراحی سیستم وارد پروژه شود.\n\n## Authentication با Authorization فرق دارد\n\nاین دو اصطلاح اغلب با هم اشتباه گرفته می‌شوند.\n\nAuthentication:\n\n«تو چه کسی هستی؟»\n\nAuthorization:\n\n«تو اجازه انجام چه کاری را داری؟»\n\nمثلاً یک کاربر ممکن است وارد سیستم شده باشد، اما اجازه ورود به پنل مدیریت را نداشته باشد.\n\n## Route Protection\n\nیکی از مهم‌ترین قسمت‌های Backend این است که صرفاً مخفی کردن یک دکمه را به‌عنوان امنیت در نظر نگیریم.\n\nمثلاً:\n\n```text\nAdmin Button → Hidden\n```\n\nامنیت واقعی نیست.\n\nکاربر ممکن است مستقیماً Endpoint را درخواست کند.\n\nپس Backend باید خودش Permission را بررسی کند.\n\n## اصل مهم\n\nهر درخواست حساس باید دوباره بررسی شود.\n\nمثلاً:\n\n```text\nRequest\n↓\nAuthenticated?\n↓\nAuthorized?\n↓\nValidate Input\n↓\nPerform Action\n```\n\n## موضوع داغ ۲۰۲۶: امنیت Agentها\n\nبا افزایش استفاده از coding agentها، امنیت فقط درباره برنامه‌ای که می‌سازیم نیست.\n\nخود ابزارهای Agent، MCP Serverها، Skillها و تنظیمات آن‌ها نیز می‌توانند سطح حمله ایجاد کنند.\n\nیک مطالعه منتشرشده در سپتامبر ۲۰۲۶ روی هزاران Repository نشان داده که بخشی از پیکربندی‌های Agent دارای مشکلات امنیتی قابل تشخیص هستند، از جمله MCPهای بدون نسخه Pin‌شده و مجوزهای اجرای بیش از حد گسترده.\n\n## نتیجه\n\nامنیت یک Feature نیست.\n\nیک Property برای کل سیستم است.\n\nهرچه پروژه بزرگ‌تر می‌شود، Authentication، Authorization، Validation و Logging اهمیت بیشتری پیدا می‌کنند.\n",
+      "date_published": "2026-06-25T12:00:00+03:30",
+      "tags": [
+        "امنیت",
+        "Web Security",
+        "Authentication",
+        "Authorization",
+        "API",
+        "Backend"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/flask-vs-fastapi-choosing-backend",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/flask-vs-fastapi-choosing-backend",
+      "title": "Flask یا FastAPI؟ انتخاب Backend مناسب برای پروژه واقعی",
+      "summary": "Flask یا FastAPI؟ مقایسه‌ای منصفانه برای انتخاب Backend مناسب پروژه‌ی واقعی؛ از انعطاف معماری تا مستندسازی خودکار API.",
+      "content_text": "\n## Flask\n\nFlask یک Framework سبک و انعطاف‌پذیر برای Python است.\n\nیکی از نقاط قوت آن این است که توسعه‌دهنده آزادی زیادی در معماری پروژه دارد.\n\nبرای پروژه‌هایی که می‌خواهیم ساختار آن‌ها را خودمان طراحی کنیم، این انعطاف بسیار ارزشمند است.\n\n## FastAPI\n\nFastAPI با تمرکز جدی روی ساخت APIهای مدرن Python طراحی شده است.\n\nType Hintها در آن نقش مهمی دارند و مستندسازی API نیز می‌تواند به شکل خودکار تولید شود.\n\n## کدام بهتر است؟\n\nپاسخ مطلق وجود ندارد.\n\nبرای پروژه‌ای که:\n\n- API محور است\n- Type Hint اهمیت زیادی دارد\n- مستندسازی API مهم است\n\nFastAPI انتخاب جذابی است.\n\nبرای پروژه‌ای که:\n\n- ساختار سفارشی دارد\n- Server-rendered pages دارد\n- کنترل مستقیم بیشتری روی اجزا می‌خواهید\n\nFlask می‌تواند انتخاب بسیار خوبی باشد.\n\n## مهم‌تر از Framework\n\nیک اشتباه رایج این است که توسعه‌دهنده فکر کند انتخاب Framework مهم‌ترین تصمیم پروژه است.\n\nمعمولاً این‌طور نیست.\n\nArchitecture، Database Design، Security و Maintainability اهمیت بیشتری دارند.\n\nیک پروژه بدساخت با بهترین Framework هم بد می‌ماند.\n\n## نتیجه\n\nFramework را بر اساس پروژه انتخاب کنید، نه بر اساس اینکه کدام Framework «ترندتر» است.\n",
+      "date_published": "2026-06-11T12:00:00+03:30",
+      "tags": [
+        "Backend",
+        "Python",
+        "Flask",
+        "FastAPI",
+        "Backend",
+        "API"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/why-debugging-matters",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/why-debugging-matters",
+      "title": "چرا Debugging یکی از مهم‌ترین مهارت‌های یک برنامه‌نویس است؟",
+      "summary": "همه پروژه‌ها Bug دارند؛ تفاوت حرفه‌ای‌ها در نحوه‌ی برخورد با Bug است. از خواندن خطا تا بازتولید و ایزوله‌کردن مسئله.",
+      "content_text": "\n## برنامه‌نویس حرفه‌ای کسی نیست که Bug ندارد\n\nهمه پروژه‌ها Bug دارند.\n\nتفاوت برنامه‌نویس حرفه‌ای با تازه‌کار بیشتر در نحوه برخورد با Bug مشخص می‌شود.\n\n## روش اشتباه\n\nوقتی برنامه خراب می‌شود:\n\n```text\nChange random code\n↓\nRun\n↓\nStill broken\n↓\nChange another thing\n↓\nBreak something else\n```\n\nاین روش معمولاً مشکل را بزرگ‌تر می‌کند.\n\n## روش بهتر\n\nاول:\n\nخطا را بخوان.\n\nنه فقط آخرین خط را.\n\nپیغام خطا معمولاً اطلاعات ارزشمندی دارد:\n\n- File\n- Line\n- Function\n- Exception\n- Context\n\n## خطا را بازتولید کنید\n\nاگر نمی‌توانیم Bug را دوباره ایجاد کنیم، بررسی آن بسیار سخت‌تر می‌شود.\n\nپس اول:\n\nReproduce\n\nبعد:\n\nIsolate\n\nبعد:\n\nUnderstand\n\nو در نهایت:\n\nFix\n\n## AI در Debugging\n\nAI می‌تواند در تحلیل Stack Trace بسیار مفید باشد.\n\nاما بهتر است به‌جای:\n\n«این کد خراب است، درستش کن»\n\nاطلاعات بیشتری بدهیم:\n\n```text\nExpected: ...\nActual: ...\nError: ...\nSteps to reproduce: ...\nRelevant code: ...\n```\n\nهرچه مسئله دقیق‌تر تعریف شود، احتمال رسیدن به پاسخ مفید بیشتر می‌شود.\n\n## نتیجه\n\nDebugging فقط پیدا کردن خط اشتباه نیست.\n\nیک مهارت حل مسئله است.\n\nو با بزرگ‌تر شدن پروژه‌ها، ارزش آن بیشتر می‌شود.\n",
+      "date_published": "2026-05-28T12:00:00+03:30",
+      "tags": [
+        "مهارت‌های برنامه‌نویسی",
+        "Debugging",
+        "Error",
+        "Programming",
+        "Problem Solving"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/speed-without-quality-is-dangerous",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/speed-without-quality-is-dangerous",
+      "title": "چرا سرعت توسعه بدون کیفیت می‌تواند خطرناک باشد؟",
+      "summary": "سرعت اولیه ممکن است هزینه‌ی آینده را افزایش دهد؛ درباره Technical Debt و پیوند سرعت تولید کد با کیفیت و امنیت.",
+      "content_text": "\n## سرعت همیشه خوب نیست\n\nفرض کنید تیمی می‌تواند در یک هفته قابلیت‌هایی را بسازد که قبلاً یک ماه زمان می‌برد.\n\nعالی است.\n\nاما اگر تعداد Bugها هم چهار برابر شود چه؟\n\nاگر نگهداری پروژه سخت شود چه؟\n\nاگر امنیت کاهش پیدا کند چه؟\n\nآن‌وقت سرعت اولیه ممکن است هزینه آینده را افزایش دهد.\n\n## AI این مسئله را جدی‌تر کرده\n\nابزارهای AI می‌توانند حجم تولید کد را افزایش دهند.\n\nStack Overflow در ۲۰۲۵ گزارش کرده که استفاده از AI در توسعه بسیار گسترده شده، اما اعتماد به دقت خروجی‌ها همچنان مسئله مهمی است.\n\nمطالعات و گزارش‌های جدید ۲۰۲۶ نیز به شکاف میان سرعت تولید کد و کنترل کیفیت و امنیت آن اشاره کرده‌اند.\n\n## Technical Debt\n\nوقتی برای سرعت، راه‌حل‌های موقتی و ضعیف را وارد پروژه می‌کنیم، Technical Debt ایجاد می‌شود.\n\nمثلاً:\n\n```text\nفعلاً این کد را سریع بنویس\nبعداً تمیزش می‌کنیم\n```\n\nمشکل این است که «بعداً» خیلی وقت‌ها هیچ‌وقت نمی‌رسد.\n\n## راه‌حل چیست؟\n\nسرعت را حذف نکنیم.\n\nبلکه سرعت را با کنترل همراه کنیم:\n\nSustainable Development\n\n## نتیجه\n\nهدف توسعه‌دهنده حرفه‌ای این نیست که بیشترین کد را در کمترین زمان بنویسد.\n\nهدف این است که بیشترین ارزش قابل اعتماد را با کمترین هزینه بلندمدت ایجاد کند.\n",
+      "date_published": "2026-05-14T12:00:00+03:30",
+      "tags": [
+        "مهندسی نرم‌افزار",
+        "Software Quality",
+        "AI",
+        "Technical Debt",
+        "Development"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/future-programmer-skills",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/future-programmer-skills",
+      "title": "برنامه‌نویس آینده چه مهارت‌هایی باید داشته باشد؟",
+      "summary": "از یادگیری عمیق یک زبان تا امنیت و همکاری با AI؛ مهارت‌هایی که برنامه‌نویس آینده به آن‌ها نیاز دارد و با تغییر Frameworkها ارزش خود را حفظ می‌کنند.",
+      "content_text": "\n## دنیای برنامه‌نویسی در حال تغییر است\n\nامروز یادگیری برنامه‌نویسی فقط یادگیری Syntax یک زبان نیست.\n\nتوسعه‌دهنده باید بتواند بین چند دنیای مختلف حرکت کند:\n\n- Frontend\n- Backend\n- Database\n- Git\n- Cloud\n- Security\n- AI\n- Testing\n- Architecture\n\n## ۱. یک زبان را عمیق یاد بگیرید\n\nلازم نیست ده زبان بلد باشید.\n\nیک زبان را آن‌قدر خوب یاد بگیرید که بتوانید با آن مسئله حل کنید.\n\nPython برای Backend، Automation و AI بسیار قدرتمند است.\n\nJavaScript/TypeScript نیز ستون مهم اکوسیستم وب هستند.\n\nطبق داده‌های GitHub، Python همچنان رشد بسیار زیادی در حوزه AI و Data دارد و TypeScript نیز در سال ۲۰۲۵ به رتبه اول استفاده در GitHub رسید.\n\n## ۲. فقط Framework یاد نگیرید\n\nاگر فقط مثلاً یک Framework را بلد باشید، با تغییر نسخه یا تکنولوژی ممکن است بخش بزرگی از دانشتان بلااستفاده شود.\n\nاما اگر HTTP، Database، Authentication، Networking و Architecture را بفهمید، یادگیری Framework جدید بسیار آسان‌تر می‌شود.\n\n## ۳. AI را ابزار بدانید\n\nبرنامه‌نویس آینده باید بلد باشد با AI کار کند.\n\nاما نه به این معنی که هر خروجی AI را قبول کند.\n\nبلکه:\n\n```text\nPrompt\n↓\nGenerate\n↓\nReview\n↓\nTest\n↓\nImprove\n```\n\n## ۴. امنیت\n\nبا افزایش Agentها و سیستم‌های AI، امنیت اهمیت بیشتری پیدا می‌کند.\n\nامنیت دیگر فقط موضوع متخصص امنیت نیست.\n\nهر Full-Stack Developer باید حداقل اصول:\n\n- Authentication\n- Authorization\n- Input Validation\n- Secrets\n- API Security\n- Dependency Security\n\nرا بداند.\n\n## ۵. ارتباط و مستندسازی\n\nتوانایی توضیح دادن یک سیستم به اندازه ساختن آن مهم است.\n\nکدی که فقط سازنده‌اش می‌فهمد، در پروژه بزرگ یک مشکل است.\n\n## آینده چیست؟\n\nاحتمالاً توسعه نرم‌افزار به سمت همکاری نزدیک‌تر انسان و AI حرکت می‌کند.\n\nAI بخش بیشتری از کارهای تکراری را انجام می‌دهد و انسان بیشتر روی:\n\n- تصمیم‌گیری\n- معماری\n- محصول\n- اعتبارسنجی\n- امنیت\n- حل مسائل پیچیده\n\nتمرکز می‌کند.\n\n## نتیجه\n\nبرنامه‌نویس آینده لزوماً کسی نیست که بیشترین Syntax را حفظ کرده باشد.\n\nاو کسی است که می‌تواند:\n\nمسئله را بفهمد → راه‌حل طراحی کند → با ابزارهای مختلف آن را بسازد → خروجی را آزمایش کند → و مسئولیت نتیجه را بپذیرد.\n\nاین مهارت‌ها با تغییر Frameworkها هم ارزش خودشان را حفظ می‌کنند.\n",
+      "date_published": "2026-04-30T12:00:00+03:30",
+      "tags": [
+        "آینده برنامه‌نویسی",
+        "Future of Programming",
+        "AI",
+        "Full Stack",
+        "Career",
+        "Developer"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/prompt-engineering-for-developers",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/prompt-engineering-for-developers",
+      "title": "مهندسی پرامپت برای برنامه‌نویس‌ها؛ چگونه از AI کد بهتر بگیریم؟",
+      "summary": "چرا یک پرامپت مبهم به کد بی‌کیفیت می‌رسد و یک پرامپت حرفه‌ای چگونه خروجی قابل بررسی می‌سازد؛ اجزای پرامپت اثربخش، نقش Context و روش بررسی کد تولیدشده با AI.",
+      "content_text": "\nهوش مصنوعی می‌تواند در چند ثانیه کدی تولید کند که نوشتن آن برای یک برنامه‌نویس زمان زیادی می‌برد. اما کیفیت این کد به یک عامل مهم وابسته است: نحوه تعریف مسئله.\n\nدو نفر ممکن است از یک مدل هوش مصنوعی استفاده کنند، اما یکی کدی مرتب، قابل تست و هماهنگ با پروژه دریافت کند و دیگری با ده‌ها خطای جدید روبه‌رو شود. تفاوت اغلب در پرامپت، اطلاعاتی که ارائه شده و نحوه بررسی نتیجه است.\n\nمهندسی پرامپت برای برنامه‌نویس‌ها یعنی یاد بگیریم چگونه مسئله را دقیق به AI منتقل کنیم تا خروجی آن قابل استفاده‌تر، قابل بررسی‌تر و نزدیک‌تر به نیاز پروژه باشد.\n\n## ۱. چرا پرامپت‌های مبهم نتیجه ضعیفی دارند؟\n\nفرض کنید به یک Agent بگوییم:\n\n«برای من یک سیستم لاگین بساز.»\n\nاین درخواست مشخص نمی‌کند:\n\n- پروژه با چه زبان و Frameworkی نوشته شده است؟\n- ساختار فایل‌ها چگونه است؟\n- کاربران چه نقش‌هایی دارند؟\n- روش احراز هویت چیست؟\n- چه شرایطی باید تست شود؟\n- آیا اجازه تغییر فایل‌های دیگر را دارد؟\n\nدر نتیجه، Agent ممکن است چیزی بسازد که از نظر خودش درست است، اما با معماری پروژه ما سازگار نباشد.\n\n## ۲. اجزای یک پرامپت حرفه‌ای\n\nیک پرامپت مناسب برای کار برنامه‌نویسی بهتر است شامل این بخش‌ها باشد:\n\n- نقش و هدف\n- زمینه پروژه\n- نیازمندی‌ها\n- محدودیت‌ها\n- شرایط پذیرش\n- روش گزارش\n\n## ۳. مثال یک پرامپت ضعیف و حرفه‌ای\n\nپرامپت ضعیف:\n\n`Fix my login page.`\n\nپرامپت حرفه‌ای:\n\n```text\nYou are working on an existing Flask application.\n\nGoal:\nFix the login flow without changing unrelated features.\n\nRequirements:\n1. Preserve the existing UI and styling.\n2. Support the current user roles.\n3. Show a clear error when credentials are invalid.\n4. Do not clear the password field after an error.\n5. Keep the existing database schema unless a change is essential.\n6. Inspect the relevant files before editing.\n7. Run appropriate tests and report all modified files.\n\nDo not rewrite the project or replace the current authentication system.\n```\n\nپرامپت دوم فقط طولانی‌تر نیست؛ اطلاعاتی دارد که احتمال تصمیم‌های اشتباه را کاهش می‌دهد.\n\n## ۴. Context مهم‌تر از تعداد کلمات است\n\nاگر Agent نداند یک پروژه چگونه سازمان‌دهی شده، ممکن است فایل جدیدی بسازد که با ساختار قبلی هماهنگ نیست.\n\nبه‌جای فرستادن کل پروژه بدون توضیح، بهتر است ابتدا بخش‌های مرتبط را مشخص کنیم.\n\n## ۵. خروجی AI را چگونه بررسی کنیم؟\n\nهیچ پرامپتی تضمین نمی‌کند کد تولیدشده بدون خطا باشد.\n\nبعد از دریافت کد باید:\n\n- تغییرات را بررسی کنیم.\n- تست‌های مربوط به قابلیت را اجرا کنیم.\n- رفتارهای خطا را آزمایش کنیم.\n- امنیت و مجوزهای دسترسی را بررسی کنیم.\n- مطمئن شویم قابلیت‌های قبلی خراب نشده‌اند.\n\n## جمع‌بندی\n\nپرامپت‌نویسی حرفه‌ای جایگزین دانش برنامه‌نویسی نیست؛ بلکه راهی برای استفاده بهتر از آن دانش در همکاری با AI است. هرچه مسئله دقیق‌تر تعریف شود، احتمال دریافت راه‌حل سازگار با پروژه بیشتر می‌شود.\n",
+      "date_published": "2026-04-16T12:00:00+03:30",
+      "tags": [
+        "هوش مصنوعی",
+        "AI",
+        "Prompt Engineering",
+        "AI Coding",
+        "Workflow"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/coding-agent-vs-chatbot",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/coding-agent-vs-chatbot",
+      "title": "Coding Agent چیست و چه تفاوتی با چت‌بات معمولی دارد؟",
+      "summary": "از دستیار متنی تا همکاری فعال در پروژه؛ مروری بر تفاوت Coding Agent و چت‌بات معمولی، چرخه‌ی کار Agentها، مزایا، خطرها و اصول استفاده‌ی حرفه‌ای از آن‌ها.",
+      "content_text": "\nتا چند سال پیش، بیشتر ابزارهای هوش مصنوعی برنامه‌نویسی در نقش یک دستیار متنی فعالیت می‌کردند. توسعه‌دهنده سؤال می‌پرسید، کد دریافت می‌کرد و خودش آن را در پروژه قرار می‌داد.\n\nامروزه Coding Agentها می‌توانند در محیط پروژه کار کنند، فایل‌ها را بخوانند، تغییر دهند، فرمان اجرا کنند و نتیجه را بررسی کنند. این تغییر، شیوه همکاری برنامه‌نویس و هوش مصنوعی را دگرگون کرده است.\n\n## ۱. چت‌بات معمولی چه می‌کند؟\n\nدر حالت معمول:\n\n`Developer → Prompt → AI → Code suggestion`\n\nتوسعه‌دهنده مسئول انتقال کد به پروژه، اجرای آن و اصلاح خطاهاست.\n\n## ۲. Coding Agent چگونه کار می‌کند؟\n\nیک Agent برنامه‌نویسی معمولاً چرخه‌ای شبیه این دارد:\n\n```text\nUnderstand task\n      ↓\nInspect project\n      ↓\nPlan changes\n      ↓\nEdit files\n      ↓\nRun commands or tests\n      ↓\nReview results\n      ↓\nImprove or report\n```\n\nقابلیت هر Agent متفاوت است و ممکن است اجرای فرمان یا تغییر فایل به تأیید کاربر نیاز داشته باشد.\n\n## ۳. مزایای Agentها\n\n- بررسی چند فایل\n- انجام کارهای چندمرحله‌ای\n- کمک به Debugging\n- اجرای تست\n- تحلیل ارتباط میان بخش‌های پروژه\n\n## ۴. خطر اصلی چیست؟\n\nAgent ممکن است با هدف انجام یک وظیفه، تغییراتی فراتر از نیاز ایجاد کند.\n\nبه همین دلیل دستورهای زیر اهمیت دارند:\n\n```text\nPreserve unrelated functionality.\nInspect before editing.\nMake the smallest necessary changes.\nDo not rewrite existing modules without justification.\n```\n\n## ۵. چگونه حرفه‌ای از Agent استفاده کنیم؟\n\nکار بزرگ را به وظایف کوچک تبدیل کنید.\n\nبه‌جای:\n\n«کل پنل مدیریت را حرفه‌ای کن.»\n\nبگویید:\n\n«ابتدا فقط منطق احراز هویت Routeهای پنل مدیریت را بررسی کن. هنوز هیچ فایلی را تغییر نده. مشکلات امنیتی را گزارش کن و برای هر مشکل راه‌حل مشخص پیشنهاد بده.»\n\n## جمع‌بندی\n\nCoding Agent یک ابزار قدرتمند برای همکاری در توسعه نرم‌افزار است، اما نباید آن را جایگزین کامل مهندسی نرم‌افزار دانست.\n",
+      "date_published": "2026-04-02T12:00:00+03:30",
+      "tags": [
+        "AI Agents",
+        "AI Agents",
+        "AI",
+        "Developer",
+        "Automation"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/what-is-mcp-protocol",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/what-is-mcp-protocol",
+      "title": "MCP چیست و چرا در حال تغییر شیوه کار ابزارهای هوش مصنوعی است؟",
+      "summary": "MCP یا Model Context Protocol روش استاندارد اتصال مدل‌ها و Agentها به ابزارها و منابع بیرونی است؛ در این نوشته با معماری، کاربردها و نکات امنیتی آن آشنا می‌شویم.",
+      "content_text": "\nیک مدل هوش مصنوعی به‌تنهایی فقط بر اساس ورودی و توانایی‌هایش پاسخ تولید می‌کند. اما برای انجام کارهای واقعی، گاهی باید به ابزارهای بیرونی متصل شود؛ مثلاً فایل‌ها را بخواند، با GitHub کار کند یا از یک سرویس اطلاعات بگیرد.\n\nMCP یا Model Context Protocol روشی استاندارد برای ارتباط مدل‌ها و Agentها با ابزارها و منابع خارجی است.\n\n## ۱. MCP چه مشکلی را حل می‌کند؟\n\nقبل از وجود پروتکل‌های استاندارد، هر ابزار ممکن بود روش مخصوص خود را برای اتصال به مدل‌ها داشته باشد.\n\nMCP تلاش می‌کند یک قرارداد مشترک برای معرفی و استفاده از ابزارها فراهم کند.\n\n## ۲. اجزای اصلی\n\n```text\nAI Application / Host\n        ↓\nMCP Client\n        ↓\nMCP Server\n        ↓\nExternal System\n```\n\n## ۳. ابزار، منبع و قابلیت چیست؟\n\nیک MCP Server می‌تواند ابزارهایی ارائه کند که Agent از آن‌ها استفاده کند. همچنین ممکن است منابعی برای خواندن اطلاعات یا الگوهایی برای تعامل بهتر فراهم کند.\n\n## ۴. امنیت در MCP\n\nقبل از استفاده باید بررسی شود:\n\n- چه ابزارهایی در دسترس‌اند؟\n- هر ابزار چه مجوزهایی دارد؟\n- آیا اطلاعات حساس به سرویس ارسال می‌شود؟\n- آیا ابزار می‌تواند فایل‌ها را تغییر دهد؟\n- آیا اجرای عملیات نیازمند تأیید است؟\n- آیا منبع ابزار قابل اعتماد است؟\n\n## ۵. کاربرد واقعی\n\nیک Server مربوط به GitHub می‌تواند در صورت پشتیبانی، امکان خواندن Issueها یا بررسی Pull Requestها را فراهم کند.\n\n## جمع‌بندی\n\nMCP یک استاندارد برای ارتباط مدل‌ها و Agentها با ابزارهای خارجی است؛ اما استفاده امن از آن نیازمند کنترل مجوزها، بررسی منابع و محدود کردن دسترسی‌هاست.\n",
+      "date_published": "2026-03-19T12:00:00+03:30",
+      "tags": [
+        "AI Infrastructure",
+        "MCP",
+        "AI Infrastructure",
+        "AI Agents",
+        "Integration"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/does-more-code-mean-faster-development",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/does-more-code-mean-faster-development",
+      "title": "آیا تولید کد بیشتر با AI واقعاً یعنی توسعه سریع‌تر؟",
+      "summary": "خط کد بیشتر به‌خودی‌خود یعنی پیشرفت بیشتر؟ مروری بر تفاوت سرعت ظاهری و سرعت واقعی، بدهی فنی و معیارهایی که برای سنجش توسعه‌ی سریع و قابل اعتماد مهم‌ترند.",
+      "content_text": "\nتعداد خطوط کد معیار مناسبی برای سنجش ارزش نرم‌افزار نیست. کد بیشتر ممکن است قابلیت بیشتری ایجاد کند، اما می‌تواند پیچیدگی، خطا و هزینه نگهداری را هم افزایش دهد.\n\n## ۱. سرعت ظاهری و سرعت واقعی\n\nسرعت ظاهری یعنی قابلیت چقدر سریع تولید شده است.\n\nسرعت واقعی یعنی قابلیت چقدر سریع به شکل قابل اعتماد، قابل نگهداری و آماده استفاده تحویل داده شده است.\n\n## ۲. Technical Debt چیست؟\n\nبدهی فنی زمانی ایجاد می‌شود که برای رسیدن سریع‌تر به نتیجه، راه‌حل‌هایی انتخاب کنیم که در آینده هزینه بیشتری به پروژه تحمیل می‌کنند.\n\nنمونه‌ها:\n\n- تکرار کد\n- نبود تست\n- معماری نامنظم\n- وابستگی‌های غیرضروری\n- نادیده گرفتن خطاها\n- راه‌حل‌های موقتی\n\n## ۳. چگونه سرعت را با کیفیت متعادل کنیم؟\n\n```text\nSmall task\n   ↓\nImplementation\n   ↓\nFocused tests\n   ↓\nCode review\n   ↓\nIntegration\n```\n\n## ۴. چه معیارهایی مهم‌ترند؟\n\n- زمان تحویل قابلیت قابل استفاده\n- تعداد خطاهای پس از انتشار\n- زمان رفع خطا\n- میزان موفقیت تست‌ها\n- رضایت کاربر\n- قابلیت نگهداری\n- امنیت و پایداری\n\n## جمع‌بندی\n\nAI می‌تواند سرعت تولید کد را افزایش دهد، اما توسعه سریع فقط با نوشتن کد بیشتر اتفاق نمی‌افتد. هدف اصلی باید تولید ارزش قابل اعتماد باشد.\n",
+      "date_published": "2026-03-05T12:00:00+03:30",
+      "tags": [
+        "AI و کیفیت",
+        "AI",
+        "کیفیت نرم‌افزار",
+        "Technical Debt",
+        "Developer"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/delegate-project-to-ai-agent-safely",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/delegate-project-to-ai-agent-safely",
+      "title": "چگونه یک پروژه را به AI Agent بسپاریم بدون اینکه کنترل کد را از دست بدهیم؟",
+      "summary": "سپردن پروژه به Agent بدون از دست دادن کنترل کد ممکن است؛ با شناخت وضعیت پروژه، تقسیم وظیفه به مراحل کوچک، محدودیت‌های صریح و بررسی دقیق تغییرات.",
+      "content_text": "\nاستفاده از Agent برای تغییر پروژه می‌تواند بسیار سریع باشد، اما یک اشتباه کوچک در تعریف وظیفه ممکن است باعث تغییر فایل‌های نامرتبط یا خراب شدن قابلیت‌های قبلی شود.\n\n## ۱. قبل از شروع، وضعیت پروژه را بشناسید\n\nپیش از هر تغییر مهم:\n\n- ساختار پوشه‌ها را بررسی کنید.\n- وضعیت Git را ببینید.\n- فایل‌های مرتبط را مشخص کنید.\n- هدف دقیق را بنویسید.\n- محدودیت‌های پروژه را تعیین کنید.\n\n## ۲. وظیفه را به مراحل کوچک تقسیم کنید\n\n- تحلیل قابلیت فعلی\n- طراحی راه‌حل\n- تغییر Backend\n- تغییر رابط کاربری\n- تست\n- بررسی نهایی\n\n## ۳. محدودیت‌های صریح بنویسید\n\n```text\nPreserve all unrelated functionality.\nDo not change the visual design.\nDo not remove existing routes.\nDo not modify the database schema unless required.\nDo not rewrite entire files for a small fix.\n```\n\n## ۴. تغییرات را بررسی کنید\n\nبعد از اجرای Agent فقط به جمله «Done» اعتماد نکنید.\n\nبررسی کنید:\n\n- چه فایل‌هایی تغییر کرده‌اند؟\n- آیا فایل جدیدی ایجاد شده؟\n- آیا وابستگی جدیدی اضافه شده؟\n- آیا تست اجرا شده؟\n- آیا رفتار مورد انتظار درست است؟\n\n## ۵. اهمیت Git\n\nGit امکان بررسی تفاوت‌ها و بازگشت به وضعیت قبلی را فراهم می‌کند.\n\n## جمع‌بندی\n\nیک Agent زمانی بیشترین ارزش را دارد که در یک فرایند کنترل‌شده فعالیت کند. وظیفه کوچک، محدودیت روشن، بررسی تغییرات و تست، چهار اصل مهم همکاری حرفه‌ای با Agent هستند.\n",
+      "date_published": "2026-02-19T12:00:00+03:30",
+      "tags": [
+        "Workflow",
+        "Workflow",
+        "AI Agents",
+        "Git",
+        "Best Practices"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/clean-frontend-architecture",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/clean-frontend-architecture",
+      "title": "معماری تمیز در پروژه‌های فرانت‌اند؛ از فایل‌های شلوغ تا ساختار قابل نگهداری",
+      "summary": "از فایل‌های شلوغ تا ساختاری قابل نگهداری؛ تفکیک مسئولیت‌ها، مفهوم Component، جداسازی منطق و پرهیز از پیچیدگی غیرضروری در پروژه‌های فرانت‌اند.",
+      "content_text": "\nدر ابتدای ساخت یک سایت، قرار دادن همه کدها در یک فایل ممکن است سریع و ساده باشد. اما وقتی پروژه بزرگ‌تر می‌شود، پیدا کردن یک تابع، اصلاح یک بخش یا جلوگیری از خراب شدن قابلیت‌های دیگر دشوارتر خواهد شد.\n\nمعماری فرانت‌اند یعنی کد را به شکلی سازمان‌دهی کنیم که توسعه، تست و نگهداری آن آسان‌تر باشد.\n\n## ۱. تفکیک مسئولیت‌ها\n\nیک ساختار نمونه:\n\n```text\nfrontend/\n├── components/\n├── pages/\n├── services/\n├── utils/\n├── styles/\n└── main.js\n```\n\n## ۲. Component چیست؟\n\nکامپوننت بخشی مستقل از رابط کاربری است که می‌تواند دوباره استفاده شود؛ مانند:\n\n- دکمه\n- کارت مقاله\n- نوار ناوبری\n- فرم ورود\n- پنجره اعلان\n\n## ۳. چرا جداسازی منطق مهم است؟\n\n```text\nUI\n ↓\nEvent Handler\n ↓\nValidation\n ↓\nAPI Service\n ↓\nResponse Handling\n```\n\n## ۴. Vanilla JavaScript هم به معماری نیاز دارد\n\nبرای داشتن ساختار خوب، حتماً به React یا Framework خاصی نیاز نیست.\n\n## ۵. از پیچیدگی غیرضروری دوری کنید\n\nمعماری تمیز به معنی ساختن ده‌ها پوشه برای یک پروژه کوچک نیست.\n\n## جمع‌بندی\n\nپروژه فرانت‌اند خوب فقط ظاهر زیبا ندارد. ساختار داخلی آن نیز باید قابل فهم، قابل توسعه و قابل نگهداری باشد.\n",
+      "date_published": "2026-02-05T12:00:00+03:30",
+      "tags": [
+        "Frontend",
+        "Frontend",
+        "Architecture",
+        "Component",
+        "JavaScript"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/how-javascript-runs-in-browser",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/how-javascript-runs-in-browser",
+      "title": "JavaScript در مرورگر دقیقاً چگونه اجرا می‌شود؟",
+      "summary": "Call Stack، Promise و Event Loop چگونه کار می‌کنند؟ درک نحوه‌ی اجرای JavaScript در مرورگر برای طراحی برنامه‌های تعاملی و غیرهم‌زمان بهتر.",
+      "content_text": "\nدرک نحوه اجرای JavaScript، Call Stack، Promise و Event Loop باعث می‌شود برنامه‌های تعاملی و Asynchronous را بهتر طراحی کنیم.\n\n## ۱. JavaScript و اجرای کد\n\nمرورگر برای اجرای JavaScript از موتورهای مخصوص استفاده می‌کند و محیط مرورگر امکاناتی مانند DOM، Timerها و درخواست‌های شبکه را در اختیار برنامه قرار می‌دهد.\n\n## ۲. Call Stack چیست؟\n\nCall Stack ساختاری است که اجرای توابع فعال را مدیریت می‌کند.\n\n```javascript\nfunction greet() {\n  console.log(\"Hello\");\n}\n\ngreet();\n```\n\n## ۳. Promise و کارهای غیرهم‌زمان\n\nمثلاً:\n\n```javascript\nconsole.log(\"Start\");\n\nsetTimeout(() => {\n  console.log(\"Timer\");\n}, 0);\n\nconsole.log(\"End\");\n```\n\nخروجی معمولاً:\n\n```text\nStart\nEnd\nTimer\n```\n\nصفر بودن زمان Timer به معنی اجرای فوری آن نیست.\n\n## ۴. Event Loop\n\nEvent Loop هماهنگی میان اجرای کد، Stack و صف‌های وظایف را بر عهده دارد.\n\n## ۵. چرا این موضوع در سایت مهم است؟\n\nاجرای طولانی JavaScript می‌تواند باعث تأخیر در کلیک‌ها، اسکرول و انیمیشن‌ها شود.\n\n## جمع‌بندی\n\nآشنایی با Call Stack، Event Loop و عملیات غیرهم‌زمان به برنامه‌نویس کمک می‌کند رفتار برنامه را بهتر پیش‌بینی کند.\n",
+      "date_published": "2026-01-22T12:00:00+03:30",
+      "tags": [
+        "JavaScript",
+        "JavaScript",
+        "Event Loop",
+        "Async",
+        "Browser"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/why-is-website-slow",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/why-is-website-slow",
+      "title": "چرا سایت کند است؟ راهنمای عمیق بهینه‌سازی عملکرد وب",
+      "summary": "تصاویر سنگین، JavaScript اضافه، فونت‌های متعدد و مشکلات سرور؛ راهنمای یافتن علت کندی سایت و بهینه‌سازی بر اساس Core Web Vitals.",
+      "content_text": "\nکاربر انتظار دارد یک سایت سریع باز شود، دکمه‌ها بدون تأخیر کار کنند و محتوای اصلی به‌موقع نمایش داده شود.\n\n## ۱. منابع سنگین\n\nتصاویر بزرگ، فونت‌های متعدد و فایل‌های JavaScript غیرضروری می‌توانند زمان بارگذاری را افزایش دهند.\n\n## ۲. JavaScript بیش از حد\n\nراهکارها:\n\n- حذف کدهای غیرضروری\n- تقسیم کدها\n- کاهش محاسبات تکراری\n- استفاده مناسب از Event Delegation\n- بهینه‌سازی DOM\n\n## ۳. فونت‌ها\n\nفونت‌های سفارشی ظاهر سایت را بهتر می‌کنند، اما تعداد زیاد فایل‌ها و وزن‌های غیرضروری می‌تواند بر بارگذاری اثر بگذارد.\n\n## ۴. Core Web Vitals\n\nسه معیار مهم:\n\n- LCP\n- INP\n- CLS\n\n## ۵. چگونه مشکل را پیدا کنیم؟\n\nابتدا عملکرد را اندازه‌گیری کنید و سپس مشخص کنید مشکل از شبکه، منابع، JavaScript، سرور یا Database است.\n\n## جمع‌بندی\n\nسرعت سایت حاصل همکاری فرانت‌اند، Backend، شبکه، تصاویر، فونت‌ها و معماری است.\n",
+      "date_published": "2026-01-08T12:00:00+03:30",
+      "tags": [
+        "Performance",
+        "Performance",
+        "Core Web Vitals",
+        "بهینه‌سازی",
+        "Frontend"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/web-accessibility-for-everyone",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/web-accessibility-for-everyone",
+      "title": "دسترسی‌پذیری وب؛ چگونه سایتی بسازیم که همه بتوانند از آن استفاده کنند؟",
+      "summary": "سایت خوب برای همه قابل استفاده است؛ از HTML معنایی و دسترسی با صفحه‌کلید تا فرم‌های قابل فهم، کنتراست رنگ و تست دسترسی‌پذیری.",
+      "content_text": "\nیک سایت خوب نباید فقط برای کاربری طراحی شود که با ماوس، صفحه‌نمایش بزرگ و شرایط ایده‌آل از آن استفاده می‌کند.\n\n## ۱. HTML معنایی\n\nاستفاده از عناصر مناسب HTML به مرورگر و فناوری‌های کمکی کمک می‌کند ساختار صفحه را بهتر درک کنند.\n\n## ۲. دسترسی با صفحه‌کلید\n\nتمام کنترل‌های مهم باید با صفحه‌کلید قابل دسترسی باشند.\n\n## ۳. فرم‌های قابل فهم\n\nهر ورودی باید برچسب مشخص داشته باشد و خطاهای فرم واضح نمایش داده شوند.\n\n## ۴. رنگ و کنتراست\n\nرنگ نباید تنها راه انتقال اطلاعات باشد.\n\n## ۵. تست دسترسی‌پذیری\n\nسایت را با صفحه‌کلید، اندازه‌های مختلف صفحه و ابزارهای بررسی دسترسی‌پذیری آزمایش کنید.\n\n## جمع‌بندی\n\nدسترسی‌پذیری بخشی از کیفیت واقعی سایت است.\n",
+      "date_published": "2025-12-25T12:00:00+03:30",
+      "tags": [
+        "Accessibility",
+        "Accessibility",
+        "HTML",
+        "UX",
+        "استانداردهای وب"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/frontend-security-secrets",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/frontend-security-secrets",
+      "title": "امنیت فرانت‌اند؛ چه اطلاعاتی را نباید هرگز به مرورگر بسپاریم؟",
+      "summary": "مرورگر مرز اعتماد نیست؛ چرا Secretها، تصمیم‌های امنیتی و اعتبارسنجی هرگز نباید فقط به فرانت‌اند سپرده شوند و XSS چگونه شکل می‌گیرد.",
+      "content_text": "\nمرورگر محیطی است که کد فرانت‌اند در آن اجرا می‌شود. بنابراین نباید اطلاعات محرمانه یا تصمیم‌های امنیتی مهم را صرفاً به رابط کاربری بسپاریم.\n\n## ۱. Secret چیست؟\n\nSecret اطلاعاتی مانند کلید خصوصی، رمز عبور سرویس، Token حساس یا اطلاعات دسترسی است.\n\n```text\nFrontend code ≠ Secure secret storage\n```\n\n## ۲. مخفی کردن دکمه امنیت نیست\n\nمخفی کردن دکمه پنل مدیریت فقط تجربه کاربری را کنترل می‌کند و جلوی درخواست مستقیم به API را نمی‌گیرد.\n\nBackend باید هویت و مجوز را بررسی کند.\n\n## ۳. XSS چیست؟\n\nCross-Site Scripting یا XSS زمانی رخ می‌دهد که داده کنترل‌نشده به شکلی ناامن در صفحه اجرا شود.\n\n## ۴. اعتبارسنجی سمت کاربر کافی نیست\n\nBackend باید داده‌ها را دوباره بررسی کند.\n\n## ۵. توکن‌ها و نشست‌ها\n\nروش ذخیره و مدیریت توکن باید بر اساس معماری و مدل تهدید پروژه انتخاب شود.\n\n## جمع‌بندی\n\nفرانت‌اند بخشی مهم از امنیت است، اما مرز اعتماد نیست.\n",
+      "date_published": "2025-12-11T12:00:00+03:30",
+      "tags": [
+        "امنیت وب",
+        "امنیت وب",
+        "XSS",
+        "Security",
+        "Frontend"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/rest-api-design",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/rest-api-design",
+      "title": "REST API چیست و چگونه یک API حرفه‌ای طراحی کنیم؟",
+      "summary": "از متدهای HTTP و Status Codeها تا ساختار پاسخ منظم و صفحه‌بندی؛ اصول طراحی یک REST API حرفه‌ای با قرارداد مشخص.",
+      "content_text": "\nAPI پل ارتباطی میان بخش‌های مختلف نرم‌افزار است و REST یکی از سبک‌های رایج برای طراحی APIهای وب است.\n\n## ۱. API چیست؟\n\nAPI قراردادی برای ارتباط میان نرم‌افزارهاست.\n\nمثلاً:\n\n`GET /api/articles`\n\n## ۲. متدهای HTTP\n\n| Method | کاربرد        |\n| ------ | ------------- |\n| GET    | دریافت داده   |\n| POST   | ایجاد داده    |\n| PUT    | جایگزینی کامل |\n| PATCH  | تغییر بخشی    |\n| DELETE | حذف           |\n\n## ۳. Status Codeها\n\nنمونه‌ها:\n\n`200 OK`\n\n`201 Created`\n\n`400 Bad Request`\n\n`401 Unauthorized`\n\n`403 Forbidden`\n\n`404 Not Found`\n\n`500 Internal Server Error`\n\n## ۴. طراحی پاسخ منظم\n\n```json\n{\n  \"data\": {\n    \"id\": 12,\n    \"title\": \"Learning APIs\"\n  },\n  \"error\": null\n}\n```\n\n## ۵. Pagination\n\nبرای مجموعه‌های بزرگ بهتر است داده‌ها صفحه‌بندی شوند.\n\n```text\nGET /api/articles?page=2&limit=20\n```\n\n## جمع‌بندی\n\nAPI خوب باید قرارداد مشخص، Status Code مناسب، ساختار پاسخ منظم، اعتبارسنجی و کنترل دسترسی داشته باشد.\n",
+      "date_published": "2025-11-27T12:00:00+03:30",
+      "tags": [
+        "Backend",
+        "Backend",
+        "REST",
+        "API",
+        "HTTP"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/sql-vs-nosql",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/sql-vs-nosql",
+      "title": "SQL یا NoSQL؛ کدام پایگاه داده برای پروژه ما مناسب‌تر است؟",
+      "summary": "پایگاه داده رابطه‌ای یا NoSQL؟ معیارهای انتخاب مانند روابط داده‌ها، تراکنش‌ها، شکل داده‌ها و مقیاس‌پذیری را مرور می‌کنیم تا انتخاب آگاهانه‌تری داشته باشید.",
+      "content_text": "\nپایگاه داده یکی از مهم‌ترین بخش‌های هر نرم‌افزار واقعی است.\n\n## ۱. پایگاه داده رابطه‌ای\n\nداده‌ها معمولاً در جدول‌هایی با ستون و ردیف ذخیره می‌شوند.\n\nمثلاً:\n\n```text\nStudents\nTeachers\nClasses\nLessons\nGrades\n```\n\n## ۲. SQL چیست؟\n\nSQL زبان رایج برای کار با بسیاری از پایگاه‌های داده رابطه‌ای است.\n\n```sql\nSELECT name\nFROM students\nWHERE class_id = 8;\n```\n\n## ۳. NoSQL چیست؟\n\nNoSQL به خانواده‌ای از پایگاه‌های داده اشاره دارد که الزاماً از مدل جدولی رابطه‌ای استفاده نمی‌کنند.\n\n## ۴. معیار انتخاب\n\n- روابط میان داده‌ها\n- نیاز به تراکنش\n- شکل داده‌ها\n- حجم و الگوی دسترسی\n- امکانات تیم\n- هزینه نگهداری\n- نیازهای مقیاس‌پذیری\n\n## ۵. آیا SQL قدیمی شده است؟\n\nخیر. پایگاه‌های داده رابطه‌ای همچنان برای بسیاری از سیستم‌های مالی، آموزشی، مدیریتی و تجاری انتخاب مناسبی هستند.\n\n## جمع‌بندی\n\nهیچ پایگاه داده‌ای برای همه پروژه‌ها بهترین نیست.\n",
+      "date_published": "2025-11-13T12:00:00+03:30",
+      "tags": [
+        "Database",
+        "Database",
+        "SQL",
+        "NoSQL",
+        "Backend"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/database-index-explained",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/database-index-explained",
+      "title": "Database Index چیست و چرا می‌تواند جست‌وجو را سریع‌تر کند؟",
+      "summary": "Index مانند فهرست کتاب جست‌وجو را سریع می‌کند، اما همیشه هم خوب نیست؛ با ساختار Index، هزینه‌های آن و خواندن Query Plan آشنا می‌شویم.",
+      "content_text": "\nفرض کنید یک جدول شامل میلیون‌ها رکورد داریم و می‌خواهیم کاربری را بر اساس ایمیل پیدا کنیم. Index یکی از ابزارهای مهم برای بهبود عملکرد جست‌وجو است.\n\n## ۱. Index چگونه کار می‌کند؟\n\nIndex ساختاری کمکی است که پایگاه داده می‌تواند برای پیدا کردن رکوردها از آن استفاده کند.\n\nایده اصلی شبیه فهرست یک کتاب است.\n\n## ۲. مثال\n\n```sql\nSELECT *\nFROM users\nWHERE email = 'user@example.com';\n```\n\nIndex مناسب روی `email` می‌تواند برای چنین جست‌وجویی مفید باشد.\n\n## ۳. Index همیشه خوب نیست\n\nIndexها:\n\n- فضای ذخیره‌سازی مصرف می‌کنند.\n- ممکن است درج داده را کندتر کنند.\n- هنگام تغییر رکوردها باید به‌روزرسانی شوند.\n- می‌توانند پیچیدگی اضافه کنند.\n\n## ۴. Query Plan\n\nبا بررسی Query Plan می‌توان فهمید پایگاه داده چگونه Query را اجرا می‌کند.\n\n## ۵. اشتباه رایج\n\nایجاد Index روی تمام ستون‌ها روش مناسبی نیست.\n\n## جمع‌بندی\n\nIndex باید هدفمند و بر اساس Queryهای واقعی استفاده شود.\n",
+      "date_published": "2025-10-30T12:00:00+03:30",
+      "tags": [
+        "Database Performance",
+        "Database",
+        "Index",
+        "Performance",
+        "SQL"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/modern-web-authentication",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/modern-web-authentication",
+      "title": "احراز هویت مدرن در وب؛ Session، JWT و Refresh Token",
+      "summary": "Authentication و Authorization چه تفاوتی دارند؟ مروری بر مدل Session، ساختار JWT، نقش Refresh Token و نکات امنیتی احراز هویت مدرن.",
+      "content_text": "\nبسیاری از سایت‌ها باید بدانند کاربر چه کسی است و چه اجازه‌هایی دارد.\n\n## ۱. Authentication و Authorization\n\nAuthentication یعنی تشخیص هویت کاربر.\n\nAuthorization یعنی بررسی اینکه کاربر چه اجازه‌ای دارد.\n\n## ۲. Session چیست؟\n\nدر مدل Session، سرور اطلاعات نشست کاربر را مدیریت می‌کند و مرورگر معمولاً یک شناسه نشست دریافت می‌کند.\n\n## ۳. JWT چیست؟\n\nJWT قالبی برای انتقال اطلاعات قابل اعتبارسنجی است. محتوای معمول JWT رمزنگاری‌شده و محرمانه نیست و امضای آن برای تشخیص تغییر غیرمجاز استفاده می‌شود.\n\nپس نباید اطلاعات حساس را داخل JWT قرار داد.\n\n## ۴. Refresh Token\n\nدر برخی معماری‌ها، Access Token کوتاه‌عمر است و Refresh Token برای دریافت Access Token جدید استفاده می‌شود.\n\n## ۵. نکات امنیتی\n\n- رمز عبور را با Hash امن ذخیره کنید.\n- برای نشست‌ها انقضا در نظر بگیرید.\n- مجوزها را در Backend بررسی کنید.\n- Tokenها را از دسترسی JavaScript غیرقابل اعتماد محافظت کنید.\n- در برابر CSRF و سرقت نشست تدابیر مناسب اتخاذ کنید.\n\n## جمع‌بندی\n\nSession و JWT ابزارهایی برای طراحی احراز هویت هستند، نه راه‌حل جادویی امنیت.\n",
+      "date_published": "2025-10-16T12:00:00+03:30",
+      "tags": [
+        "Authentication",
+        "Authentication",
+        "JWT",
+        "Session",
+        "Security"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/secure-file-upload",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/secure-file-upload",
+      "title": "چگونه یک سیستم آپلود فایل امن بسازیم؟",
+      "summary": "آپلود فایل یکی از حساس‌ترین قابلیت‌های وب است؛ از محدودیت اندازه و بررسی نوع واقعی فایل تا نام‌گذاری امن، کنترل دسترسی و ثبت رخدادها.",
+      "content_text": "\nآپلود فایل در سایت‌هایی مانند سامانه‌های آموزشی، وبلاگ‌ها و پنل‌های مدیریتی قابلیت مهمی است.\n\n## ۱. چرا آپلود فایل خطرناک است؟\n\nفایل ممکن است:\n\n- حجم بسیار زیادی داشته باشد.\n- نوع واقعی آن با پسوند متفاوت باشد.\n- نام خطرناک داشته باشد.\n- حاوی محتوای مخرب باشد.\n- باعث مصرف بیش از حد منابع شود.\n\n## ۲. محدودیت اندازه\n\nسرور باید حداکثر اندازه فایل را تعیین کند.\n\n## ۳. نام فایل\n\nنباید نام فایل کاربر مستقیماً به‌عنوان مسیر ذخیره‌سازی استفاده شود.\n\n## ۴. نوع فایل\n\nپسوند به‌تنهایی معیار مطمئنی برای نوع فایل نیست.\n\n## ۵. کنترل دسترسی\n\nفایل خصوصی نباید فقط با دانستن URL قابل دسترسی باشد.\n\n## ۶. ثبت خطا و نظارت\n\nآپلودهای ناموفق و فایل‌های ردشده باید به شکل مناسب ثبت شوند.\n\n## جمع‌بندی\n\nسیستم آپلود فایل امن ترکیبی از اعتبارسنجی، محدودیت منابع، ذخیره‌سازی مناسب و کنترل دسترسی است.\n",
+      "date_published": "2025-10-02T12:00:00+03:30",
+      "tags": [
+        "Flask و امنیت",
+        "Flask",
+        "امنیت وب",
+        "Backend",
+        "File Upload"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/testing-unit-integration-e2e",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/testing-unit-integration-e2e",
+      "title": "تست‌نویسی از صفر؛ Unit، Integration و End-to-End چه تفاوتی دارند؟",
+      "summary": "Unit، Integration و End-to-End چه تفاوتی دارند و هر کدام چه چیزی را بررسی می‌کنند؟ ویژگی‌های تست خوب و اهمیت بیشتر تست در دوران تولید کد با AI.",
+      "content_text": "\nتست‌نویسی یکی از راه‌های مهم اطمینان از رفتار نرم‌افزار است.\n\n## ۱. Unit Test\n\nUnit Test یک واحد کوچک از منطق برنامه را بررسی می‌کند.\n\n```python\ndef add(a, b):\n    return a + b\n```\n\n## ۲. Integration Test\n\nدر تست یکپارچه، چند بخش با هم بررسی می‌شوند:\n\n```text\nRequest\n  ↓\nRoute\n  ↓\nDatabase\n  ↓\nResponse\n```\n\n## ۳. End-to-End Test\n\nیک مسیر کامل کاربر را بررسی می‌کند:\n\n```text\nOpen website\n   ↓\nLogin\n   ↓\nOpen dashboard\n   ↓\nCreate article\n   ↓\nVerify article\n```\n\n## ۴. تست خوب چه ویژگی دارد؟\n\n- قابل تکرار\n- نتیجه مشخص\n- مستقل از شرایط تصادفی\n- بررسی رفتار مهم\n- خطای قابل تشخیص\n\n## ۵. تست و AI\n\nوقتی AI کد تولید می‌کند، تست اهمیت بیشتری پیدا می‌کند.\n\n## جمع‌بندی\n\nUnit، Integration و End-to-End جایگزین یکدیگر نیستند و می‌توانند در کنار هم پوشش مناسبی ایجاد کنند.\n",
+      "date_published": "2025-09-18T12:00:00+03:30",
+      "tags": [
+        "Testing",
+        "Testing",
+        "Unit Test",
+        "Integration",
+        "E2E"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/what-is-docker",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/what-is-docker",
+      "title": "Docker چیست و چرا توسعه‌دهنده باید کانتینرها را بشناسد؟",
+      "summary": "Image و Container چه تفاوتی دارند؟ چرا Docker محیط‌های توسعه را یکدست می‌کند و Dockerfile چگونه این فرایند را توصیف می‌کند.",
+      "content_text": "\nDocker راهی برای بسته‌بندی برنامه و وابستگی‌های آن در محیط‌های قابل تکرار فراهم می‌کند.\n\n## ۱. Image و Container\n\nImage یک الگوی بسته‌بندی‌شده برای اجرای برنامه است.\n\nContainer نمونه‌ای در حال اجرا از یک Image است.\n\n## ۲. چرا مفید است؟\n\nDocker می‌تواند اختلاف محیط‌های توسعه را کاهش دهد.\n\n## ۳. Dockerfile\n\nنمونه:\n\n```dockerfile\nFROM python:3.12-slim\n\nWORKDIR /app\n\nCOPY requirements.txt .\nRUN pip install -r requirements.txt\n\nCOPY . .\n\nCMD [\"python\", \"app.py\"]\n```\n\n## ۴. Container جایگزین کامل ماشین مجازی نیست\n\nکانتینرها معمولاً سبک‌تر از ماشین مجازی هستند، اما مدل ایزوله‌سازی آن‌ها یکسان نیست.\n\n## ۵. کاربرد در پروژه واقعی\n\nDocker می‌تواند برای Backend، Database، سرویس‌های کمکی، تست و CI/CD استفاده شود.\n\n## جمع‌بندی\n\nDocker ابزاری برای ساخت محیط‌های قابل تکرار و بسته‌بندی نرم‌افزار است.\n",
+      "date_published": "2025-09-04T12:00:00+03:30",
+      "tags": [
+        "DevOps",
+        "DevOps",
+        "Docker",
+        "Container",
+        "Deployment"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/what-is-ci-cd",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/what-is-ci-cd",
+      "title": "CI/CD چیست و چگونه انتشار نرم‌افزار را خودکار کنیم؟",
+      "summary": "از Continuous Integration تا Continuous Deployment؛ ساختار یک Pipeline نمونه، فایده‌های CI/CD و نکات مهم مدیریت Secretها و مجوزها.",
+      "content_text": "\nCI/CD برای خودکارسازی بخش‌هایی از فرایند ساخت، تست و تحویل نرم‌افزار استفاده می‌شود.\n\n## ۱. Continuous Integration\n\nPipeline می‌تواند:\n\n- کد را دریافت کند.\n- وابستگی‌ها را نصب کند.\n- تست‌ها را اجرا کند.\n- خطاهای ساخت را گزارش دهد.\n\n## ۲. Continuous Delivery و Deployment\n\nContinuous Delivery نرم‌افزار را برای انتشار آماده می‌کند.\n\nContinuous Deployment می‌تواند انتشار نسخه‌های تأییدشده را خودکار کند.\n\n## ۳. Pipeline نمونه\n\n```text\nPush to Git\n    ↓\nInstall dependencies\n    ↓\nRun tests\n    ↓\nBuild\n    ↓\nSecurity checks\n    ↓\nDeploy\n```\n\n## ۴. چرا مهم است؟\n\nCI/CD می‌تواند خطاها را زودتر آشکار کند و فرایند انتشار را قابل پیش‌بینی‌تر کند.\n\n## ۵. نکات مهم\n\nSecretها باید به‌درستی مدیریت شوند و مجوزهای Pipeline بیش از نیاز گسترده نباشند.\n\n## جمع‌بندی\n\nCI/CD فقط اجرای خودکار چند فرمان نیست؛ یک فرایند مهندسی برای افزایش قابلیت اطمینان در تحویل نرم‌افزار است.\n",
+      "date_published": "2025-08-21T12:00:00+03:30",
+      "tags": [
+        "DevOps",
+        "DevOps",
+        "CI/CD",
+        "Automation",
+        "Deployment"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/professional-open-source-on-github",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/professional-open-source-on-github",
+      "title": "چگونه یک پروژه متن‌باز حرفه‌ای در GitHub بسازیم؟",
+      "summary": "قرار دادن کد در GitHub به‌تنهایی کافی نیست؛ README خوب، ساختار مرتب Repository، Issue و Pull Request، مجوز و امنیت Repository را مرور می‌کنیم.",
+      "content_text": "\nقرار دادن کد در GitHub به‌تنهایی یک پروژه متن‌باز حرفه‌ای ایجاد نمی‌کند.\n\n## ۱. README خوب\n\nREADME باید پاسخ دهد:\n\n- پروژه چیست؟\n- چه مشکلی را حل می‌کند؟\n- چگونه نصب می‌شود؟\n- چگونه اجرا می‌شود؟\n- چه امکاناتی دارد؟\n- چگونه می‌توان مشارکت کرد؟\n\n## ۲. ساختار Repository\n\n```text\nproject/\n├── README.md\n├── LICENSE\n├── .gitignore\n├── docs/\n├── src/\n├── tests/\n└── requirements.txt\n```\n\n## ۳. Issue و Pull Request\n\nIssue برای ثبت مشکل، پیشنهاد یا وظیفه استفاده می‌شود.\n\nPull Request برای پیشنهاد تغییرات و بررسی آن‌ها پیش از ادغام در Branch اصلی است.\n\n## ۴. مجوز نرم‌افزار\n\nمجوز مشخص می‌کند دیگران چه حقوقی برای استفاده، تغییر یا توزیع نرم‌افزار دارند.\n\n## ۵. امنیت Repository\n\nاطلاعات محرمانه مانند API Key و Password نباید در Repository قرار بگیرند.\n\n## ۶. پروژه شخصی و رزومه\n\nیک Repository مرتب می‌تواند مهارت‌های برنامه‌نویس را بهتر نشان دهد.\n\n## جمع‌بندی\n\nپروژه متن‌باز حرفه‌ای ترکیبی از کد خوب، مستندات مناسب، تاریخچه قابل فهم و فرایند همکاری مشخص است.\n",
+      "date_published": "2025-08-07T12:00:00+03:30",
+      "tags": [
+        "Git و GitHub",
+        "Git",
+        "GitHub",
+        "متن‌باز",
+        "Docs"
+      ],
+      "language": "fa"
+    },
+    {
+      "id": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/from-personal-project-to-production",
+      "url": "https://azazamir139-glitch.github.io/xamircode.github.io/blog/from-personal-project-to-production",
+      "title": "از پروژه شخصی تا محصول واقعی؛ چه چیزهایی قبل از انتشار مهم‌اند؟",
+      "summary": "انتشار محصول، شروع مرحله‌ی جدید توسعه است؛ چک‌لیست امنیت، پشتیبان‌گیری، عملکرد، تجربه کاربر و مستندات پیش از عرضه‌ی واقعی پروژه.",
+      "content_text": "\nساخت یک پروژه در کامپیوتر شخصی با ارائه آن به کاربران واقعی تفاوت زیادی دارد.\n\n## ۱. امنیت\n\nقبل از انتشار باید موارد زیر بررسی شوند:\n\n- احراز هویت\n- مجوزها\n- مدیریت Secretها\n- اعتبارسنجی ورودی‌ها\n- تنظیمات امنیتی سرور\n- کنترل دسترسی فایل‌ها\n- مدیریت خطاها\n- وابستگی‌های آسیب‌پذیر\n\n## ۲. پشتیبان‌گیری\n\nفقط داشتن Backup کافی نیست؛ امکان بازیابی آن نیز باید آزمایش شود.\n\n## ۳. مدیریت خطا و Logging\n\nکاربر نباید با Stack Trace یا جزئیات حساس داخلی روبه‌رو شود.\n\n## ۴. عملکرد و مقیاس‌پذیری\n\nموارد مهم:\n\n- زمان پاسخ API\n- مصرف حافظه\n- ظرفیت Database\n- محدودیت درخواست‌ها\n- اندازه فایل‌ها\n- Cache\n- منابع استاتیک\n\n## ۵. تجربه کاربر\n\nمسیرهای اصلی کاربر باید بررسی شوند:\n\n- ورود و خروج\n- نمایش خطا\n- بازیابی اطلاعات\n- موبایل\n- دسترسی‌پذیری\n- Loading\n- Empty states\n- پشتیبانی\n\n## ۶. مستندات\n\nمستندات باید نصب، اجرا، پیکربندی و نگهداری محصول را توضیح دهند.\n\n## ۷. چک‌لیست پیش از انتشار\n\n```text\n☐ احراز هویت و مجوزها بررسی شده‌اند\n☐ تست‌های اصلی اجرا شده‌اند\n☐ پشتیبان‌گیری و بازیابی آزمایش شده است\n☐ اطلاعات محرمانه در کد قرار ندارند\n☐ خطاها و Logها بررسی شده‌اند\n☐ عملکرد و مصرف منابع ارزیابی شده است\n☐ رابط کاربری در اندازه‌های مختلف بررسی شده است\n☐ راهنمای نصب و استفاده آماده است\n```\n\n## جمع‌بندی\n\nانتشار محصول پایان برنامه‌نویسی نیست؛ شروع مرحله‌ای جدید از توسعه است. نرم‌افزار واقعی باید قابل اعتماد، قابل نگهداری، امن و آماده پاسخ‌گویی به نیازهای کاربران باشد.\n",
+      "date_published": "2025-07-24T12:00:00+03:30",
+      "tags": [
+        "Full Stack",
+        "Full Stack",
+        "Release",
+        "امنیت",
+        "چک‌لیست"
+      ],
+      "language": "fa"
+    }
+  ]
+}
