@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>بلاگ امیرعلی طاهری</title>
-    <link>https://azazamir139-glitch.github.io/xamircode.github.io</link>
+    <link>https://xamir13.github.io</link>
     <description>نوشته‌هایی درباره‌ی توسعه‌ی وب فارسی؛ Next.js، کارایی، فونت و معماری.</description>
     <language>fa</language>
-    <lastBuildDate>Wed, 23 Sep 2026 14:26:06 GMT</lastBuildDate>
-    <atom:link href="https://azazamir139-glitch.github.io/xamircode.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Sep 2026 15:16:50 GMT</lastBuildDate>
+    <atom:link href="https://xamir13.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>آیا AI واقعاً برنامه‌نویس‌ها را جایگزین می‌کند؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/will-ai-replace-programmers</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/will-ai-replace-programmers</guid>
+      <link>https://xamir13.github.io/blog/will-ai-replace-programmers</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/will-ai-replace-programmers</guid>
       <description>از ابزارهایی که کد می‌نویسند تا مسئولیت خروجی؛ مروری بر اینکه نقش برنامه‌نویس در عصر AI چگونه در حال تغییر است و چه مهارت‌هایی اهمیت می‌یابد.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%D8%A2%DB%8C%D8%A7+AI+%D9%88%D8%A7%D9%82%D8%B9%D8%A7%D9%8B+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%E2%80%8C%D9%87%D8%A7+%D8%B1%D8%A7+%D8%AC%D8%A7%DB%8C%DA%AF%D8%B2%DB%8C%D9%86+%D9%85%DB%8C%E2%80%8C%DA%A9%D9%86%D8%AF%D8%9F&amp;chip=%D9%87%D9%88%D8%B4+%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C+%D9%88+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C&amp;date=%DB%B1%DB%B2+%D8%B4%D9%87%D8%B1%DB%8C%D9%88%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=8trwgw" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%D8%A2%DB%8C%D8%A7+AI+%D9%88%D8%A7%D9%82%D8%B9%D8%A7%D9%8B+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%E2%80%8C%D9%87%D8%A7+%D8%B1%D8%A7+%D8%AC%D8%A7%DB%8C%DA%AF%D8%B2%DB%8C%D9%86+%D9%85%DB%8C%E2%80%8C%DA%A9%D9%86%D8%AF%D8%9F&amp;chip=%D9%87%D9%88%D8%B4+%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C+%D9%88+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C&amp;date=%DB%B1%DB%B2+%D8%B4%D9%87%D8%B1%DB%8C%D9%88%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=8trwgw" type="image/png" length="0" />
       <category>هوش مصنوعی و برنامه‌نویسی</category>
       <category>AI</category>
       <category>برنامه‌نویسی</category>
@@ -23,10 +23,10 @@
     </item>
     <item>
       <title>TypeScript چرا به یکی از مهم‌ترین زبان‌های دنیای وب تبدیل شد؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/why-typescript-became-essential</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/why-typescript-became-essential</guid>
+      <link>https://xamir13.github.io/blog/why-typescript-became-essential</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/why-typescript-became-essential</guid>
       <description>GitHub در گزارش Octoverse 2025 اعلام کرد TypeScript به پرکاربردترین زبان روی GitHub تبدیل شده است؛ بررسی می‌کنیم این رشد از کجا آمده و چه ربطی به AI دارد.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=TypeScript+%DA%86%D8%B1%D8%A7+%D8%A8%D9%87+%DB%8C%DA%A9%DB%8C+%D8%A7%D8%B2+%D9%85%D9%87%D9%85%E2%80%8C%D8%AA%D8%B1%DB%8C%D9%86+%D8%B2%D8%A8%D8%A7%D9%86%E2%80%8C%D9%87%D8%A7%DB%8C+%D8%AF%D9%86%DB%8C%D8%A7%DB%8C+%D9%88%D8%A8+%D8%AA%D8%A8%D8%AF%DB%8C%D9%84+%D8%B4%D8%AF%D8%9F&amp;chip=Web+Development&amp;date=%DB%B2%DB%B9+%D9%85%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=1yggbg8" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=TypeScript+%DA%86%D8%B1%D8%A7+%D8%A8%D9%87+%DB%8C%DA%A9%DB%8C+%D8%A7%D8%B2+%D9%85%D9%87%D9%85%E2%80%8C%D8%AA%D8%B1%DB%8C%D9%86+%D8%B2%D8%A8%D8%A7%D9%86%E2%80%8C%D9%87%D8%A7%DB%8C+%D8%AF%D9%86%DB%8C%D8%A7%DB%8C+%D9%88%D8%A8+%D8%AA%D8%A8%D8%AF%DB%8C%D9%84+%D8%B4%D8%AF%D8%9F&amp;chip=Web+Development&amp;date=%DB%B2%DB%B9+%D9%85%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=1yggbg8" type="image/png" length="0" />
       <category>Web Development</category>
       <category>TypeScript</category>
       <category>JavaScript</category>
@@ -37,10 +37,10 @@
     </item>
     <item>
       <title>وقتی AI کد می‌نویسد، چه کسی مسئول باگ است؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/who-is-responsible-for-ai-bugs</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/who-is-responsible-for-ai-bugs</guid>
+      <link>https://xamir13.github.io/blog/who-is-responsible-for-ai-bugs</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/who-is-responsible-for-ai-bugs</guid>
       <description>وقتی یک AI Agent سیستم احراز هویت می‌سازد و دو هفته بعد حفره‌ای امنیتی پیدا می‌شود، چه کسی مقصر است؟ پاسخ کوتاه: مسئولیت همچنان با انسان و تیم توسعه است.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%D9%88%D9%82%D8%AA%DB%8C+AI+%DA%A9%D8%AF+%D9%85%DB%8C%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%D8%AF%D8%8C+%DA%86%D9%87+%DA%A9%D8%B3%DB%8C+%D9%85%D8%B3%D8%A6%D9%88%D9%84+%D8%A8%D8%A7%DA%AF+%D8%A7%D8%B3%D8%AA%D8%9F&amp;chip=%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C+%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1&amp;date=%DB%B1%DB%B5+%D9%85%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=1eqrexc" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%D9%88%D9%82%D8%AA%DB%8C+AI+%DA%A9%D8%AF+%D9%85%DB%8C%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%D8%AF%D8%8C+%DA%86%D9%87+%DA%A9%D8%B3%DB%8C+%D9%85%D8%B3%D8%A6%D9%88%D9%84+%D8%A8%D8%A7%DA%AF+%D8%A7%D8%B3%D8%AA%D8%9F&amp;chip=%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C+%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1&amp;date=%DB%B1%DB%B5+%D9%85%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=1eqrexc" type="image/png" length="0" />
       <category>مهندسی نرم‌افزار</category>
       <category>AI Coding</category>
       <category>Bug</category>
@@ -51,10 +51,10 @@
     </item>
     <item>
       <title>از یک ایده تا یک وب‌سایت واقعی؛ چرا ساخت پروژه از یادگیری کد مهم‌تر است؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/from-idea-to-real-website</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/from-idea-to-real-website</guid>
+      <link>https://xamir13.github.io/blog/from-idea-to-real-website</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/from-idea-to-real-website</guid>
       <description>چرا ماه‌ها فقط آموزش دیدن کافی نیست و ساختن پروژه‌ی واقعی، مهم‌ترین معلم برنامه‌نویسی است؛ از Authentication و Database تا Deployment.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%D8%A7%D8%B2+%DB%8C%DA%A9+%D8%A7%DB%8C%D8%AF%D9%87+%D8%AA%D8%A7+%DB%8C%DA%A9+%D9%88%D8%A8%E2%80%8C%D8%B3%D8%A7%DB%8C%D8%AA+%D9%88%D8%A7%D9%82%D8%B9%DB%8C%D8%9B+%DA%86%D8%B1%D8%A7+%D8%B3%D8%A7%D8%AE%D8%AA+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D8%A7%D8%B2+%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C+%DA%A9%D8%AF+%D9%85%D9%87%D9%85%E2%80%8C%D8%AA%D8%B1+%D8%A7%D8%B3%D8%AA%D8%9F&amp;chip=%D9%85%D8%B3%DB%8C%D8%B1+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C&amp;date=%DB%B1+%D9%85%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=1w6slwf" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%D8%A7%D8%B2+%DB%8C%DA%A9+%D8%A7%DB%8C%D8%AF%D9%87+%D8%AA%D8%A7+%DB%8C%DA%A9+%D9%88%D8%A8%E2%80%8C%D8%B3%D8%A7%DB%8C%D8%AA+%D9%88%D8%A7%D9%82%D8%B9%DB%8C%D8%9B+%DA%86%D8%B1%D8%A7+%D8%B3%D8%A7%D8%AE%D8%AA+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D8%A7%D8%B2+%DB%8C%D8%A7%D8%AF%DA%AF%DB%8C%D8%B1%DB%8C+%DA%A9%D8%AF+%D9%85%D9%87%D9%85%E2%80%8C%D8%AA%D8%B1+%D8%A7%D8%B3%D8%AA%D8%9F&amp;chip=%D9%85%D8%B3%DB%8C%D8%B1+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C&amp;date=%DB%B1+%D9%85%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=1w6slwf" type="image/png" length="0" />
       <category>مسیر برنامه‌نویسی</category>
       <category>پروژه</category>
       <category>یادگیری برنامه‌نویسی</category>
@@ -64,10 +64,10 @@
     </item>
     <item>
       <title>Git فقط برای ذخیره کد نیست؛ چرا هر پروژه جدی به Version Control نیاز دارد؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/git-version-control-for-serious-projects</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/git-version-control-for-serious-projects</guid>
+      <link>https://xamir13.github.io/blog/git-version-control-for-serious-projects</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/git-version-control-for-serious-projects</guid>
       <description>Commit، Branch و GitHub؛ چرا Version Control بخش اساسی Workflow حرفه‌ای توسعه نرم‌افزار است، نه فقط ابزاری برای برگرداندن فایل قبلی.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=Git+%D9%81%D9%82%D8%B7+%D8%A8%D8%B1%D8%A7%DB%8C+%D8%B0%D8%AE%DB%8C%D8%B1%D9%87+%DA%A9%D8%AF+%D9%86%DB%8C%D8%B3%D8%AA%D8%9B+%DA%86%D8%B1%D8%A7+%D9%87%D8%B1+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D8%AC%D8%AF%DB%8C+%D8%A8%D9%87+Version+Control+%D9%86%DB%8C%D8%A7%D8%B2+%D8%AF%D8%A7%D8%B1%D8%AF%D8%9F&amp;chip=%D8%A7%D8%A8%D8%B2%D8%A7%D8%B1%D9%87%D8%A7%DB%8C+%D8%AA%D9%88%D8%B3%D8%B9%D9%87&amp;date=%DB%B1%DB%B8+%D8%AA%DB%8C%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=r70nuo" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=Git+%D9%81%D9%82%D8%B7+%D8%A8%D8%B1%D8%A7%DB%8C+%D8%B0%D8%AE%DB%8C%D8%B1%D9%87+%DA%A9%D8%AF+%D9%86%DB%8C%D8%B3%D8%AA%D8%9B+%DA%86%D8%B1%D8%A7+%D9%87%D8%B1+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D8%AC%D8%AF%DB%8C+%D8%A8%D9%87+Version+Control+%D9%86%DB%8C%D8%A7%D8%B2+%D8%AF%D8%A7%D8%B1%D8%AF%D8%9F&amp;chip=%D8%A7%D8%A8%D8%B2%D8%A7%D8%B1%D9%87%D8%A7%DB%8C+%D8%AA%D9%88%D8%B3%D8%B9%D9%87&amp;date=%DB%B1%DB%B8+%D8%AA%DB%8C%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=r70nuo" type="image/png" length="0" />
       <category>ابزارهای توسعه</category>
       <category>Git</category>
       <category>GitHub</category>
@@ -77,10 +77,10 @@
     </item>
     <item>
       <title>امنیت وب را نباید بعد از ساخت سایت شروع کرد</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/web-security-from-day-one</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/web-security-from-day-one</guid>
+      <link>https://xamir13.github.io/blog/web-security-from-day-one</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/web-security-from-day-one</guid>
       <description>امنیت یک Feature نیست؛ یک Property برای کل سیستم است. چرا باید از طراحی سیستم وارد پروژه شود، نه بعد از ساخت سایت.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%D8%A7%D9%85%D9%86%DB%8C%D8%AA+%D9%88%D8%A8+%D8%B1%D8%A7+%D9%86%D8%A8%D8%A7%DB%8C%D8%AF+%D8%A8%D8%B9%D8%AF+%D8%A7%D8%B2+%D8%B3%D8%A7%D8%AE%D8%AA+%D8%B3%D8%A7%DB%8C%D8%AA+%D8%B4%D8%B1%D9%88%D8%B9+%DA%A9%D8%B1%D8%AF&amp;chip=%D8%A7%D9%85%D9%86%DB%8C%D8%AA&amp;date=%DB%B4+%D8%AA%DB%8C%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=1xfpbyo" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%D8%A7%D9%85%D9%86%DB%8C%D8%AA+%D9%88%D8%A8+%D8%B1%D8%A7+%D9%86%D8%A8%D8%A7%DB%8C%D8%AF+%D8%A8%D8%B9%D8%AF+%D8%A7%D8%B2+%D8%B3%D8%A7%D8%AE%D8%AA+%D8%B3%D8%A7%DB%8C%D8%AA+%D8%B4%D8%B1%D9%88%D8%B9+%DA%A9%D8%B1%D8%AF&amp;chip=%D8%A7%D9%85%D9%86%DB%8C%D8%AA&amp;date=%DB%B4+%D8%AA%DB%8C%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=1xfpbyo" type="image/png" length="0" />
       <category>امنیت</category>
       <category>Web Security</category>
       <category>Authentication</category>
@@ -91,10 +91,10 @@
     </item>
     <item>
       <title>Flask یا FastAPI؟ انتخاب Backend مناسب برای پروژه واقعی</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/flask-vs-fastapi-choosing-backend</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/flask-vs-fastapi-choosing-backend</guid>
+      <link>https://xamir13.github.io/blog/flask-vs-fastapi-choosing-backend</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/flask-vs-fastapi-choosing-backend</guid>
       <description>Flask یا FastAPI؟ مقایسه‌ای منصفانه برای انتخاب Backend مناسب پروژه‌ی واقعی؛ از انعطاف معماری تا مستندسازی خودکار API.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=Flask+%DB%8C%D8%A7+FastAPI%D8%9F+%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8+Backend+%D9%85%D9%86%D8%A7%D8%B3%D8%A8+%D8%A8%D8%B1%D8%A7%DB%8C+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D9%88%D8%A7%D9%82%D8%B9%DB%8C&amp;chip=Backend&amp;date=%DB%B2%DB%B1+%D8%AE%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=1hu4ni5" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=Flask+%DB%8C%D8%A7+FastAPI%D8%9F+%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8+Backend+%D9%85%D9%86%D8%A7%D8%B3%D8%A8+%D8%A8%D8%B1%D8%A7%DB%8C+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D9%88%D8%A7%D9%82%D8%B9%DB%8C&amp;chip=Backend&amp;date=%DB%B2%DB%B1+%D8%AE%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=1hu4ni5" type="image/png" length="0" />
       <category>Backend</category>
       <category>Python</category>
       <category>Flask</category>
@@ -105,10 +105,10 @@
     </item>
     <item>
       <title>چرا Debugging یکی از مهم‌ترین مهارت‌های یک برنامه‌نویس است؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/why-debugging-matters</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/why-debugging-matters</guid>
+      <link>https://xamir13.github.io/blog/why-debugging-matters</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/why-debugging-matters</guid>
       <description>همه پروژه‌ها Bug دارند؛ تفاوت حرفه‌ای‌ها در نحوه‌ی برخورد با Bug است. از خواندن خطا تا بازتولید و ایزوله‌کردن مسئله.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%DA%86%D8%B1%D8%A7+Debugging+%DB%8C%DA%A9%DB%8C+%D8%A7%D8%B2+%D9%85%D9%87%D9%85%E2%80%8C%D8%AA%D8%B1%DB%8C%D9%86+%D9%85%D9%87%D8%A7%D8%B1%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C+%DB%8C%DA%A9+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3+%D8%A7%D8%B3%D8%AA%D8%9F&amp;chip=%D9%85%D9%87%D8%A7%D8%B1%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C&amp;date=%DB%B7+%D8%AE%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=myq6ow" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%DA%86%D8%B1%D8%A7+Debugging+%DB%8C%DA%A9%DB%8C+%D8%A7%D8%B2+%D9%85%D9%87%D9%85%E2%80%8C%D8%AA%D8%B1%DB%8C%D9%86+%D9%85%D9%87%D8%A7%D8%B1%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C+%DB%8C%DA%A9+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3+%D8%A7%D8%B3%D8%AA%D8%9F&amp;chip=%D9%85%D9%87%D8%A7%D8%B1%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C&amp;date=%DB%B7+%D8%AE%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=myq6ow" type="image/png" length="0" />
       <category>مهارت‌های برنامه‌نویسی</category>
       <category>Debugging</category>
       <category>Error</category>
@@ -118,10 +118,10 @@
     </item>
     <item>
       <title>چرا سرعت توسعه بدون کیفیت می‌تواند خطرناک باشد؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/speed-without-quality-is-dangerous</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/speed-without-quality-is-dangerous</guid>
+      <link>https://xamir13.github.io/blog/speed-without-quality-is-dangerous</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/speed-without-quality-is-dangerous</guid>
       <description>سرعت اولیه ممکن است هزینه‌ی آینده را افزایش دهد؛ درباره Technical Debt و پیوند سرعت تولید کد با کیفیت و امنیت.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%DA%86%D8%B1%D8%A7+%D8%B3%D8%B1%D8%B9%D8%AA+%D8%AA%D9%88%D8%B3%D8%B9%D9%87+%D8%A8%D8%AF%D9%88%D9%86+%DA%A9%DB%8C%D9%81%DB%8C%D8%AA+%D9%85%DB%8C%E2%80%8C%D8%AA%D9%88%D8%A7%D9%86%D8%AF+%D8%AE%D8%B7%D8%B1%D9%86%D8%A7%DA%A9+%D8%A8%D8%A7%D8%B4%D8%AF%D8%9F&amp;chip=%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C+%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1&amp;date=%DB%B2%DB%B4+%D8%A7%D8%B1%D8%AF%DB%8C%D8%A8%D9%87%D8%B4%D8%AA+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=kwifbc" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%DA%86%D8%B1%D8%A7+%D8%B3%D8%B1%D8%B9%D8%AA+%D8%AA%D9%88%D8%B3%D8%B9%D9%87+%D8%A8%D8%AF%D9%88%D9%86+%DA%A9%DB%8C%D9%81%DB%8C%D8%AA+%D9%85%DB%8C%E2%80%8C%D8%AA%D9%88%D8%A7%D9%86%D8%AF+%D8%AE%D8%B7%D8%B1%D9%86%D8%A7%DA%A9+%D8%A8%D8%A7%D8%B4%D8%AF%D8%9F&amp;chip=%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C+%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1&amp;date=%DB%B2%DB%B4+%D8%A7%D8%B1%D8%AF%DB%8C%D8%A8%D9%87%D8%B4%D8%AA+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=kwifbc" type="image/png" length="0" />
       <category>مهندسی نرم‌افزار</category>
       <category>Software Quality</category>
       <category>AI</category>
@@ -131,10 +131,10 @@
     </item>
     <item>
       <title>برنامه‌نویس آینده چه مهارت‌هایی باید داشته باشد؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/future-programmer-skills</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/future-programmer-skills</guid>
+      <link>https://xamir13.github.io/blog/future-programmer-skills</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/future-programmer-skills</guid>
       <description>از یادگیری عمیق یک زبان تا امنیت و همکاری با AI؛ مهارت‌هایی که برنامه‌نویس آینده به آن‌ها نیاز دارد و با تغییر Frameworkها ارزش خود را حفظ می‌کنند.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3+%D8%A2%DB%8C%D9%86%D8%AF%D9%87+%DA%86%D9%87+%D9%85%D9%87%D8%A7%D8%B1%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C%DB%8C+%D8%A8%D8%A7%DB%8C%D8%AF+%D8%AF%D8%A7%D8%B4%D8%AA%D9%87+%D8%A8%D8%A7%D8%B4%D8%AF%D8%9F&amp;chip=%D8%A2%DB%8C%D9%86%D8%AF%D9%87+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C&amp;date=%DB%B1%DB%B0+%D8%A7%D8%B1%D8%AF%DB%8C%D8%A8%D9%87%D8%B4%D8%AA+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=bb1cx" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3+%D8%A2%DB%8C%D9%86%D8%AF%D9%87+%DA%86%D9%87+%D9%85%D9%87%D8%A7%D8%B1%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C%DB%8C+%D8%A8%D8%A7%DB%8C%D8%AF+%D8%AF%D8%A7%D8%B4%D8%AA%D9%87+%D8%A8%D8%A7%D8%B4%D8%AF%D8%9F&amp;chip=%D8%A2%DB%8C%D9%86%D8%AF%D9%87+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C&amp;date=%DB%B1%DB%B0+%D8%A7%D8%B1%D8%AF%DB%8C%D8%A8%D9%87%D8%B4%D8%AA+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=bb1cx" type="image/png" length="0" />
       <category>آینده برنامه‌نویسی</category>
       <category>Future of Programming</category>
       <category>AI</category>
@@ -145,10 +145,10 @@
     </item>
     <item>
       <title>مهندسی پرامپت برای برنامه‌نویس‌ها؛ چگونه از AI کد بهتر بگیریم؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/prompt-engineering-for-developers</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/prompt-engineering-for-developers</guid>
+      <link>https://xamir13.github.io/blog/prompt-engineering-for-developers</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/prompt-engineering-for-developers</guid>
       <description>چرا یک پرامپت مبهم به کد بی‌کیفیت می‌رسد و یک پرامپت حرفه‌ای چگونه خروجی قابل بررسی می‌سازد؛ اجزای پرامپت اثربخش، نقش Context و روش بررسی کد تولیدشده با AI.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C+%D9%BE%D8%B1%D8%A7%D9%85%D9%BE%D8%AA+%D8%A8%D8%B1%D8%A7%DB%8C+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%E2%80%8C%D9%87%D8%A7%D8%9B+%DA%86%DA%AF%D9%88%D9%86%D9%87+%D8%A7%D8%B2+AI+%DA%A9%D8%AF+%D8%A8%D9%87%D8%AA%D8%B1+%D8%A8%DA%AF%DB%8C%D8%B1%DB%8C%D9%85%D8%9F&amp;chip=%D9%87%D9%88%D8%B4+%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C&amp;date=%DB%B2%DB%B7+%D9%81%D8%B1%D9%88%D8%B1%D8%AF%DB%8C%D9%86+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=lt0dwe" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C+%D9%BE%D8%B1%D8%A7%D9%85%D9%BE%D8%AA+%D8%A8%D8%B1%D8%A7%DB%8C+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%E2%80%8C%D9%87%D8%A7%D8%9B+%DA%86%DA%AF%D9%88%D9%86%D9%87+%D8%A7%D8%B2+AI+%DA%A9%D8%AF+%D8%A8%D9%87%D8%AA%D8%B1+%D8%A8%DA%AF%DB%8C%D8%B1%DB%8C%D9%85%D8%9F&amp;chip=%D9%87%D9%88%D8%B4+%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C&amp;date=%DB%B2%DB%B7+%D9%81%D8%B1%D9%88%D8%B1%D8%AF%DB%8C%D9%86+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=lt0dwe" type="image/png" length="0" />
       <category>هوش مصنوعی</category>
       <category>AI</category>
       <category>Prompt Engineering</category>
@@ -158,10 +158,10 @@
     </item>
     <item>
       <title>Coding Agent چیست و چه تفاوتی با چت‌بات معمولی دارد؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/coding-agent-vs-chatbot</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/coding-agent-vs-chatbot</guid>
+      <link>https://xamir13.github.io/blog/coding-agent-vs-chatbot</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/coding-agent-vs-chatbot</guid>
       <description>از دستیار متنی تا همکاری فعال در پروژه؛ مروری بر تفاوت Coding Agent و چت‌بات معمولی، چرخه‌ی کار Agentها، مزایا، خطرها و اصول استفاده‌ی حرفه‌ای از آن‌ها.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=Coding+Agent+%DA%86%DB%8C%D8%B3%D8%AA+%D9%88+%DA%86%D9%87+%D8%AA%D9%81%D8%A7%D9%88%D8%AA%DB%8C+%D8%A8%D8%A7+%DA%86%D8%AA%E2%80%8C%D8%A8%D8%A7%D8%AA+%D9%85%D8%B9%D9%85%D9%88%D9%84%DB%8C+%D8%AF%D8%A7%D8%B1%D8%AF%D8%9F&amp;chip=AI+Agents&amp;date=%DB%B1%DB%B3+%D9%81%D8%B1%D9%88%D8%B1%D8%AF%DB%8C%D9%86+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=1vcxike" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=Coding+Agent+%DA%86%DB%8C%D8%B3%D8%AA+%D9%88+%DA%86%D9%87+%D8%AA%D9%81%D8%A7%D9%88%D8%AA%DB%8C+%D8%A8%D8%A7+%DA%86%D8%AA%E2%80%8C%D8%A8%D8%A7%D8%AA+%D9%85%D8%B9%D9%85%D9%88%D9%84%DB%8C+%D8%AF%D8%A7%D8%B1%D8%AF%D8%9F&amp;chip=AI+Agents&amp;date=%DB%B1%DB%B3+%D9%81%D8%B1%D9%88%D8%B1%D8%AF%DB%8C%D9%86+%DB%B1%DB%B4%DB%B0%DB%B5&amp;v=1vcxike" type="image/png" length="0" />
       <category>AI Agents</category>
       <category>AI Agents</category>
       <category>AI</category>
@@ -171,10 +171,10 @@
     </item>
     <item>
       <title>MCP چیست و چرا در حال تغییر شیوه کار ابزارهای هوش مصنوعی است؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/what-is-mcp-protocol</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/what-is-mcp-protocol</guid>
+      <link>https://xamir13.github.io/blog/what-is-mcp-protocol</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/what-is-mcp-protocol</guid>
       <description>MCP یا Model Context Protocol روش استاندارد اتصال مدل‌ها و Agentها به ابزارها و منابع بیرونی است؛ در این نوشته با معماری، کاربردها و نکات امنیتی آن آشنا می‌شویم.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=MCP+%DA%86%DB%8C%D8%B3%D8%AA+%D9%88+%DA%86%D8%B1%D8%A7+%D8%AF%D8%B1+%D8%AD%D8%A7%D9%84+%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1+%D8%B4%DB%8C%D9%88%D9%87+%DA%A9%D8%A7%D8%B1+%D8%A7%D8%A8%D8%B2%D8%A7%D8%B1%D9%87%D8%A7%DB%8C+%D9%87%D9%88%D8%B4+%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C+%D8%A7%D8%B3%D8%AA%D8%9F&amp;chip=AI+Infrastructure&amp;date=%DB%B2%DB%B8+%D8%A7%D8%B3%D9%81%D9%86%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1kuy5bd" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=MCP+%DA%86%DB%8C%D8%B3%D8%AA+%D9%88+%DA%86%D8%B1%D8%A7+%D8%AF%D8%B1+%D8%AD%D8%A7%D9%84+%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1+%D8%B4%DB%8C%D9%88%D9%87+%DA%A9%D8%A7%D8%B1+%D8%A7%D8%A8%D8%B2%D8%A7%D8%B1%D9%87%D8%A7%DB%8C+%D9%87%D9%88%D8%B4+%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C+%D8%A7%D8%B3%D8%AA%D8%9F&amp;chip=AI+Infrastructure&amp;date=%DB%B2%DB%B8+%D8%A7%D8%B3%D9%81%D9%86%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1kuy5bd" type="image/png" length="0" />
       <category>AI Infrastructure</category>
       <category>MCP</category>
       <category>AI Infrastructure</category>
@@ -184,10 +184,10 @@
     </item>
     <item>
       <title>آیا تولید کد بیشتر با AI واقعاً یعنی توسعه سریع‌تر؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/does-more-code-mean-faster-development</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/does-more-code-mean-faster-development</guid>
+      <link>https://xamir13.github.io/blog/does-more-code-mean-faster-development</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/does-more-code-mean-faster-development</guid>
       <description>خط کد بیشتر به‌خودی‌خود یعنی پیشرفت بیشتر؟ مروری بر تفاوت سرعت ظاهری و سرعت واقعی، بدهی فنی و معیارهایی که برای سنجش توسعه‌ی سریع و قابل اعتماد مهم‌ترند.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%D8%A2%DB%8C%D8%A7+%D8%AA%D9%88%D9%84%DB%8C%D8%AF+%DA%A9%D8%AF+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%A8%D8%A7+AI+%D9%88%D8%A7%D9%82%D8%B9%D8%A7%D9%8B+%DB%8C%D8%B9%D9%86%DB%8C+%D8%AA%D9%88%D8%B3%D8%B9%D9%87+%D8%B3%D8%B1%DB%8C%D8%B9%E2%80%8C%D8%AA%D8%B1%D8%9F&amp;chip=AI+%D9%88+%DA%A9%DB%8C%D9%81%DB%8C%D8%AA&amp;date=%DB%B1%DB%B4+%D8%A7%D8%B3%D9%81%D9%86%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=rdbgq0" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%D8%A2%DB%8C%D8%A7+%D8%AA%D9%88%D9%84%DB%8C%D8%AF+%DA%A9%D8%AF+%D8%A8%DB%8C%D8%B4%D8%AA%D8%B1+%D8%A8%D8%A7+AI+%D9%88%D8%A7%D9%82%D8%B9%D8%A7%D9%8B+%DB%8C%D8%B9%D9%86%DB%8C+%D8%AA%D9%88%D8%B3%D8%B9%D9%87+%D8%B3%D8%B1%DB%8C%D8%B9%E2%80%8C%D8%AA%D8%B1%D8%9F&amp;chip=AI+%D9%88+%DA%A9%DB%8C%D9%81%DB%8C%D8%AA&amp;date=%DB%B1%DB%B4+%D8%A7%D8%B3%D9%81%D9%86%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=rdbgq0" type="image/png" length="0" />
       <category>AI و کیفیت</category>
       <category>AI</category>
       <category>کیفیت نرم‌افزار</category>
@@ -197,10 +197,10 @@
     </item>
     <item>
       <title>چگونه یک پروژه را به AI Agent بسپاریم بدون اینکه کنترل کد را از دست بدهیم؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/delegate-project-to-ai-agent-safely</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/delegate-project-to-ai-agent-safely</guid>
+      <link>https://xamir13.github.io/blog/delegate-project-to-ai-agent-safely</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/delegate-project-to-ai-agent-safely</guid>
       <description>سپردن پروژه به Agent بدون از دست دادن کنترل کد ممکن است؛ با شناخت وضعیت پروژه، تقسیم وظیفه به مراحل کوچک، محدودیت‌های صریح و بررسی دقیق تغییرات.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%DA%86%DA%AF%D9%88%D9%86%D9%87+%DB%8C%DA%A9+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D8%B1%D8%A7+%D8%A8%D9%87+AI+Agent+%D8%A8%D8%B3%D9%BE%D8%A7%D8%B1%DB%8C%D9%85+%D8%A8%D8%AF%D9%88%D9%86+%D8%A7%DB%8C%D9%86%DA%A9%D9%87+%DA%A9%D9%86%D8%AA%D8%B1%D9%84+%DA%A9%D8%AF+%D8%B1%D8%A7+%D8%A7%D8%B2+%D8%AF%D8%B3%D8%AA+%D8%A8%D8%AF%D9%87%DB%8C%D9%85%D8%9F&amp;chip=Workflow&amp;date=%DB%B3%DB%B0+%D8%A8%D9%87%D9%85%D9%86+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1bu3su" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%DA%86%DA%AF%D9%88%D9%86%D9%87+%DB%8C%DA%A9+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D8%B1%D8%A7+%D8%A8%D9%87+AI+Agent+%D8%A8%D8%B3%D9%BE%D8%A7%D8%B1%DB%8C%D9%85+%D8%A8%D8%AF%D9%88%D9%86+%D8%A7%DB%8C%D9%86%DA%A9%D9%87+%DA%A9%D9%86%D8%AA%D8%B1%D9%84+%DA%A9%D8%AF+%D8%B1%D8%A7+%D8%A7%D8%B2+%D8%AF%D8%B3%D8%AA+%D8%A8%D8%AF%D9%87%DB%8C%D9%85%D8%9F&amp;chip=Workflow&amp;date=%DB%B3%DB%B0+%D8%A8%D9%87%D9%85%D9%86+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1bu3su" type="image/png" length="0" />
       <category>Workflow</category>
       <category>Workflow</category>
       <category>AI Agents</category>
@@ -210,10 +210,10 @@
     </item>
     <item>
       <title>معماری تمیز در پروژه‌های فرانت‌اند؛ از فایل‌های شلوغ تا ساختار قابل نگهداری</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/clean-frontend-architecture</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/clean-frontend-architecture</guid>
+      <link>https://xamir13.github.io/blog/clean-frontend-architecture</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/clean-frontend-architecture</guid>
       <description>از فایل‌های شلوغ تا ساختاری قابل نگهداری؛ تفکیک مسئولیت‌ها، مفهوم Component، جداسازی منطق و پرهیز از پیچیدگی غیرضروری در پروژه‌های فرانت‌اند.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%D9%85%D8%B9%D9%85%D8%A7%D8%B1%DB%8C+%D8%AA%D9%85%DB%8C%D8%B2+%D8%AF%D8%B1+%D9%BE%D8%B1%D9%88%DA%98%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C+%D9%81%D8%B1%D8%A7%D9%86%D8%AA%E2%80%8C%D8%A7%D9%86%D8%AF%D8%9B+%D8%A7%D8%B2+%D9%81%D8%A7%DB%8C%D9%84%E2%80%8C%D9%87%D8%A7%DB%8C+%D8%B4%D9%84%D9%88%D8%BA+%D8%AA%D8%A7+%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1+%D9%82%D8%A7%D8%A8%D9%84+%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C&amp;chip=Frontend&amp;date=%DB%B1%DB%B6+%D8%A8%D9%87%D9%85%D9%86+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1leupzo" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%D9%85%D8%B9%D9%85%D8%A7%D8%B1%DB%8C+%D8%AA%D9%85%DB%8C%D8%B2+%D8%AF%D8%B1+%D9%BE%D8%B1%D9%88%DA%98%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C+%D9%81%D8%B1%D8%A7%D9%86%D8%AA%E2%80%8C%D8%A7%D9%86%D8%AF%D8%9B+%D8%A7%D8%B2+%D9%81%D8%A7%DB%8C%D9%84%E2%80%8C%D9%87%D8%A7%DB%8C+%D8%B4%D9%84%D9%88%D8%BA+%D8%AA%D8%A7+%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1+%D9%82%D8%A7%D8%A8%D9%84+%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C&amp;chip=Frontend&amp;date=%DB%B1%DB%B6+%D8%A8%D9%87%D9%85%D9%86+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1leupzo" type="image/png" length="0" />
       <category>Frontend</category>
       <category>Frontend</category>
       <category>Architecture</category>
@@ -223,10 +223,10 @@
     </item>
     <item>
       <title>JavaScript در مرورگر دقیقاً چگونه اجرا می‌شود؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/how-javascript-runs-in-browser</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/how-javascript-runs-in-browser</guid>
+      <link>https://xamir13.github.io/blog/how-javascript-runs-in-browser</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/how-javascript-runs-in-browser</guid>
       <description>Call Stack، Promise و Event Loop چگونه کار می‌کنند؟ درک نحوه‌ی اجرای JavaScript در مرورگر برای طراحی برنامه‌های تعاملی و غیرهم‌زمان بهتر.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=JavaScript+%D8%AF%D8%B1+%D9%85%D8%B1%D9%88%D8%B1%DA%AF%D8%B1+%D8%AF%D9%82%DB%8C%D9%82%D8%A7%D9%8B+%DA%86%DA%AF%D9%88%D9%86%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7+%D9%85%DB%8C%E2%80%8C%D8%B4%D9%88%D8%AF%D8%9F&amp;chip=JavaScript&amp;date=%DB%B2+%D8%A8%D9%87%D9%85%D9%86+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=12hsh2o" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=JavaScript+%D8%AF%D8%B1+%D9%85%D8%B1%D9%88%D8%B1%DA%AF%D8%B1+%D8%AF%D9%82%DB%8C%D9%82%D8%A7%D9%8B+%DA%86%DA%AF%D9%88%D9%86%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7+%D9%85%DB%8C%E2%80%8C%D8%B4%D9%88%D8%AF%D8%9F&amp;chip=JavaScript&amp;date=%DB%B2+%D8%A8%D9%87%D9%85%D9%86+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=12hsh2o" type="image/png" length="0" />
       <category>JavaScript</category>
       <category>JavaScript</category>
       <category>Event Loop</category>
@@ -236,10 +236,10 @@
     </item>
     <item>
       <title>چرا سایت کند است؟ راهنمای عمیق بهینه‌سازی عملکرد وب</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/why-is-website-slow</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/why-is-website-slow</guid>
+      <link>https://xamir13.github.io/blog/why-is-website-slow</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/why-is-website-slow</guid>
       <description>تصاویر سنگین، JavaScript اضافه، فونت‌های متعدد و مشکلات سرور؛ راهنمای یافتن علت کندی سایت و بهینه‌سازی بر اساس Core Web Vitals.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%DA%86%D8%B1%D8%A7+%D8%B3%D8%A7%DB%8C%D8%AA+%DA%A9%D9%86%D8%AF+%D8%A7%D8%B3%D8%AA%D8%9F+%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C+%D8%B9%D9%85%DB%8C%D9%82+%D8%A8%D9%87%DB%8C%D9%86%D9%87%E2%80%8C%D8%B3%D8%A7%D8%B2%DB%8C+%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF+%D9%88%D8%A8&amp;chip=Performance&amp;date=%DB%B1%DB%B8+%D8%AF%DB%8C+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1ry3htn" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%DA%86%D8%B1%D8%A7+%D8%B3%D8%A7%DB%8C%D8%AA+%DA%A9%D9%86%D8%AF+%D8%A7%D8%B3%D8%AA%D8%9F+%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C+%D8%B9%D9%85%DB%8C%D9%82+%D8%A8%D9%87%DB%8C%D9%86%D9%87%E2%80%8C%D8%B3%D8%A7%D8%B2%DB%8C+%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF+%D9%88%D8%A8&amp;chip=Performance&amp;date=%DB%B1%DB%B8+%D8%AF%DB%8C+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1ry3htn" type="image/png" length="0" />
       <category>Performance</category>
       <category>Performance</category>
       <category>Core Web Vitals</category>
@@ -249,10 +249,10 @@
     </item>
     <item>
       <title>دسترسی‌پذیری وب؛ چگونه سایتی بسازیم که همه بتوانند از آن استفاده کنند؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/web-accessibility-for-everyone</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/web-accessibility-for-everyone</guid>
+      <link>https://xamir13.github.io/blog/web-accessibility-for-everyone</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/web-accessibility-for-everyone</guid>
       <description>سایت خوب برای همه قابل استفاده است؛ از HTML معنایی و دسترسی با صفحه‌کلید تا فرم‌های قابل فهم، کنتراست رنگ و تست دسترسی‌پذیری.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C%E2%80%8C%D9%BE%D8%B0%DB%8C%D8%B1%DB%8C+%D9%88%D8%A8%D8%9B+%DA%86%DA%AF%D9%88%D9%86%D9%87+%D8%B3%D8%A7%DB%8C%D8%AA%DB%8C+%D8%A8%D8%B3%D8%A7%D8%B2%DB%8C%D9%85+%DA%A9%D9%87+%D9%87%D9%85%D9%87+%D8%A8%D8%AA%D9%88%D8%A7%D9%86%D9%86%D8%AF+%D8%A7%D8%B2+%D8%A2%D9%86+%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87+%DA%A9%D9%86%D9%86%D8%AF%D8%9F&amp;chip=Accessibility&amp;date=%DB%B4+%D8%AF%DB%8C+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=547824" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C%E2%80%8C%D9%BE%D8%B0%DB%8C%D8%B1%DB%8C+%D9%88%D8%A8%D8%9B+%DA%86%DA%AF%D9%88%D9%86%D9%87+%D8%B3%D8%A7%DB%8C%D8%AA%DB%8C+%D8%A8%D8%B3%D8%A7%D8%B2%DB%8C%D9%85+%DA%A9%D9%87+%D9%87%D9%85%D9%87+%D8%A8%D8%AA%D9%88%D8%A7%D9%86%D9%86%D8%AF+%D8%A7%D8%B2+%D8%A2%D9%86+%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87+%DA%A9%D9%86%D9%86%D8%AF%D8%9F&amp;chip=Accessibility&amp;date=%DB%B4+%D8%AF%DB%8C+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=547824" type="image/png" length="0" />
       <category>Accessibility</category>
       <category>Accessibility</category>
       <category>HTML</category>
@@ -262,10 +262,10 @@
     </item>
     <item>
       <title>امنیت فرانت‌اند؛ چه اطلاعاتی را نباید هرگز به مرورگر بسپاریم؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/frontend-security-secrets</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/frontend-security-secrets</guid>
+      <link>https://xamir13.github.io/blog/frontend-security-secrets</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/frontend-security-secrets</guid>
       <description>مرورگر مرز اعتماد نیست؛ چرا Secretها، تصمیم‌های امنیتی و اعتبارسنجی هرگز نباید فقط به فرانت‌اند سپرده شوند و XSS چگونه شکل می‌گیرد.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%D8%A7%D9%85%D9%86%DB%8C%D8%AA+%D9%81%D8%B1%D8%A7%D9%86%D8%AA%E2%80%8C%D8%A7%D9%86%D8%AF%D8%9B+%DA%86%D9%87+%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%DB%8C+%D8%B1%D8%A7+%D9%86%D8%A8%D8%A7%DB%8C%D8%AF+%D9%87%D8%B1%DA%AF%D8%B2+%D8%A8%D9%87+%D9%85%D8%B1%D9%88%D8%B1%DA%AF%D8%B1+%D8%A8%D8%B3%D9%BE%D8%A7%D8%B1%DB%8C%D9%85%D8%9F&amp;chip=%D8%A7%D9%85%D9%86%DB%8C%D8%AA+%D9%88%D8%A8&amp;date=%DB%B2%DB%B0+%D8%A2%D8%B0%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=l98kd" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%D8%A7%D9%85%D9%86%DB%8C%D8%AA+%D9%81%D8%B1%D8%A7%D9%86%D8%AA%E2%80%8C%D8%A7%D9%86%D8%AF%D8%9B+%DA%86%D9%87+%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%DB%8C+%D8%B1%D8%A7+%D9%86%D8%A8%D8%A7%DB%8C%D8%AF+%D9%87%D8%B1%DA%AF%D8%B2+%D8%A8%D9%87+%D9%85%D8%B1%D9%88%D8%B1%DA%AF%D8%B1+%D8%A8%D8%B3%D9%BE%D8%A7%D8%B1%DB%8C%D9%85%D8%9F&amp;chip=%D8%A7%D9%85%D9%86%DB%8C%D8%AA+%D9%88%D8%A8&amp;date=%DB%B2%DB%B0+%D8%A2%D8%B0%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=l98kd" type="image/png" length="0" />
       <category>امنیت وب</category>
       <category>امنیت وب</category>
       <category>XSS</category>
@@ -275,10 +275,10 @@
     </item>
     <item>
       <title>REST API چیست و چگونه یک API حرفه‌ای طراحی کنیم؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/rest-api-design</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/rest-api-design</guid>
+      <link>https://xamir13.github.io/blog/rest-api-design</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/rest-api-design</guid>
       <description>از متدهای HTTP و Status Codeها تا ساختار پاسخ منظم و صفحه‌بندی؛ اصول طراحی یک REST API حرفه‌ای با قرارداد مشخص.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=REST+API+%DA%86%DB%8C%D8%B3%D8%AA+%D9%88+%DA%86%DA%AF%D9%88%D9%86%D9%87+%DB%8C%DA%A9+API+%D8%AD%D8%B1%D9%81%D9%87%E2%80%8C%D8%A7%DB%8C+%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C+%DA%A9%D9%86%DB%8C%D9%85%D8%9F&amp;chip=Backend&amp;date=%DB%B6+%D8%A2%D8%B0%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1rybpzb" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=REST+API+%DA%86%DB%8C%D8%B3%D8%AA+%D9%88+%DA%86%DA%AF%D9%88%D9%86%D9%87+%DB%8C%DA%A9+API+%D8%AD%D8%B1%D9%81%D9%87%E2%80%8C%D8%A7%DB%8C+%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C+%DA%A9%D9%86%DB%8C%D9%85%D8%9F&amp;chip=Backend&amp;date=%DB%B6+%D8%A2%D8%B0%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1rybpzb" type="image/png" length="0" />
       <category>Backend</category>
       <category>Backend</category>
       <category>REST</category>
@@ -288,10 +288,10 @@
     </item>
     <item>
       <title>SQL یا NoSQL؛ کدام پایگاه داده برای پروژه ما مناسب‌تر است؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/sql-vs-nosql</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/sql-vs-nosql</guid>
+      <link>https://xamir13.github.io/blog/sql-vs-nosql</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/sql-vs-nosql</guid>
       <description>پایگاه داده رابطه‌ای یا NoSQL؟ معیارهای انتخاب مانند روابط داده‌ها، تراکنش‌ها، شکل داده‌ها و مقیاس‌پذیری را مرور می‌کنیم تا انتخاب آگاهانه‌تری داشته باشید.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=SQL+%DB%8C%D8%A7+NoSQL%D8%9B+%DA%A9%D8%AF%D8%A7%D9%85+%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87+%D8%AF%D8%A7%D8%AF%D9%87+%D8%A8%D8%B1%D8%A7%DB%8C+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D9%85%D8%A7+%D9%85%D9%86%D8%A7%D8%B3%D8%A8%E2%80%8C%D8%AA%D8%B1+%D8%A7%D8%B3%D8%AA%D8%9F&amp;chip=Database&amp;date=%DB%B2%DB%B2+%D8%A2%D8%A8%D8%A7%D9%86+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=7837c9" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=SQL+%DB%8C%D8%A7+NoSQL%D8%9B+%DA%A9%D8%AF%D8%A7%D9%85+%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87+%D8%AF%D8%A7%D8%AF%D9%87+%D8%A8%D8%B1%D8%A7%DB%8C+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D9%85%D8%A7+%D9%85%D9%86%D8%A7%D8%B3%D8%A8%E2%80%8C%D8%AA%D8%B1+%D8%A7%D8%B3%D8%AA%D8%9F&amp;chip=Database&amp;date=%DB%B2%DB%B2+%D8%A2%D8%A8%D8%A7%D9%86+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=7837c9" type="image/png" length="0" />
       <category>Database</category>
       <category>Database</category>
       <category>SQL</category>
@@ -301,10 +301,10 @@
     </item>
     <item>
       <title>Database Index چیست و چرا می‌تواند جست‌وجو را سریع‌تر کند؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/database-index-explained</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/database-index-explained</guid>
+      <link>https://xamir13.github.io/blog/database-index-explained</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/database-index-explained</guid>
       <description>Index مانند فهرست کتاب جست‌وجو را سریع می‌کند، اما همیشه هم خوب نیست؛ با ساختار Index، هزینه‌های آن و خواندن Query Plan آشنا می‌شویم.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=Database+Index+%DA%86%DB%8C%D8%B3%D8%AA+%D9%88+%DA%86%D8%B1%D8%A7+%D9%85%DB%8C%E2%80%8C%D8%AA%D9%88%D8%A7%D9%86%D8%AF+%D8%AC%D8%B3%D8%AA%E2%80%8C%D9%88%D8%AC%D9%88+%D8%B1%D8%A7+%D8%B3%D8%B1%DB%8C%D8%B9%E2%80%8C%D8%AA%D8%B1+%DA%A9%D9%86%D8%AF%D8%9F&amp;chip=Database+Performance&amp;date=%DB%B8+%D8%A2%D8%A8%D8%A7%D9%86+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=kuce1a" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=Database+Index+%DA%86%DB%8C%D8%B3%D8%AA+%D9%88+%DA%86%D8%B1%D8%A7+%D9%85%DB%8C%E2%80%8C%D8%AA%D9%88%D8%A7%D9%86%D8%AF+%D8%AC%D8%B3%D8%AA%E2%80%8C%D9%88%D8%AC%D9%88+%D8%B1%D8%A7+%D8%B3%D8%B1%DB%8C%D8%B9%E2%80%8C%D8%AA%D8%B1+%DA%A9%D9%86%D8%AF%D8%9F&amp;chip=Database+Performance&amp;date=%DB%B8+%D8%A2%D8%A8%D8%A7%D9%86+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=kuce1a" type="image/png" length="0" />
       <category>Database Performance</category>
       <category>Database</category>
       <category>Index</category>
@@ -314,10 +314,10 @@
     </item>
     <item>
       <title>احراز هویت مدرن در وب؛ Session، JWT و Refresh Token</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/modern-web-authentication</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/modern-web-authentication</guid>
+      <link>https://xamir13.github.io/blog/modern-web-authentication</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/modern-web-authentication</guid>
       <description>Authentication و Authorization چه تفاوتی دارند؟ مروری بر مدل Session، ساختار JWT، نقش Refresh Token و نکات امنیتی احراز هویت مدرن.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%D8%A7%D8%AD%D8%B1%D8%A7%D8%B2+%D9%87%D9%88%DB%8C%D8%AA+%D9%85%D8%AF%D8%B1%D9%86+%D8%AF%D8%B1+%D9%88%D8%A8%D8%9B+Session%D8%8C+JWT+%D9%88+Refresh+Token&amp;chip=Authentication&amp;date=%DB%B2%DB%B4+%D9%85%D9%87%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1udhvfi" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%D8%A7%D8%AD%D8%B1%D8%A7%D8%B2+%D9%87%D9%88%DB%8C%D8%AA+%D9%85%D8%AF%D8%B1%D9%86+%D8%AF%D8%B1+%D9%88%D8%A8%D8%9B+Session%D8%8C+JWT+%D9%88+Refresh+Token&amp;chip=Authentication&amp;date=%DB%B2%DB%B4+%D9%85%D9%87%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1udhvfi" type="image/png" length="0" />
       <category>Authentication</category>
       <category>Authentication</category>
       <category>JWT</category>
@@ -327,10 +327,10 @@
     </item>
     <item>
       <title>چگونه یک سیستم آپلود فایل امن بسازیم؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/secure-file-upload</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/secure-file-upload</guid>
+      <link>https://xamir13.github.io/blog/secure-file-upload</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/secure-file-upload</guid>
       <description>آپلود فایل یکی از حساس‌ترین قابلیت‌های وب است؛ از محدودیت اندازه و بررسی نوع واقعی فایل تا نام‌گذاری امن، کنترل دسترسی و ثبت رخدادها.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%DA%86%DA%AF%D9%88%D9%86%D9%87+%DB%8C%DA%A9+%D8%B3%DB%8C%D8%B3%D8%AA%D9%85+%D8%A2%D9%BE%D9%84%D9%88%D8%AF+%D9%81%D8%A7%DB%8C%D9%84+%D8%A7%D9%85%D9%86+%D8%A8%D8%B3%D8%A7%D8%B2%DB%8C%D9%85%D8%9F&amp;chip=Flask+%D9%88+%D8%A7%D9%85%D9%86%DB%8C%D8%AA&amp;date=%DB%B1%DB%B0+%D9%85%D9%87%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1hqnh7x" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%DA%86%DA%AF%D9%88%D9%86%D9%87+%DB%8C%DA%A9+%D8%B3%DB%8C%D8%B3%D8%AA%D9%85+%D8%A2%D9%BE%D9%84%D9%88%D8%AF+%D9%81%D8%A7%DB%8C%D9%84+%D8%A7%D9%85%D9%86+%D8%A8%D8%B3%D8%A7%D8%B2%DB%8C%D9%85%D8%9F&amp;chip=Flask+%D9%88+%D8%A7%D9%85%D9%86%DB%8C%D8%AA&amp;date=%DB%B1%DB%B0+%D9%85%D9%87%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1hqnh7x" type="image/png" length="0" />
       <category>Flask و امنیت</category>
       <category>Flask</category>
       <category>امنیت وب</category>
@@ -340,10 +340,10 @@
     </item>
     <item>
       <title>تست‌نویسی از صفر؛ Unit، Integration و End-to-End چه تفاوتی دارند؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/testing-unit-integration-e2e</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/testing-unit-integration-e2e</guid>
+      <link>https://xamir13.github.io/blog/testing-unit-integration-e2e</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/testing-unit-integration-e2e</guid>
       <description>Unit، Integration و End-to-End چه تفاوتی دارند و هر کدام چه چیزی را بررسی می‌کنند؟ ویژگی‌های تست خوب و اهمیت بیشتر تست در دوران تولید کد با AI.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%D8%AA%D8%B3%D8%AA%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C+%D8%A7%D8%B2+%D8%B5%D9%81%D8%B1%D8%9B+Unit%D8%8C+Integration+%D9%88+End-to-End+%DA%86%D9%87+%D8%AA%D9%81%D8%A7%D9%88%D8%AA%DB%8C+%D8%AF%D8%A7%D8%B1%D9%86%D8%AF%D8%9F&amp;chip=Testing&amp;date=%DB%B2%DB%B7+%D8%B4%D9%87%D8%B1%DB%8C%D9%88%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=5q5e5u" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%D8%AA%D8%B3%D8%AA%E2%80%8C%D9%86%D9%88%DB%8C%D8%B3%DB%8C+%D8%A7%D8%B2+%D8%B5%D9%81%D8%B1%D8%9B+Unit%D8%8C+Integration+%D9%88+End-to-End+%DA%86%D9%87+%D8%AA%D9%81%D8%A7%D9%88%D8%AA%DB%8C+%D8%AF%D8%A7%D8%B1%D9%86%D8%AF%D8%9F&amp;chip=Testing&amp;date=%DB%B2%DB%B7+%D8%B4%D9%87%D8%B1%DB%8C%D9%88%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=5q5e5u" type="image/png" length="0" />
       <category>Testing</category>
       <category>Testing</category>
       <category>Unit Test</category>
@@ -353,10 +353,10 @@
     </item>
     <item>
       <title>Docker چیست و چرا توسعه‌دهنده باید کانتینرها را بشناسد؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/what-is-docker</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/what-is-docker</guid>
+      <link>https://xamir13.github.io/blog/what-is-docker</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/what-is-docker</guid>
       <description>Image و Container چه تفاوتی دارند؟ چرا Docker محیط‌های توسعه را یکدست می‌کند و Dockerfile چگونه این فرایند را توصیف می‌کند.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=Docker+%DA%86%DB%8C%D8%B3%D8%AA+%D9%88+%DA%86%D8%B1%D8%A7+%D8%AA%D9%88%D8%B3%D8%B9%D9%87%E2%80%8C%D8%AF%D9%87%D9%86%D8%AF%D9%87+%D8%A8%D8%A7%DB%8C%D8%AF+%DA%A9%D8%A7%D9%86%D8%AA%DB%8C%D9%86%D8%B1%D9%87%D8%A7+%D8%B1%D8%A7+%D8%A8%D8%B4%D9%86%D8%A7%D8%B3%D8%AF%D8%9F&amp;chip=DevOps&amp;date=%DB%B1%DB%B3+%D8%B4%D9%87%D8%B1%DB%8C%D9%88%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=mhiuq3" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=Docker+%DA%86%DB%8C%D8%B3%D8%AA+%D9%88+%DA%86%D8%B1%D8%A7+%D8%AA%D9%88%D8%B3%D8%B9%D9%87%E2%80%8C%D8%AF%D9%87%D9%86%D8%AF%D9%87+%D8%A8%D8%A7%DB%8C%D8%AF+%DA%A9%D8%A7%D9%86%D8%AA%DB%8C%D9%86%D8%B1%D9%87%D8%A7+%D8%B1%D8%A7+%D8%A8%D8%B4%D9%86%D8%A7%D8%B3%D8%AF%D8%9F&amp;chip=DevOps&amp;date=%DB%B1%DB%B3+%D8%B4%D9%87%D8%B1%DB%8C%D9%88%D8%B1+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=mhiuq3" type="image/png" length="0" />
       <category>DevOps</category>
       <category>DevOps</category>
       <category>Docker</category>
@@ -366,10 +366,10 @@
     </item>
     <item>
       <title>CI/CD چیست و چگونه انتشار نرم‌افزار را خودکار کنیم؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/what-is-ci-cd</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/what-is-ci-cd</guid>
+      <link>https://xamir13.github.io/blog/what-is-ci-cd</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/what-is-ci-cd</guid>
       <description>از Continuous Integration تا Continuous Deployment؛ ساختار یک Pipeline نمونه، فایده‌های CI/CD و نکات مهم مدیریت Secretها و مجوزها.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=CI%2FCD+%DA%86%DB%8C%D8%B3%D8%AA+%D9%88+%DA%86%DA%AF%D9%88%D9%86%D9%87+%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1+%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1+%D8%B1%D8%A7+%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1+%DA%A9%D9%86%DB%8C%D9%85%D8%9F&amp;chip=DevOps&amp;date=%DB%B3%DB%B0+%D9%85%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1x28ggp" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=CI%2FCD+%DA%86%DB%8C%D8%B3%D8%AA+%D9%88+%DA%86%DA%AF%D9%88%D9%86%D9%87+%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1+%D9%86%D8%B1%D9%85%E2%80%8C%D8%A7%D9%81%D8%B2%D8%A7%D8%B1+%D8%B1%D8%A7+%D8%AE%D9%88%D8%AF%DA%A9%D8%A7%D8%B1+%DA%A9%D9%86%DB%8C%D9%85%D8%9F&amp;chip=DevOps&amp;date=%DB%B3%DB%B0+%D9%85%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=1x28ggp" type="image/png" length="0" />
       <category>DevOps</category>
       <category>DevOps</category>
       <category>CI/CD</category>
@@ -379,10 +379,10 @@
     </item>
     <item>
       <title>چگونه یک پروژه متن‌باز حرفه‌ای در GitHub بسازیم؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/professional-open-source-on-github</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/professional-open-source-on-github</guid>
+      <link>https://xamir13.github.io/blog/professional-open-source-on-github</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/professional-open-source-on-github</guid>
       <description>قرار دادن کد در GitHub به‌تنهایی کافی نیست؛ README خوب، ساختار مرتب Repository، Issue و Pull Request، مجوز و امنیت Repository را مرور می‌کنیم.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%DA%86%DA%AF%D9%88%D9%86%D9%87+%DB%8C%DA%A9+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D9%85%D8%AA%D9%86%E2%80%8C%D8%A8%D8%A7%D8%B2+%D8%AD%D8%B1%D9%81%D9%87%E2%80%8C%D8%A7%DB%8C+%D8%AF%D8%B1+GitHub+%D8%A8%D8%B3%D8%A7%D8%B2%DB%8C%D9%85%D8%9F&amp;chip=Git+%D9%88+GitHub&amp;date=%DB%B1%DB%B6+%D9%85%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=la5mo1" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%DA%86%DA%AF%D9%88%D9%86%D9%87+%DB%8C%DA%A9+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D9%85%D8%AA%D9%86%E2%80%8C%D8%A8%D8%A7%D8%B2+%D8%AD%D8%B1%D9%81%D9%87%E2%80%8C%D8%A7%DB%8C+%D8%AF%D8%B1+GitHub+%D8%A8%D8%B3%D8%A7%D8%B2%DB%8C%D9%85%D8%9F&amp;chip=Git+%D9%88+GitHub&amp;date=%DB%B1%DB%B6+%D9%85%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=la5mo1" type="image/png" length="0" />
       <category>Git و GitHub</category>
       <category>Git</category>
       <category>GitHub</category>
@@ -392,10 +392,10 @@
     </item>
     <item>
       <title>از پروژه شخصی تا محصول واقعی؛ چه چیزهایی قبل از انتشار مهم‌اند؟</title>
-      <link>https://azazamir139-glitch.github.io/xamircode.github.io/blog/from-personal-project-to-production</link>
-      <guid isPermaLink="true">https://azazamir139-glitch.github.io/xamircode.github.io/blog/from-personal-project-to-production</guid>
+      <link>https://xamir13.github.io/blog/from-personal-project-to-production</link>
+      <guid isPermaLink="true">https://xamir13.github.io/blog/from-personal-project-to-production</guid>
       <description>انتشار محصول، شروع مرحله‌ی جدید توسعه است؛ چک‌لیست امنیت، پشتیبان‌گیری، عملکرد، تجربه کاربر و مستندات پیش از عرضه‌ی واقعی پروژه.</description>
-      <enclosure url="https://azazamir139-glitch.github.io/xamircode.github.io/api/og?title=%D8%A7%D8%B2+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D8%B4%D8%AE%D8%B5%DB%8C+%D8%AA%D8%A7+%D9%85%D8%AD%D8%B5%D9%88%D9%84+%D9%88%D8%A7%D9%82%D8%B9%DB%8C%D8%9B+%DA%86%D9%87+%DA%86%DB%8C%D8%B2%D9%87%D8%A7%DB%8C%DB%8C+%D9%82%D8%A8%D9%84+%D8%A7%D8%B2+%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1+%D9%85%D9%87%D9%85%E2%80%8C%D8%A7%D9%86%D8%AF%D8%9F&amp;chip=Full+Stack&amp;date=%DB%B2+%D9%85%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=dkdnau" type="image/png" length="0" />
+      <enclosure url="https://xamir13.github.io/api/og?title=%D8%A7%D8%B2+%D9%BE%D8%B1%D9%88%DA%98%D9%87+%D8%B4%D8%AE%D8%B5%DB%8C+%D8%AA%D8%A7+%D9%85%D8%AD%D8%B5%D9%88%D9%84+%D9%88%D8%A7%D9%82%D8%B9%DB%8C%D8%9B+%DA%86%D9%87+%DA%86%DB%8C%D8%B2%D9%87%D8%A7%DB%8C%DB%8C+%D9%82%D8%A8%D9%84+%D8%A7%D8%B2+%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1+%D9%85%D9%87%D9%85%E2%80%8C%D8%A7%D9%86%D8%AF%D8%9F&amp;chip=Full+Stack&amp;date=%DB%B2+%D9%85%D8%B1%D8%AF%D8%A7%D8%AF+%DB%B1%DB%B4%DB%B0%DB%B4&amp;v=dkdnau" type="image/png" length="0" />
       <category>Full Stack</category>
       <category>Full Stack</category>
       <category>Release</category>
