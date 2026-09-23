@@ -29,7 +29,9 @@ import { DepthRegion } from "@/components/site/depth-region";
      CSS animation translates by -50%; spacing uses margin (not flex
      gap) so both halves are pixel-identical — no jump on wrap.
    • Hover on an item lifts it (scale/translate + green glow) while
-     its row pauses so it stays readable.
+     its row pauses so it stays readable — hover-capable pointers only
+     (a touch tap can never leave a row stuck paused or an item stuck
+     lifted; see the @media (hover: hover) scoping in globals.css).
    • Pure CSS animation (compositor-only); paused off-screen via
      IntersectionObserver; static under prefers-reduced-motion.
    ==================================================================== */

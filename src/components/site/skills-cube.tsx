@@ -31,13 +31,20 @@ import type { SkillCategory } from "@/lib/site-data";
      Space, aria-pressed) and flips to a small real-3D cube showing
      that category's four strongest tools — native CSS preserve-3d,
      no libraries, compositor-only, fully reversible.
-   • FREE ROTATION: every cube can be dragged with the mouse/pen and
-     spun continuously in ANY direction (no angle snapping). The drag
-     continues seamlessly from the idle orbit's exact current pose,
-     releases with inertia into the same slow idle drift, and never
-     snaps back. Touch is left untouched (tap still flips, page scroll
-     is never hijacked); under prefers-reduced-motion a drag freezes
-     in place with no autonomous motion.
+   • FREE ROTATION on EVERY pointer type: each cube can be dragged —
+     mouse, pen AND finger (Pointer Events, one shared code path) —
+     and spun continuously in ANY direction (no angle snapping). The
+     drag continues seamlessly from the idle orbit's exact current
+     pose, releases with inertia into the same slow idle drift, and
+     never snaps back. Touch drags are exclusive to the cube surface
+     (touch-action: none on .cube-scene only) so page scrolling stays
+     native everywhere else; a touch TAP below the slop threshold
+     still flips the card, and a real drag never does (no double
+     triggering). Under prefers-reduced-motion a drag freezes in
+     place with no autonomous motion.
+   • Responsiveness: drag deltas are applied immediately (no lerp
+     delay), coalesced pointer events are replayed for high-rate
+     input, and sensitivity is tuned for an instant trackball feel.
    • The cube is the ONLY content on the flip's back face — no text,
      label or caption underneath it (per request).
    ==================================================================== */
@@ -90,10 +97,14 @@ const FACE_TRANSFORMS = [
 ];
 
 /** deg per px of pointer travel — natural trackball feel. */
-const DRAG_SENS = 0.35;
+const DRAG_SENS = 0.55;
 /** Post-release idle drift ≈ the original 40s slow orbit (deg/frame). */
 const IDLE_SPIN = 0.15;
 const INERTIA_DECAY = 0.92;
+/** How far a pointer may travel and still count as a tap (flip), not a
+ *  drag. Touch taps wobble, so they get the finger-friendly slop. */
+const TAP_SLOP_TOUCH = 12;
+const TAP_SLOP_MOUSE = 4;
 
 /**
  * Read the cube's CURRENT animated rotation so a drag continues the
@@ -145,9 +156,12 @@ export function TechCube({
   const vel = React.useRef({ rx: 0, ry: 0 });
   const drag = React.useRef<{
     id: number;
+    type: string;
     lastX: number;
     lastY: number;
     dist: number;
+    /** true once the pointer traveled past the tap slop → real drag */
+    crossed: boolean;
   } | null>(null);
   const suppressClick = React.useRef(false);
   const manual = React.useRef(false); /* JS owns the transform */
@@ -179,7 +193,14 @@ export function TechCube({
         pose.current.rx += vel.current.rx;
         pose.current.ry += vel.current.ry;
       }
-      cube.style.transform = `rotateX(${pose.current.rx}deg) rotateY(${pose.current.ry}deg)`;
+      /* Write the transform only while the cube is actually visible to
+         the user (its card flipped). A front-facing card's cube is
+         backface-hidden — updating it would burn compositor work for
+         nothing on phones. The loop itself stays cheap either way. */
+      const host = cube.closest(".flip-inner");
+      if (!host || host.classList.contains("is-flipped")) {
+        cube.style.transform = `rotateX(${pose.current.rx}deg) rotateY(${pose.current.ry}deg)`;
+      }
       raf = requestAnimationFrame(step);
     }
     controls.current = {
@@ -214,11 +235,15 @@ export function TechCube({
   }, []);
 
   const onPointerDown = (e: React.PointerEvent<HTMLDivElement>) => {
-    /* Mouse/pen only — touch keeps native tap-to-flip + page scroll. */
-    if (e.pointerType === "touch" || e.button !== 0) return;
+    /* ONE shared path for mouse, pen and touch (Pointer Events). Right
+       buttons never drag. Touch skips preventDefault so a tap still
+       produces the click that flips the card; mouse/pen keep it to
+       suppress text selection and native icon dragging. Page scroll is
+       unaffected: touch-action: none lives on .cube-scene only. */
+    if (e.pointerType === "mouse" && e.button !== 0) return;
     const cube = cubeRef.current;
     if (!cube) return;
-    e.preventDefault(); /* no text selection / native image drag */
+    if (e.pointerType !== "touch") e.preventDefault();
     if (!manual.current) {
       /* Seamless handoff: continue from the orbit's exact pose — written
          synchronously so no frame ever shows an unrotated cube. */
@@ -229,9 +254,11 @@ export function TechCube({
     }
     drag.current = {
       id: e.pointerId,
+      type: e.pointerType,
       lastX: e.clientX,
       lastY: e.clientY,
       dist: 0,
+      crossed: false,
     };
     vel.current = { rx: 0, ry: 0 };
     try {
@@ -245,23 +272,47 @@ export function TechCube({
   const onPointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
     const d = drag.current;
     if (!d || d.id !== e.pointerId) return;
-    const dx = e.clientX - d.lastX;
-    const dy = e.clientY - d.lastY;
-    d.lastX = e.clientX;
-    d.lastY = e.clientY;
-    d.dist += Math.abs(dx) + Math.abs(dy);
-    pose.current.ry += dx * DRAG_SENS;
-    pose.current.rx -= dy * DRAG_SENS;
-    vel.current.ry = dx * DRAG_SENS;
-    vel.current.rx = -dy * DRAG_SENS;
+    /* Replay coalesced events: high-rate pointers (120Hz screens,
+       stylus) deliver several samples per frame — folding them in
+       keeps fast finger movement smooth instead of choppy. */
+    const coalesced =
+      typeof e.getCoalescedEvents === "function"
+        ? e.getCoalescedEvents()
+        : [];
+    const list = coalesced.length > 0 ? coalesced : [e];
+    const slop = d.type === "touch" ? TAP_SLOP_TOUCH : TAP_SLOP_MOUSE;
+    let ax = 0;
+    let ay = 0;
+    for (const ev of list) {
+      const dx = ev.clientX - d.lastX;
+      const dy = ev.clientY - d.lastY;
+      d.lastX = ev.clientX;
+      d.lastY = ev.clientY;
+      d.dist += Math.abs(dx) + Math.abs(dy);
+      ax += dx;
+      ay += dy;
+    }
+    if (!d.crossed) {
+      if (d.dist <= slop) return; /* still a tap — absorb the wobble */
+      /* Just crossed into a real drag: discard the pre-slop wobble so
+         the cube never snaps, then rotate 1:1 from the next sample. */
+      d.crossed = true;
+      return;
+    }
+    pose.current.ry += ax * DRAG_SENS;
+    pose.current.rx -= ay * DRAG_SENS;
+    /* Immediate velocity → release inertia continues the motion. */
+    vel.current.ry = ax * DRAG_SENS;
+    vel.current.rx = -ay * DRAG_SENS;
   };
 
   const onPointerEnd = (e: React.PointerEvent<HTMLDivElement>) => {
     const d = drag.current;
     if (!d || d.id !== e.pointerId) return;
     drag.current = null;
-    /* A real drag must NOT flip the card (the click follows pointerup). */
-    suppressClick.current = d.dist > 4;
+    /* A real drag must NOT flip the card (the click follows pointerup);
+       a tap below the slop still flips — no double triggering. */
+    suppressClick.current = d.crossed;
     if (reduceRef.current) controls.current.stop(); /* freeze in place */
   };
 
@@ -281,6 +332,7 @@ export function TechCube({
       onPointerUp={onPointerEnd}
       onPointerCancel={onPointerEnd}
       onClickCapture={onClickCapture}
+      onContextMenu={(e) => e.preventDefault() /* long-press guard */}
       style={{ width: size, height: size } as React.CSSProperties}
     >
       <div
@@ -336,10 +388,21 @@ export function TechCube({
 function TechFlipCard({ category }: { category: SkillCategory }) {
   const { t, pick } = useLang();
   const [flipped, setFlipped] = React.useState(false);
+  const innerRef = React.useRef<HTMLDivElement>(null);
   const cubeFaces = CATEGORY_CUBES[category.id] ?? [];
   const title = pick(category.title, category.titleEn);
 
   const toggle = () => setFlipped((f) => !f);
+
+  /* A front-facing card's cube is backface-hidden — pause its CSS orbit
+     so phones never composite 60fps animation for an invisible cube. */
+  React.useEffect(() => {
+    innerRef.current
+      ?.querySelectorAll<HTMLElement>(".cube")
+      .forEach((cube) => {
+        cube.style.animationPlayState = flipped ? "running" : "paused";
+      });
+  }, [flipped]);
 
   return (
     /* Premium depth hover on the outer scene (flat tilt only — the inner
@@ -352,6 +415,7 @@ function TechFlipCard({ category }: { category: SkillCategory }) {
     >
     <div className="flip-scene h-full w-full">
       <div
+        ref={innerRef}
         role="button"
         tabIndex={0}
         aria-pressed={flipped}
@@ -425,16 +489,21 @@ export function SkillsShowcase({
 }) {
   const gridRef = React.useRef<HTMLDivElement>(null);
 
-  /* Pause every mini cube's orbit while the section is off-screen. */
+  /* Pause every mini cube while the section is off-screen OR its card
+     is front-facing (the cube is backface-hidden there — animating it
+     would be invisible compositor work, which phones pay for). */
   React.useEffect(() => {
     const el = gridRef.current;
     if (!el) return;
     const observer = new IntersectionObserver(
       ([entry]) => {
         el.querySelectorAll<HTMLElement>(".cube").forEach((cube) => {
-          cube.style.animationPlayState = entry.isIntersecting
-            ? "running"
-            : "paused";
+          const host = cube.closest(".flip-inner");
+          const shown = host
+            ? host.classList.contains("is-flipped")
+            : true;
+          cube.style.animationPlayState =
+            entry.isIntersecting && shown ? "running" : "paused";
         });
       },
       { threshold: 0.05 }

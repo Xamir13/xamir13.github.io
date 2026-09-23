@@ -83,7 +83,7 @@ export function CodeBlock({
         onClick={handleCopy}
         aria-label={t("code.copyAria")}
         className={cn(
-          "absolute end-2 top-2 z-10 inline-flex h-8 items-center gap-1.5 rounded-md border border-border/60 bg-background/90 px-2 text-xs text-muted-foreground shadow-sm backdrop-blur transition-all",
+          "code-copy-btn absolute end-2 top-2 z-10 inline-flex h-8 items-center gap-1.5 rounded-md border border-border/60 bg-background/90 px-2 text-xs text-muted-foreground shadow-sm backdrop-blur transition-all",
           "opacity-0 group-hover/code:opacity-100 focus-visible:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
           "hover:border-primary/40 hover:text-primary"
         )}
