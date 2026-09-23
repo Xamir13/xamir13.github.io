@@ -142,6 +142,7 @@ const DICT: Record<string, DictEntry> = {
   "proj.previewTitle": { fa: "پیش‌نمایش پروژه", en: "Project preview" },
   "proj.githubAria": { fa: "در گیت‌هاب", en: "on GitHub" },
   "proj.source": { fa: "مشاهده سورس", en: "View source" },
+  "proj.statusLive": { fa: "زنده", en: "Live" },
 
   /* experience cards */
   "exp.viewProject": { fa: "مشاهده صفحه پروژه", en: "View the project page" },

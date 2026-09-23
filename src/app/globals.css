@@ -528,6 +528,17 @@ html.custom-cursor-active summary {
       var(--glow-soft);
     filter: saturate(1.05) brightness(1.02);
   }
+  /* The brand mark gains a breath of its own depth and the name comes
+     fully forward — the technology reads as a floating object, not text. */
+  .tech-item svg {
+    transition: transform var(--dur-med) var(--ease-spring);
+  }
+  .tech-item:hover svg {
+    transform: scale(1.12) translateZ(0);
+  }
+  .tech-item:hover .tech-item-name {
+    color: hsl(var(--foreground) / 1);
+  }
 }
 
 /* ============================================================
@@ -863,6 +874,97 @@ html.custom-cursor-active summary {
 /* Touch pointers have no hover — never introduce a stuck glow state. */
 @media (hover: none) {
   .glow-halo {
+    display: none;
+  }
+}
+
+/* ============================================================
+   9c) INTERACTIVE INTELLIGENCE CARD — unified depth-layer system
+   A card is treated as a small physical/digital object: the tilt
+   surface (TiltCard) publishes a lerped, normalised pointer as
+   --par-x / --par-y (-1 … 1) plus a percentage light position as
+   --mx / --my, and ANY descendant can opt into the illusion:
+
+     [data-il]                inner parallax layer (XY shift by
+                              its own --il-depth multiplier)
+     .il-media                media/logo plane — zooms + lifts on hover
+     .il-border               cursor-reactive 1px brand-green border light
+     .il-hl                   muted highlight line that brightens on hover
+
+   Everything is transform/opacity only; the values are already
+   smoothed by TiltCard's rAF lerp, so no CSS transition fights it.
+   Touch devices: --par-* never leave 0 (TiltCard is mouse-only) and
+   the hover-only layers are display:none — cards stay calm and fully
+   clickable. Reduced motion: same, plus no transitions.
+   ============================================================ */
+[data-il] {
+  transform: translate3d(
+    calc(var(--par-x, 0) * var(--il-depth, 0) * 1px),
+    calc(var(--par-y, 0) * var(--il-depth, 0) * 1px),
+    0
+  );
+}
+/* Media plane — the logo/image gains a breath of zoom while the card
+   is hovered. The zoom lives on an INNER element (.il-media) while its
+   [data-il] wrapper owns the parallax: the 620ms transition then only
+   eases the hover zoom and can never lag the pointer parallax. */
+.il-media {
+  transition: transform 620ms var(--ease-out-expo);
+}
+@media (hover: hover) and (pointer: fine) {
+  .tilt-scene:hover .il-media {
+    transform: scale(1.045);
+  }
+}
+/* Cursor-reactive hairline border — a 1px ring masked out of a radial
+   glow so only the border lights up, brightest toward the cursor. */
+.il-border {
+  opacity: 0;
+  padding: 1px;
+  background: radial-gradient(
+    220px circle at var(--mx, 50%) var(--my, 50%),
+    hsl(var(--primary) / 0.6) 0%,
+    hsl(var(--primary) / 0.14) 42%,
+    transparent 72%
+  );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+  transition: opacity 460ms var(--ease-out-quart);
+}
+@media (hover: hover) and (pointer: fine) {
+  .tilt-scene:hover .il-border {
+    opacity: 1;
+  }
+}
+/* Muted metadata line that quietly comes forward on hover. */
+.il-hl {
+  transition: color var(--dur-med) var(--ease-out-quart);
+}
+@media (hover: hover) and (pointer: fine) {
+  .tilt-scene:hover .il-hl {
+    color: hsl(var(--foreground) / 0.92);
+  }
+}
+/* Touch + reduced motion: the hover-only chrome disappears entirely. */
+@media (hover: none) {
+  .il-border {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-il] {
+    transform: none;
+  }
+  .il-media {
+    transition: none;
+  }
+  .il-border {
     display: none;
   }
 }

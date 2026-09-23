@@ -145,16 +145,54 @@ function ProjectCard({
   const { lang, t, pick } = useLang();
   const title = pick(project.title, project.titleEn);
   const tags = lang === "en" ? (project.tagsEn ?? project.tags) : project.tags;
+  /* Existing content, surfaced for the hover-priority layer: the first
+     features double as the card's highlight line (nothing invented). */
+  const features =
+    lang === "en"
+      ? (project.featuresEn ?? project.features)
+      : project.features;
+  const highlights = features.slice(0, 3).join("  ·  ");
   // Cards navigate to the project detail page, exactly like the reference.
   const href = `/projects/${project.slug}`;
   const inner = (
     <Card className="w-full transition-all duration-200 bg-card border border-border/50 shadow-sm hover:shadow-md hover:border-primary/20 dark:hover:border-primary/30">
       <div className="space-y-1.5 p-6 flex flex-col gap-2">
         <div className="flex flex-wrap items-center justify-between gap-2">
-          <h3 className="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors">
-            {title}
-          </h3>
-          <div className="flex items-center gap-2">
+          {/* Layer 2+3 — project identity: the existing logo gains real
+              depth (parallax wrapper + hover zoom on the inner media). */}
+          <div className="flex min-w-0 items-center gap-3">
+            {project.icon ? (
+              <span
+                data-il=""
+                style={{ "--il-depth": 9 } as React.CSSProperties}
+                className="shrink-0"
+              >
+                <span className="il-media block">
+                  <img
+                    src={withBase(project.icon)}
+                    alt=""
+                    aria-hidden="true"
+                    className="h-11 w-11 rounded-lg border border-border/60 bg-white object-contain p-1 shadow-sm"
+                    loading="lazy"
+                    decoding="async"
+                    draggable={false}
+                  />
+                </span>
+              </span>
+            ) : null}
+            <h3
+              data-il=""
+              style={{ "--il-depth": 5 } as React.CSSProperties}
+              className="font-semibold tracking-tight text-xl group-hover:text-primary transition-colors"
+            >
+              {title}
+            </h3>
+          </div>
+          <div
+            data-il=""
+            style={{ "--il-depth": 7 } as React.CSSProperties}
+            className="flex items-center gap-2"
+          >
             {/* In-site preview trigger — opens the project preview modal
                 instead of navigating anywhere. Every project has one. */}
             <span
@@ -189,25 +227,57 @@ function ProjectCard({
             ) : null}
           </div>
         </div>
-        <div className="flex flex-wrap gap-1">
+        <div
+          data-il=""
+          style={{ "--il-depth": 8 } as React.CSSProperties}
+          className="flex flex-wrap gap-1"
+        >
           {tags.map((tag) => (
             <Badge key={tag}>{tag}</Badge>
           ))}
         </div>
       </div>
       <div className="p-6 pt-0">
-        <p className="text-sm text-foreground/90">
+        <p
+          data-il=""
+          style={{ "--il-depth": 3 } as React.CSSProperties}
+          className="text-sm text-foreground/90"
+        >
           {pick(project.description, project.descriptionEn)}
         </p>
       </div>
-      <div className="p-6 pt-0 pb-6">
+      <div className="p-6 pt-0 pb-6 space-y-2.5">
+        {/* Layer 5 — status + highlights, from EXISTING data only: the
+            dot mirrors the live-demo action's own fact (liveUrl), the
+            line previews the project's first features. Muted at rest,
+            it comes forward on hover and is always visible on touch. */}
+        <div
+          data-il=""
+          style={{ "--il-depth": 5 } as React.CSSProperties}
+          className="il-hl flex min-w-0 flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-muted-foreground"
+        >
+          {project.liveUrl ? (
+            <span className="inline-flex shrink-0 items-center gap-1.5">
+              <span
+                aria-hidden="true"
+                className="h-1.5 w-1.5 rounded-full bg-primary shadow-[0_0_6px_hsl(var(--primary)/0.8)]"
+              />
+              {t("proj.statusLive")}
+            </span>
+          ) : null}
+          {highlights ? (
+            <span dir="auto" className="min-w-0 flex-1 truncate">
+              {highlights}
+            </span>
+          ) : null}
+        </div>
         <LiveDemoAction project={project} />
       </div>
     </Card>
   );
   if (!href) return (
     <div className="block w-full max-w-[500px] group">
-      <TiltCard className="w-full" lightClassName="rounded-lg" glow>
+      <TiltCard className="w-full" lightClassName="rounded-lg" glow borderLight>
         {inner}
       </TiltCard>
     </div>
@@ -219,7 +289,7 @@ function ProjectCard({
       href={href}
       {...(external ? { target: "_blank", rel: "noreferrer noopener" } : {})}
     >
-      <TiltCard className="w-full" lightClassName="rounded-lg" glow>
+      <TiltCard className="w-full" lightClassName="rounded-lg" glow borderLight>
         {inner}
       </TiltCard>
     </a>
@@ -230,20 +300,32 @@ function ServiceCard({ service }: { service: Service }) {
   const { pick } = useLang();
   const Icon = service.icon;
   return (
-    <TiltCard className="w-full max-w-sm" lightClassName="rounded-xl" glow>
+    <TiltCard className="w-full max-w-sm" lightClassName="rounded-xl" glow borderLight>
       <div className="text-card-foreground w-full rounded-xl border border-border bg-card p-4 md:p-5 shadow-sm transition-shadow hover:shadow-md text-start">
         <div className="flex flex-col space-y-1.5 p-0 pb-3">
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
+            <div
+              data-il=""
+              style={{ "--il-depth": 8 } as React.CSSProperties}
+              className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary"
+            >
               <Icon size={22} />
             </div>
-            <h3 className="tracking-tight text-base font-semibold">
+            <h3
+              data-il=""
+              style={{ "--il-depth": 5 } as React.CSSProperties}
+              className="tracking-tight text-base font-semibold"
+            >
               {pick(service.title, service.titleEn)}
             </h3>
           </div>
         </div>
         <div className="p-0">
-          <p className="text-sm text-muted-foreground leading-relaxed">
+          <p
+            data-il=""
+            style={{ "--il-depth": 3 } as React.CSSProperties}
+            className="text-sm text-muted-foreground leading-relaxed"
+          >
             {pick(service.description, service.descriptionEn)}
           </p>
         </div>
@@ -256,15 +338,23 @@ function FunFactCard({ fact }: { fact: FunFact }) {
   const { pick } = useLang();
   const Icon = fact.icon;
   return (
-    <TiltCard className="w-full max-w-xs" lightClassName="rounded-xl" glow>
+    <TiltCard className="w-full max-w-xs" lightClassName="rounded-xl" glow borderLight>
       <div className="text-card-foreground w-full rounded-xl border border-border bg-card p-4 md:p-5 shadow-sm transition-shadow hover:shadow-md text-start">
         <div className="flex flex-col space-y-1.5 p-0 pb-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
+          <div
+            data-il=""
+            style={{ "--il-depth": 8 } as React.CSSProperties}
+            className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary"
+          >
             <Icon size={22} />
           </div>
         </div>
         <div className="p-0">
-          <p className="text-sm text-muted-foreground leading-relaxed">
+          <p
+            data-il=""
+            style={{ "--il-depth": 3 } as React.CSSProperties}
+            className="text-sm text-muted-foreground leading-relaxed"
+          >
             {pick(fact.text, fact.textEn)}
           </p>
         </div>
@@ -277,13 +367,21 @@ function ExperienceCard({ item }: { item: Experience }) {
   const { lang, t, pick } = useLang();
   const ArrowIcon = lang === "fa" ? ArrowLeft : ArrowRight;
   const body = (
-    <TiltCard className="w-full" lightClassName="rounded-xl" glow>
+    <TiltCard className="w-full" lightClassName="rounded-xl" glow borderLight>
       <div className="text-card-foreground w-full rounded-xl border border-border bg-card p-4 md:p-5 shadow-sm transition-all duration-200 hover:shadow-md hover:border-primary/30 text-start">
         <div className="flex flex-col space-y-1.5 p-0 pb-3">
-          <p className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
+          <p
+            data-il=""
+            style={{ "--il-depth": 4 } as React.CSSProperties}
+            className="text-xs font-medium text-muted-foreground uppercase tracking-wider"
+          >
             {pick(item.period, item.periodEn)}
           </p>
-          <h3 className="tracking-tight text-lg font-semibold group-hover:text-primary transition-colors flex items-center gap-2">
+          <h3
+            data-il=""
+            style={{ "--il-depth": 6 } as React.CSSProperties}
+            className="tracking-tight text-lg font-semibold group-hover:text-primary transition-colors flex items-center gap-2"
+          >
             {pick(item.role, item.roleEn)}
             <ArrowIcon
               className={cn(
@@ -295,7 +393,11 @@ function ExperienceCard({ item }: { item: Experience }) {
               aria-hidden="true"
             />
           </h3>
-          <p className="text-muted-foreground text-sm">
+          <p
+            data-il=""
+            style={{ "--il-depth": 3 } as React.CSSProperties}
+            className="text-muted-foreground text-sm"
+          >
             {pick(item.company, item.companyEn)}
             {item.location || item.locationEn ? (
               <> · {pick(item.location ?? "", item.locationEn)}</>
@@ -303,7 +405,11 @@ function ExperienceCard({ item }: { item: Experience }) {
           </p>
         </div>
         <div className="p-0">
-          <p className="text-sm text-muted-foreground leading-relaxed line-clamp-2">
+          <p
+            data-il=""
+            style={{ "--il-depth": 3 } as React.CSSProperties}
+            className="text-sm text-muted-foreground leading-relaxed line-clamp-2"
+          >
             {pick(item.description, item.descriptionEn)}
           </p>
         </div>
@@ -343,6 +449,7 @@ function EducationCard({ item }: { item: Education }) {
       maxTilt={4.5}
       lightClassName="rounded-xl"
       glow
+      borderLight
     >
       <FlipCard
         flipped={flipped}
@@ -353,13 +460,27 @@ function EducationCard({ item }: { item: Education }) {
         <div className="flip-face flex h-full w-full flex-col rounded-xl border border-border bg-card p-4 md:p-5 shadow-sm transition-shadow text-start">
           <div className="flex flex-col space-y-1.5 pb-3">
             {item.period ? (
-              <p className="text-xs font-medium text-muted-foreground uppercase tracking-wider">
+              <p
+                data-il=""
+                style={{ "--il-depth": 4 } as React.CSSProperties}
+                className="text-xs font-medium text-muted-foreground uppercase tracking-wider"
+              >
                 {item.period}
               </p>
             ) : null}
-            <h3 className="tracking-tight text-lg font-semibold">{degree}</h3>
+            <h3
+              data-il=""
+              style={{ "--il-depth": 6 } as React.CSSProperties}
+              className="tracking-tight text-lg font-semibold"
+            >
+              {degree}
+            </h3>
             {school || location ? (
-              <p className="text-muted-foreground text-sm">
+              <p
+                data-il=""
+                style={{ "--il-depth": 3 } as React.CSSProperties}
+                className="text-muted-foreground text-sm"
+              >
                 {school}
                 {school && location ? " · " : null}
                 {location}
@@ -369,7 +490,11 @@ function EducationCard({ item }: { item: Education }) {
           {/* Short course summary — fills the previously empty gap between
               the title block and the open hint. */}
           {item.description || item.descriptionEn ? (
-            <p className="mb-2 text-sm text-muted-foreground leading-relaxed">
+            <p
+              data-il=""
+              style={{ "--il-depth": 3 } as React.CSSProperties}
+              className="mb-2 text-sm text-muted-foreground leading-relaxed"
+            >
               {pick(item.description ?? "", item.descriptionEn)}
             </p>
           ) : null}
@@ -399,30 +524,48 @@ function EducationCard({ item }: { item: Education }) {
             card — one implementation, no per-card tint variants). */}
         <div className="flip-face flip-face-back flex h-full w-full flex-col rounded-xl border border-primary bg-card p-4 md:p-5 shadow-lg text-start">
           {item.logo ? (
-            <div className="flex h-24 w-full shrink-0 items-center justify-center overflow-hidden rounded-xl border border-border/60 bg-white p-3">
-              <img
-                src={withBase(item.logo)}
-                alt={school || degree}
-                className="max-h-full max-w-full object-contain"
-                loading="lazy"
-                decoding="async"
-                draggable={false}
-              />
+            <div
+              data-il=""
+              style={{ "--il-depth": 7 } as React.CSSProperties}
+              className="flex h-24 w-full shrink-0 items-center justify-center overflow-hidden rounded-xl border border-border/60 bg-white p-3"
+            >
+              <span className="il-media block flex h-full w-full items-center justify-center">
+                <img
+                  src={withBase(item.logo)}
+                  alt={school || degree}
+                  className="max-h-full max-w-full object-contain"
+                  loading="lazy"
+                  decoding="async"
+                  draggable={false}
+                />
+              </span>
             </div>
           ) : null}
           <div className="flex min-h-0 flex-1 flex-col pt-3">
-            <h3 className="tracking-tight text-lg font-semibold leading-snug">
+            <h3
+              data-il=""
+              style={{ "--il-depth": 5 } as React.CSSProperties}
+              className="tracking-tight text-lg font-semibold leading-snug"
+            >
               {degree}
             </h3>
             {school || location ? (
-              <p className="text-muted-foreground text-sm">
+              <p
+                data-il=""
+                style={{ "--il-depth": 3 } as React.CSSProperties}
+                className="text-muted-foreground text-sm"
+              >
                 {school}
                 {school && location ? " · " : null}
                 {location}
               </p>
             ) : null}
             {item.status ? (
-              <p className="pt-2 text-sm text-muted-foreground leading-relaxed">
+              <p
+                data-il=""
+                style={{ "--il-depth": 3 } as React.CSSProperties}
+                className="pt-2 text-sm text-muted-foreground leading-relaxed"
+              >
                 {pick(item.status, item.statusEn)}
               </p>
             ) : null}
@@ -467,6 +610,9 @@ function CardsGrid({
           {projects.map((item, i) => (
             <motion.div
               key={item.title}
+              /* min-w-0: the flex item must be allowed to shrink below the
+                 card's nowrap highlight line, or phones overflow. */
+              className="min-w-0"
               initial={{ opacity: 0, y: 28, x: i % 2 == 0 ? 20 : -20 }}
               whileInView={{ opacity: 1, y: 0, x: 0 }}
               viewport={{ once: true, amount: 0.25 }}

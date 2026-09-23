@@ -88,7 +88,7 @@ function MarqueeRow({
                 <Icon size={22} className="shrink-0 text-primary" />
                 <span
                   dir="ltr"
-                  className="whitespace-nowrap text-sm font-medium text-foreground/90"
+                  className="tech-item-name whitespace-nowrap text-sm font-medium text-foreground/90"
                 >
                   {name}
                 </span>

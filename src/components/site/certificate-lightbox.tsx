@@ -364,8 +364,18 @@ function CertCard({
   const front = (
     <div className="flip-face flex h-full w-full flex-col rounded-xl border border-border/50 bg-card shadow-sm transition-shadow">
       <div className="space-y-1.5 p-6 flex flex-col gap-2">
-        <h3 className="font-semibold tracking-tight text-lg">{title}</h3>
-        <div className="flex flex-wrap items-center gap-2">
+        <h3
+          data-il=""
+          style={{ "--il-depth": 6 } as React.CSSProperties}
+          className="font-semibold tracking-tight text-lg"
+        >
+          {title}
+        </h3>
+        <div
+          data-il=""
+          style={{ "--il-depth": 4 } as React.CSSProperties}
+          className="flex flex-wrap items-center gap-2"
+        >
           <p className="text-sm text-muted-foreground">{item.issuer}</p>
           {item.date ? (
             <div className="inline-flex items-center border px-2.5 py-0.5 transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground text-xs font-normal rounded-sm">
@@ -425,7 +435,7 @@ function CertCard({
   if (!canFlip) {
     /* No image anywhere — keep the original static card (no flip). */
     return (
-      <TiltCard className="w-full max-w-[450px]" lightClassName="rounded-lg" glow>
+      <TiltCard className="w-full max-w-[450px]" lightClassName="rounded-lg" glow borderLight>
         <Card className="w-full transition-all duration-200 bg-card border border-border/50 shadow-sm hover:shadow-md hover:border-primary/20 dark:hover:border-primary/30">
           {front}
         </Card>
@@ -440,6 +450,7 @@ function CertCard({
       maxTilt={4.5}
       lightClassName="rounded-xl"
       glow
+      borderLight
     >
       <FlipCard
         flipped={flipped}
@@ -453,19 +464,25 @@ function CertCard({
             accent ring is the same PURE brand green as the education
             flip family — one shared treatment, both themes. */}
         <div className="flip-face flip-face-back flex h-full w-full flex-col rounded-xl border border-primary bg-card p-3 shadow-lg">
-          <div className="min-h-0 flex-1 rounded-lg bg-white p-1.5 shadow-inner">
-            <img
-              src={withBase(item.image)}
-              alt={`${t("cert.alt")} ${title} — ${item.issuer}`}
-              onClick={(e) => {
-                e.stopPropagation();
-                openFullscreen();
-              }}
-              className="h-full w-full cursor-zoom-in object-contain"
-              loading="lazy"
-              decoding="async"
-              draggable={false}
-            />
+          <div
+            data-il=""
+            style={{ "--il-depth": 6 } as React.CSSProperties}
+            className="min-h-0 flex-1 rounded-lg bg-white p-1.5 shadow-inner"
+          >
+            <span className="il-media block h-full w-full">
+              <img
+                src={withBase(item.image)}
+                alt={`${t("cert.alt")} ${title} — ${item.issuer}`}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  openFullscreen();
+                }}
+                className="h-full w-full cursor-zoom-in object-contain"
+                loading="lazy"
+                decoding="async"
+                draggable={false}
+              />
+            </span>
           </div>
           <div className="flex shrink-0 items-center justify-center gap-2 pt-2.5">
             <Button
