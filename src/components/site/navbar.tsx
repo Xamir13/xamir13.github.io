@@ -52,7 +52,7 @@ const TIGER_SAD_PATHS = [
   "M49.7947 39.3672C47.755 38.8312 45.702 38.7858 43.5898 38.7858",
 ];
 
-function LogoMark({ size = 36, sad = false }: { size?: number; sad?: boolean }) {
+export function LogoMark({ size = 36, sad = false }: { size?: number; sad?: boolean }) {
   const paths = sad ? TIGER_SAD_PATHS : TIGER_HAPPY_PATHS;
   return (
     <svg
