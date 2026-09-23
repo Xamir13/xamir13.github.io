@@ -1,9 +1,13 @@
 #!/usr/bin/env node
 /**
- * Patches the static export in out/ for GitHub Pages sub-path serving.
+ * Patches the static export in out/ for GitHub Pages SUB-PATH serving.
  *
- * next.config.ts already gives every Next-generated URL (JS/CSS chunks,
- * next/link hrefs, metadata) the /xamircode.github.io prefix via
+ * The portfolio now deploys to the ROOT user site (https://xamir13.github.io/)
+ * where no prefix is needed — in that case NEXT_PUBLIC_BASE_PATH is unset and
+ * this script exits as a no-op. It is kept for any future sub-path target
+ * (e.g. a project site) where next.config.ts already gives every Next-
+ * generated URL (JS/CSS chunks,
+ * next/link hrefs, metadata) the configured prefix via
  * basePath + assetPrefix, and app code wraps raw element URLs with
  * withBase(). The remaining root-absolute URLs live in sources that
  * cannot call JS helpers:
@@ -22,7 +26,7 @@ import path from "node:path";
 
 const root = process.cwd();
 const OUT_DIR = path.join(root, "out");
-const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "/xamircode.github.io";
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const TEXT_EXT = new Set([".html", ".css", ".js", ".mjs"]);
 
@@ -60,6 +64,14 @@ function existsSafe(p) {
   } catch {
     return false;
   }
+}
+
+if (!BASE) {
+  console.log(
+    "[patch-pages] NEXT_PUBLIC_BASE_PATH unset — root-domain deployment, " +
+      "nothing to prefix (no-op)"
+  );
+  process.exit(0);
 }
 
 let filesTouched = 0;

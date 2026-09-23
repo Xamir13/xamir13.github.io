@@ -1,15 +1,19 @@
 /**
- * GitHub Pages project sites are served from a repository sub-path
- * (https://azazamir139-glitch.github.io/xamircode.github.io/).
+ * GitHub Pages serving mode is build-time configurable:
+ *   - ROOT user site (https://xamir13.github.io/ — current target):
+ *     NEXT_PUBLIC_BASE_PATH is unset and withBase() returns every URL
+ *     unchanged (root-absolute /… URLs are correct as-is).
+ *   - A repository SUB-PATH target: NEXT_PUBLIC_BASE_PATH provides the
+ *     prefix (e.g. /xamircode.github.io).
  *
- * next/link, next/script and the Next metadata system receive this prefix
+ * next/link, next/script and the Next metadata system receive the prefix
  * automatically from `basePath` in next.config.ts — but plain element URLs
  * (<img src>, <video>/<source src>, inline style url(), raw <a href>) must
  * add it themselves.
  *
- * NEXT_PUBLIC_BASE_PATH is inlined at build time: it is set only for the
- * static export build, so in local development withBase() returns every
- * URL unchanged and nothing moves.
+ * NEXT_PUBLIC_BASE_PATH is inlined at build time: it is only set for a
+ * sub-path static export build, so in local development withBase() returns
+ * every URL unchanged and nothing moves.
  */
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 

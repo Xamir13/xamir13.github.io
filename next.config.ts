@@ -8,14 +8,14 @@ import type { NextConfig } from "next";
 /* deployment workflow sets DEPLOY_TARGET=github-pages, so `next dev` and      */
 /* `bun run build` keep their current behavior.                                */
 /*                                                                            */
-/* GitHub Pages project sites are served from a repository sub-path:           */
-/*   https://azazamir139-glitch.github.io/xamircode.github.io/                 */
-/* hence basePath/assetPrefix + trailingSlash (GH Pages needs directory        */
-/* URLs like /blog/ to resolve to /blog/index.html).                           */
+/* The portfolio is deployed to the ROOT GitHub Pages user site:               */
+/*   https://xamir13.github.io/                                                */
+/* (repo Xamir13/xamir13.github.io, formerly azazamir139-glitch/xamircode.     */
+/* github.io) — so NO basePath/assetPrefix. trailingSlash is still required    */
+/* (GH Pages needs directory URLs like /blog/ to resolve to /blog/index.html). */
 /* -------------------------------------------------------------------------- */
 const IS_GH_PAGES = process.env.DEPLOY_TARGET === "github-pages";
-const GH_BASE_PATH =
-  process.env.NEXT_PUBLIC_BASE_PATH || "/xamircode.github.io";
+const GH_BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const sharedConfig: NextConfig = {
   typescript: {
@@ -31,8 +31,10 @@ const nextConfig: NextConfig = IS_GH_PAGES
   ? {
       ...sharedConfig,
       output: "export",
-      basePath: GH_BASE_PATH,
-      assetPrefix: GH_BASE_PATH,
+      /* Root user site: no sub-path — only set when explicitly provided. */
+      ...(GH_BASE_PATH
+        ? { basePath: GH_BASE_PATH, assetPrefix: GH_BASE_PATH }
+        : {}),
       trailingSlash: true,
       /* GitHub Pages cannot run the image optimization service. */
       images: { unoptimized: true },

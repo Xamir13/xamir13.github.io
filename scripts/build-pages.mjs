@@ -11,9 +11,8 @@
  *   1. temporarily renames src/app/api → src/app/_api_pages_hold
  *      (underscore-prefixed folders are ignored by the Next.js router,
  *      and nothing else imports those route handlers),
- *   2. runs `next build` with the GitHub Pages environment (export mode,
- *      /xamircode.github.io basePath — identical to the env previously
- *      set inline by the `build:pages` package script),
+ *   2. runs `next build` with the GitHub Pages environment (export mode;
+ *      root user site https://xamir13.github.io/ — no basePath),
  *   3. restores src/app/api in ALL cases — success, failure or signal,
  *   4. normalizes the export output to out/ (regardless of distDir) and
  *      strips delivery-only artifacts that must not be deployed.
@@ -46,12 +45,12 @@ const STRIP_FROM_OUT = [
 const buildEnv = {
   ...process.env,
   DEPLOY_TARGET: "github-pages",
-  NEXT_PUBLIC_BASE_PATH: "/xamircode.github.io",
-  NEXT_PUBLIC_SITE_URL:
-    "https://azazamir139-glitch.github.io/xamircode.github.io",
-  /* metadataBase must stay ORIGIN-only: Next.js applies the basePath to
-     metadata URLs itself, so the sub-path must not be baked in here too. */
-  NEXT_PUBLIC_ORIGIN: "https://azazamir139-glitch.github.io",
+  /* Root user site (https://xamir13.github.io/) — NO sub-path. NEXT_PUBLIC_
+     BASE_PATH is deliberately left UNSET so withBase() and next.config.ts
+     keep every URL root-absolute (/css/…, /_next/…, /images/…, /fonts/…). */
+  NEXT_PUBLIC_SITE_URL: "https://xamir13.github.io",
+  /* metadataBase stays ORIGIN-only for the root deployment. */
+  NEXT_PUBLIC_ORIGIN: "https://xamir13.github.io",
   NEXT_PUBLIC_STATIC_EXPORT: "1",
   NEXT_TELEMETRY_DISABLED: "1",
 };

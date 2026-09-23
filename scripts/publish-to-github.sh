@@ -7,7 +7,8 @@
 # Creates a CLEAN snapshot of the current working tree in /tmp (no .git
 # history, no sandbox/QA artifacts, no .env, no delivery ZIPs) and pushes it
 # as a single commit to the `main` branch of
-#   https://github.com/azazamir139-glitch/xamircode.github.io
+#   https://github.com/Xamir13/xamir13.github.io  (renamed from
+#   azazamir139-glitch/xamircode.github.io — same repository, GitHub redirect)
 #
 # The token is used ONLY for this one push command; it is never written to
 # disk or to any git remote configuration.
@@ -17,7 +18,7 @@
 # ============================================================================
 set -euo pipefail
 
-REPO_SLUG="azazamir139-glitch/xamircode.github.io"
+REPO_SLUG="Xamir13/xamir13.github.io"
 SNAPSHOT="/tmp/xamir-ghp-publish"
 BRANCH="main"
 
@@ -100,7 +101,7 @@ git add -A
 git -c user.name="Xamir Deploy" -c user.email="deploy@users.noreply.github.com" \
   commit -q -m "Xamir portfolio — static export for GitHub Pages
 
-- Next.js 16 static export (output:export, basePath /xamircode.github.io)
+- Next.js 16 static export (output:export, root user site — no basePath)
 - scripts/build-pages.mjs: export build with temporary API-route relocation
   (server routes stay in the repo, restored after every build)
 - scripts/patch-github-pages-assets.mjs: idempotent sub-path asset patcher
@@ -112,4 +113,4 @@ git push -q "https://x-access-token:${GITHUB_TOKEN}@github.com/${REPO_SLUG}.git"
 echo "==> ✓ Pushed."
 echo "    Actions will now build + deploy:  https://github.com/${REPO_SLUG}/actions"
 echo "    Site (after the first workflow run):"
-echo "    https://azazamir139-glitch.github.io/xamircode.github.io/"
+echo "    https://xamir13.github.io/"
