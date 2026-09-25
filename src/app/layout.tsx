@@ -6,7 +6,6 @@ import { PremiumCursor } from "@/components/site/premium-cursor";
 import { LangProvider } from "@/lib/lang";
 import { LanguageSwitcher } from "@/components/site/language-switcher";
 import { TerminalBoot } from "@/components/site/terminal-boot";
-import { AiAssistant } from "@/components/site/ai-assistant";
 import { SkipLink, PrintFooter } from "@/components/site/localized-chrome";
 import { withBase } from "@/lib/paths";
 
@@ -108,9 +107,6 @@ export default function RootLayout({
           {/* Print-only footer, stamped on every printed page. */}
           <PrintFooter />
           <Toaster />
-          {/* The site's own AI assistant (browser-local WebGPU engine —
-              loads nothing until the tiger button is opened). */}
-          <AiAssistant />
           </LangProvider>
         </ThemeProvider>
       </body>
