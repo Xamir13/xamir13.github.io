@@ -102,11 +102,11 @@ export function ProjectDetailView({ project }: { project: Project }) {
       {/* Hero header */}
       <header className="mb-10">
         <div className="flex items-start gap-4 mb-4">
-          <div className="shrink-0 w-16 h-16 rounded-xl bg-muted flex items-center justify-center overflow-hidden border border-border">
+          <div className="shrink-0 w-28 h-16 rounded-xl bg-white flex items-center justify-center overflow-hidden border border-border">
             <img
               src={withBase(project.icon)}
               alt={t("preview.logoAlt").replace("{n}", title)}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain p-1"
             />
           </div>
           <div className="flex-1 min-w-0">
@@ -358,7 +358,7 @@ export function ProjectDetailView({ project }: { project: Project }) {
                         src={withBase(other.icon)}
                         alt=""
                         aria-hidden="true"
-                        className="h-10 w-10 rounded-lg border border-border/60 object-cover"
+                        className="h-10 w-20 rounded-lg border border-border/60 bg-white object-contain p-1"
                       />
                     </div>
                   </div>

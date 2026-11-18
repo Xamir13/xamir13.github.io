@@ -143,11 +143,11 @@ export function ProjectPreviewModal({
             <div className="p-5 sm:p-6 space-y-5">
               {/* Header — mirrors the detail-page hero treatment */}
               <div className="flex items-start gap-4">
-                <div className="shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-muted flex items-center justify-center overflow-hidden border border-border">
+                <div className="shrink-0 w-24 h-14 sm:w-28 sm:h-16 rounded-xl bg-white flex items-center justify-center overflow-hidden border border-border">
                   <img
                     src={withBase(project.icon)}
                     alt={t("preview.logoAlt").replace("{n}", title)}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain p-1"
                   />
                 </div>
                 <div className="flex-1 min-w-0">

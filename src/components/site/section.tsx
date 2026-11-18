@@ -181,8 +181,23 @@ function ProjectCard({
             </span>
             {project.githubUrl ? (
               <span
+                role="link"
+                tabIndex={0}
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  window.open(project.githubUrl, "_blank", "noopener,noreferrer");
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    window.open(project.githubUrl, "_blank", "noopener,noreferrer");
+                  }
+                }}
                 className="text-muted-foreground hover:text-primary transition-colors cursor-pointer p-2 -m-2"
                 aria-label={`${title} ${t("proj.githubAria")}`}
+                title={t("proj.githubAria")}
               >
                 <Github className="h-4 w-4" />
               </span>
@@ -256,15 +271,15 @@ function FunFactCard({ fact }: { fact: FunFact }) {
   const { pick } = useLang();
   const Icon = fact.icon;
   return (
-    <TiltCard className="w-full max-w-xs" lightClassName="rounded-xl" glow>
-      <div className="text-card-foreground w-full rounded-xl border border-border bg-card p-4 md:p-5 shadow-sm transition-shadow hover:shadow-md text-start">
-        <div className="flex flex-col space-y-1.5 p-0 pb-3">
+    <TiltCard className="h-[168px] w-full" lightClassName="rounded-xl" glow>
+      <div className="text-card-foreground flex h-full w-full flex-col rounded-xl border border-border bg-card p-4 md:p-5 shadow-sm transition-shadow hover:shadow-md text-start">
+        <div className="pb-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
             <Icon size={22} />
           </div>
         </div>
-        <div className="p-0">
-          <p className="text-sm text-muted-foreground leading-relaxed">
+        <div className="min-h-0 flex-1">
+          <p className="line-clamp-3 text-sm text-muted-foreground leading-relaxed">
             {pick(fact.text, fact.textEn)}
           </p>
         </div>
@@ -503,10 +518,11 @@ function CardsGrid({
     );
   } else if (type === "funFact") {
     grid = (
-      <div className="flex flex-wrap w-full gap-2">
+      <div className="grid w-full grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {funFacts.map((item, i) => (
           <motion.div
             key={item.text}
+            className="h-full min-w-0"
             initial={{ opacity: 0, y: 20, x: i % 2 == 0 ? 12 : -12 }}
             whileInView={{ opacity: 1, y: 0, x: 0 }}
             viewport={{ once: true, amount: 0.25 }}
