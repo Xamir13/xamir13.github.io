@@ -37,10 +37,11 @@ export const profile = {
   fullNameEn: "AmirAli Taheri",
   role: "توسعه‌دهنده فول‌استک",
   roleEn: "Full-Stack Developer",
-  bio: "توسعه‌دهنده‌ی ۱۴ ساله از اصفهان، ایران. از ۱۳ سالگی در حال ساختن چیزهایی برای وبم؛ عاشق TypeScript، Next.js و ساخت ابزارهایی که مشکل واقعی مردم را حل می‌کنند. باور دارم ایده‌ی خوب و پشتکار، از هر چیز دیگری مهم‌تر است.",
-  bioEn:
-    "A 14-year-old developer from Isfahan, Iran. I've been building things for the web since I was 13; in love with TypeScript, Next.js and building tools that solve real people's problems. I believe a good idea and persistence matter more than anything else.",
-  email: "azazamir139@gmail.com",
+  bio: "توسعه‌دهنده‌ی نرم‌افزار و وب از اصفهان، ایران 🇮🇷. از ۱۳ سالگی مسیر برنامه‌نویسی رو با کنجکاوی و ساختن شروع کردم؛ امروز روی توسعه‌ی وب مدرن، TypeScript و Next.js تمرکز دارم. عاشق تبدیل ایده‌های خلاقانه به محصولات دیجیتال کاربردی، طراحی تجربه‌های کاربری جذاب و حل مسئله با کدنویسی هستم. برای من، هر پروژه فرصتی برای یادگیری، نوآوری و ساختن چیزی ارزشمندتره.",
+
+bioEn: "Software & Web Developer from Isfahan, Iran 🇮🇷. I started my coding journey at 13, driven by curiosity and the desire to build. Today, I focus on modern web development, TypeScript, and Next.js. Passionate about turning creative ideas into meaningful digital products, crafting engaging user experiences, and solving real-world problems through code. To me, every project is an opportunity to learn, innovate, and build something that matters.",
+
+email: "azazamir139@gmail.com",
   phone: "09394465148",
   location: "خمینی‌شهر، اصفهان، ایران",
   locationEn: "Khomeinishahr, Isfahan, Iran",
@@ -55,6 +56,9 @@ export const typedPhrases: string[] = [
   "منطقِ بک‌اند، ظرافتِ فرانت‌اند.",
   "ایده‌ها را به اثر تبدیل می‌کنم.",
   "کارایی، یک ویژگی است.",
+  "کمتر حرف، بیشتر ساختن.",
+  "سیستم‌های هوشمند، تجربه‌های روان.",
+
 ];
 
 export const typedPhrasesEn: string[] = [
@@ -63,6 +67,9 @@ export const typedPhrasesEn: string[] = [
   "Backend logic, frontend finesse.",
   "Turning ideas into impact.",
   "Performance is a feature.",
+  "Less Talk, More Building.",
+  "Intelligent Systems, Seamless Experiences.",
+
 ];
 
 export const navItems: {
@@ -175,7 +182,7 @@ export const projects: Project[] = [
       "The school's all-in-one educational, management and communication system with dedicated panels for students, teachers, managers and student associations.",
     tags: ["Python", "Flask", "Socket.IO", "JWT"],
     icon: "/images/projects/samad-logo.png",
-    liveUrl: "https://myejei.ir",
+    liveUrl: "https://ejeischool.ir",
     githubUrl: "https://github.com/azazamir139-glitch",
     overview:
       "وب‌سایت مدرسه شهید اژه‌ای خمینی‌شهر یک سامانه جامع آموزشی، مدیریتی و ارتباطی است که با هدف یکپارچه‌سازی خدمات دیجیتال مدرسه و تسهیل ارتباط میان دانش‌آموزان، دبیران، مدیران و انجمن‌های دانش‌آموزی توسعه یافته است.\n\nاین سامانه مجموعه‌ای از امکانات آموزشی، مدیریتی، اطلاع‌رسانی و ارتباطی را در قالب پنل‌های اختصاصی و مبتنی بر سطح دسترسی کاربران ارائه می‌کند.",
@@ -303,7 +310,7 @@ export const projects: Project[] = [
     tags: ["فروشگاه آنلاین", "پنل مدیریتی", "پشتیبانی مشتریان"],
     tagsEn: ["Online Store", "Admin Panel", "Customer Support"],
     icon: "/images/projects/marshal-logo.png",
-    liveUrl: "https://marshal.ir",
+    liveUrl: "https://marshal-store.vercel.app",
     githubUrl: "https://github.com/azazamir139-glitch",
     overview:
       "وب‌سایت مارشال یک پلتفرم تخصصی برای معرفی و ارائه محصولات لوازم خانگی برند مارشال است که با تمرکز بر معرفی حرفه‌ای محصولات، دسترسی آسان کاربران به اطلاعات، ارتباط با مجموعه و ارائه تجربه‌ای مدرن و منظم طراحی شده است.\n\nاین وب‌سایت علاوه بر معرفی محصولات و دسته‌بندی‌های مختلف، امکانات متنوعی برای جست‌وجو، بررسی محصولات، دریافت پشتیبانی و ارتباط مستقیم با مجموعه در اختیار کاربران قرار می‌دهد.\n\nدر این پلتفرم قیمت محصولات به‌صورت عمومی نمایش داده نمی‌شود و کاربران برای دریافت اطلاعات مربوط به قیمت و شرایط خرید می‌توانند از طریق بخش ارتباط با مجموعه و پشتیبانی اقدام کنند.",
@@ -486,7 +493,7 @@ export const services: Service[] = [
     description:
       "توسعه کامل محصولات نرم‌افزاری از رابط کاربری و منطق برنامه تا سمت سرور، پایگاه داده و ارتباط میان بخش‌های مختلف سیستم.",
     descriptionEn:
-      "End-to-end product development — from UI and application logic to the server, database and the communication between every part of the system.",
+      "End-to-end product development.",
     icon: BadgeHelp,
   },
 ];
@@ -509,8 +516,8 @@ export const funFacts: FunFact[] = [
     icon: Wrench,
   },
   {
-    text: "رویش قله‌ی کرکس را با خانواده فتح کردم. 🏔️",
-    textEn: "I climbed Mount Karkas with my family. 🏔️",
+    text: " قله‌ی صفه را با رفقا فتح کردم. 🏔️",
+    textEn: "I climbed Mount Sofe with my friends. 🏔️",
     icon: Mountain,
   },
   {
@@ -614,7 +621,7 @@ export const education: Education[] = [
     logo: "/images/education/sabz-learn-logo.svg",
   },
   {
-    degree: "دوره Reaktor با محوریت المنت آف AI",
+    degree: "دوره Reaktor با محوریت Element of AI",
     degreeEn: "Reaktor Course — Elements of AI",
     school: "Reaktor",
     location: "آنلاین",
