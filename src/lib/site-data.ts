@@ -320,7 +320,7 @@ export const projects: Project[] = [
       "A dedicated platform for Marshall home-appliance products with search, categories, customer support and a clean, modern experience.",
     tags: ["فروشگاه آنلاین", "پنل مدیریتی", "پشتیبانی مشتریان"],
     tagsEn: ["Online Store", "Admin Panel", "Customer Support"],
-    icon: "/images/projects/marshal-logo.webp",
+    icon: "/images/projects/marshal-logo.png",
     liveUrl: "https://marshal-store.vercel.app",
     githubUrl: "https://github.com/Xamir13/marshal-store",
     overview:
